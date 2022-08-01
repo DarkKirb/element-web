@@ -1,0 +1,48 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://d.mau.dev",
+            "server_name": "d.mau.dev"
+        }
+    },
+    "disable_custom_urls": true,
+    "disable_guests": true,
+    "disable_login_language_selector": true,
+    "disable_3pid_login": true,
+    "brand": "Maunium Dendrite",
+    "integrations_ui_url": "",
+    "integrations_rest_url": "",
+    "integrations_widgets_urls": [
+        "https://scalar.vector.im/_matrix/integrations/v1",
+        "https://scalar-staging.vector.im/_matrix/integrations/v1",
+        "https://scalar-staging.riot.im/scalar/api",
+        "https://scalar-staging.vector.im/api",
+        "https://scalar.vector.im/api"
+    ],
+    "bug_report_endpoint_url": "https://element.io/bugreports/submit",
+    "features": {
+        "feature_new_spinner": true
+    },
+    "show_labs_settings": true,
+    "default_federate": true,
+    "welcome_page_url": "home.html",
+    "default_theme": "light",
+    "room_directory": {
+        "servers": [
+            "matrix.org",
+            "maunium.net"
+        ]
+    },
+    "setting_defaults": {
+        "TagPanel.disableTagPanel": true,
+        "showDeveloperTools": true,
+        "showCookieBar": false,
+        "UIFeature.identityServer": false,
+        "UIFeature.thirdPartyId": false,
+        "UIFeature.registration": false,
+        "UIFeature.passwordReset": false,
+        "UIFeature.deactivate": false
+    },
+    "welcome_user_id": "",
+    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=xkbia4dSCxdlZMnd3dh6"
+}
