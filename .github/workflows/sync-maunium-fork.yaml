@@ -20,3 +20,4 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: maunium-develop
+          token: ${{ secrets.PAT }}
