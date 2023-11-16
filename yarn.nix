@@ -10744,11 +10744,11 @@
       };
     }
     {
-      name = "postcss_hexrgba___postcss_hexrgba_2.0.1.tgz";
+      name = "postcss_hexrgba___postcss_hexrgba_2.1.0.tgz";
       path = fetchurl {
-        name = "postcss_hexrgba___postcss_hexrgba_2.0.1.tgz";
-        url = "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-2.0.1.tgz";
-        sha512 = "u3R4THvbCk3hNkbDquwhvP68QfMxjolgi4BD/hybR9n4/vVFWme5+kdSn/dIpH+UfEqfsWmIBg7ZYBTsI3pk/Q==";
+        name = "postcss_hexrgba___postcss_hexrgba_2.1.0.tgz";
+        url = "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-2.1.0.tgz";
+        sha512 = "Bb8Ca/vTI/X2Pgq1O3VhOdXE0rg/hz6161MHMu93ebePw8d/I9GSOc+wbd151OGGxSyTz+z196tFeEpSafrJfA==";
       };
     }
     {
