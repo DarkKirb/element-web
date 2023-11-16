@@ -9,9 +9,11 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v1.9
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - run: git remote add upstream https://github.com/maunium/element-web
+      - run: git fetch upstream
+      - run: git reset --hard upstream/develop
+      - uses: peter-evans/create-pull-request@v5
         with:
-          owner: maunium
-          base: develop
-          head: develop
-          auto_merge: false
+          author: GitHub <noreply@github.com>
