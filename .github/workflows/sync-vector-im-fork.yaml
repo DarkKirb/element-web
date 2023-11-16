@@ -1,0 +1,17 @@
+name: Sync vector-im fork
+
+on:
+  schedule:
+    - cron: '56 8 * * *' # 8:56 UTC
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.9
+        with:
+          owner: vector-im
+          base: develop
+          head: develop
+          auto_merge: false
