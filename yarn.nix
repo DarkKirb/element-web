@@ -10696,11 +10696,11 @@
       };
     }
     {
-      name = "postcss_easings___postcss_easings_2.0.0.tgz";
+      name = "postcss_easings___postcss_easings_4.0.0.tgz";
       path = fetchurl {
-        name = "postcss_easings___postcss_easings_2.0.0.tgz";
-        url = "https://registry.yarnpkg.com/postcss-easings/-/postcss-easings-2.0.0.tgz";
-        sha512 = "oJUmnrPwayx47y+jrRKSofHOjRjdJCOyqNXZURQkAVEra93ShqUcN8WYIuT/pWQeGe2I/pxxFfw7mOUGBrxCRQ==";
+        name = "postcss_easings___postcss_easings_4.0.0.tgz";
+        url = "https://registry.yarnpkg.com/postcss-easings/-/postcss-easings-4.0.0.tgz";
+        sha512 = "KNpwHA3mTnf0UWcdwahQDaz7DDJ6QteVwdlLff98se854p6pyQW9iofwrD05vtlp33AAAxuUGCOhYwERRJGy6Q==";
       };
     }
     {
