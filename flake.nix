@@ -20,18 +20,20 @@
         pkgs,
         system,
         ...
-      }: {
+      }: rec {
         devshells.default.devshell.packages = with pkgs; [
           nodejs
           yarn
-          (yarn2nix.overrideAttrs (self: {
+          packages.yarn2nix
+        ];
+        packages.yarn2nix = with pkgs;
+          yarn2nix.overrideAttrs (self: {
             postInstall =
               self.postInstall
               + ''
                 cp -v ${./nix/generateNix.js} $out/libexec/yarn2nix/deps/yarn2nix/lib/generateNix.js
               '';
-          }))
-        ];
+          });
         packages.element-web = with pkgs; let
           noPhoningHome = {
             disable_guests = true; # disable automatic guest account registration at matrix.org
