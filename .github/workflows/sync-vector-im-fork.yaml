@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+            token: ${{ secrets.PAT }}
       - run: git remote add upstream https://github.com/vector-im/element-web
       - run: git fetch upstream
       - run: git reset --hard upstream/develop
@@ -17,3 +19,4 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         with:
           author: GitHub <noreply@github.com>
+          branch: vector-im-develop
