@@ -19,13 +19,7 @@ const INCLUDE_LANGS = [...new Set([...fs.readdirSync(I18N_BASE_PATH), ...fs.read
 // cpx includes globbed parts of the filename in the destination, but excludes
 // common parents. Hence, "res/{a,b}/**": the output will be "dest/a/..." and
 // "dest/b/...".
-const COPY_LIST: [
-    sourceGlob: string,
-    outputPath: string,
-    opts?: {
-        directwatch?: 1;
-    },
-][] = [
+const COPY_LIST: [sourceGlob: string, outputPath: string][] = [
     ["res/apple-app-site-association", "webapp"],
     ["res/manifest.json", "webapp"],
     ["res/sw.js", "webapp"],
@@ -35,8 +29,8 @@ const COPY_LIST: [
     ["res/vector-icons/**", "webapp/vector-icons"],
     ["res/decoder-ring/**", "webapp/decoder-ring"],
     ["node_modules/matrix-react-sdk/res/media/**", "webapp/media"],
-    ["node_modules/@matrix-org/olm/olm_legacy.js", "webapp", { directwatch: 1 }],
-    ["./config.json", "webapp", { directwatch: 1 }],
+    ["node_modules/@matrix-org/olm/olm_legacy.js", "webapp"],
+    ["./config.json", "webapp"],
     ["contribute.json", "webapp"],
 ];
 const argv = parseArgs(process.argv.slice(2), {});
@@ -60,6 +54,22 @@ if (!fs.existsSync("webapp/i18n/")) {
     fs.mkdirSync("webapp/i18n/");
 }
 
+function createCpx(source: string, dest: string): Cpx {
+    const cpx = new Cpx(source, dest);
+    if (verbose) {
+        cpx.on("copy", (event) => {
+            console.log(`Copied: ${event.srcPath} --> ${event.dstPath}`);
+        });
+    }
+    return cpx;
+}
+
+const logWatch = (path: string) => {
+    if (verbose) {
+        console.log(`Watching: ${path}`);
+    }
+};
+
 function next(i: number, err?: Error): void {
     errCheck(err);
 
@@ -70,43 +80,34 @@ function next(i: number, err?: Error): void {
     const ent = COPY_LIST[i];
     const source = ent[0];
     const dest = ent[1];
-    const opts = ent[2] || {};
-    const cpx = new Cpx(source, dest);
-
-    if (verbose) {
-        cpx.on("copy", (event) => {
-            console.log(`Copied: ${event.srcPath} --> ${event.dstPath}`);
-        });
-        cpx.on("remove", (event) => {
-            console.log(`Removed: ${event.path}`);
-        });
-    }
 
     const cb = (err?: Error): void => {
         next(i + 1, err);
     };
 
     if (watch) {
-        if (opts.directwatch) {
-            // cpx -w creates a watcher for the parent of any files specified,
-            // which in the case of config.json is '.', which inevitably takes
-            // ages to crawl. So we create our own watcher on the files
-            // instead.
-            const copy = (): void => {
-                cpx.copy(errCheck);
-            };
-            chokidar.watch(source).on("add", copy).on("change", copy).on("ready", cb).on("error", errCheck);
-        } else {
-            cpx.on("watch-ready", cb);
-            cpx.on("watch-error", cb);
-            cpx.watch();
-        }
+        // cpx -w creates a watcher for the parent of any files specified,
+        // which in the case of e.g. config.json is '.', which inevitably takes
+        // ages to crawl. To prevent this, we only use cpx for copying and resort
+        // to chokidar for watching.
+        const copy = (path: string): void => {
+            createCpx(path, dest).copy(errCheck);
+        };
+        chokidar
+            .watch(source, { ignoreInitial: true })
+            .on("ready", () => {
+                logWatch(source);
+                cb();
+            })
+            .on("add", copy)
+            .on("change", copy)
+            .on("error", errCheck);
     } else {
-        cpx.copy(cb);
+        createCpx(source, dest).copy(cb);
     }
 }
 
-function genLangFile(lang: string, dest: string): string {
+function prepareLangFile(lang: string, dest: string): [filename: string, json: string] {
     const reactSdkFile = REACT_I18N_BASE_PATH + lang + ".json";
     const riotWebFile = I18N_BASE_PATH + lang + ".json";
 
@@ -127,12 +128,14 @@ function genLangFile(lang: string, dest: string): string {
     const digest = loaderUtils.getHashDigest(jsonBuffer, null, "hex", 7);
     const filename = `${lang}.${digest}.json`;
 
+    return [filename, json];
+}
+
+function genLangFile(dest: string, filename: string, json: string) {
     fs.writeFileSync(dest + filename, json);
     if (verbose) {
         console.log("Generated language file: " + filename);
     }
-
-    return filename;
 }
 
 function genLangList(langFileMap: Record<string, string>): void {
@@ -175,28 +178,40 @@ function watchLanguage(lang: string, dest: string, langFileMap: Record<string, s
             clearTimeout(makeLangDebouncer);
         }
         makeLangDebouncer = setTimeout(() => {
-            const filename = genLangFile(lang, dest);
+            const [filename, json] = prepareLangFile(lang, dest);
+            genLangFile(dest, filename, json);
             langFileMap[lang] = filename;
             genLangList(langFileMap);
         }, 500);
     };
 
     [reactSdkFile, riotWebFile].forEach(function (f) {
-        chokidar.watch(f).on("add", makeLang).on("change", makeLang).on("error", errCheck);
+        chokidar
+            .watch(f, { ignoreInitial: true })
+            .on("ready", () => {
+                logWatch(f);
+            })
+            .on("add", makeLang)
+            .on("change", makeLang)
+            .on("error", errCheck);
     });
 }
 
 // language resources
 const I18N_DEST = "webapp/i18n/";
 const I18N_FILENAME_MAP = INCLUDE_LANGS.reduce<Record<string, string>>((m, l) => {
-    const filename = genLangFile(l, I18N_DEST);
+    const [filename, json] = prepareLangFile(l, I18N_DEST);
+    if (!watch) {
+        genLangFile(I18N_DEST, filename, json);
+    }
     m[l] = filename;
     return m;
 }, {});
-genLangList(I18N_FILENAME_MAP);
 
 if (watch) {
     INCLUDE_LANGS.forEach((l) => watchLanguage(l, I18N_DEST, I18N_FILENAME_MAP));
+} else {
+    genLangList(I18N_FILENAME_MAP);
 }
 
 // non-language resources
