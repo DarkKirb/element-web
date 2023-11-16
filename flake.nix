@@ -25,9 +25,11 @@
           nodejs
           yarn
           (yarn2nix.overrideAttrs (self: {
-            postInstall = self.postInstall + ''
+            postInstall =
+              self.postInstall
+              + ''
                 cp -v ${./nix/generateNix.js} $out/libexec/yarn2nix/deps/yarn2nix/lib/generateNix.js
-            '';
+              '';
           }))
         ];
         packages.element-web = with pkgs; let
