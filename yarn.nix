@@ -11176,6 +11176,14 @@
       };
     }
     {
+      name = "postcss_simple_vars___postcss_simple_vars_7.0.1.tgz";
+      path = fetchurl {
+        name = "postcss_simple_vars___postcss_simple_vars_7.0.1.tgz";
+        url = "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz";
+        sha512 = "5GLLXaS8qmzHMOjVxqkk1TZPf1jMqesiI7qLhnlyERalG0sMbHIbJqrcnrpmZdKCLglHnRHoEBB61RtGTsj++A==";
+      };
+    }
+    {
       name = "postcss_svgo___postcss_svgo_5.1.0.tgz";
       path = fetchurl {
         name = "postcss_svgo___postcss_svgo_5.1.0.tgz";
