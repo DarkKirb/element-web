@@ -10792,11 +10792,11 @@
       };
     }
     {
-      name = "postcss_import___postcss_import_12.0.1.tgz";
+      name = "postcss_import___postcss_import_15.1.0.tgz";
       path = fetchurl {
-        name = "postcss_import___postcss_import_12.0.1.tgz";
-        url = "https://registry.yarnpkg.com/postcss-import/-/postcss-import-12.0.1.tgz";
-        sha512 = "3Gti33dmCjyKBgimqGxL3vcV8w9+bsHwO5UrBawp796+jdardbcFl4RP5w/76BwNL7aGzpKstIfF9I+kdE8pTw==";
+        name = "postcss_import___postcss_import_15.1.0.tgz";
+        url = "https://registry.yarnpkg.com/postcss-import/-/postcss-import-15.1.0.tgz";
+        sha512 = "hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==";
       };
     }
     {
