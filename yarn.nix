@@ -4808,11 +4808,11 @@
       };
     }
     {
-      name = "cronstrue___cronstrue_2.43.0.tgz";
+      name = "cronstrue___cronstrue_2.44.0.tgz";
       path = fetchurl {
-        name = "cronstrue___cronstrue_2.43.0.tgz";
-        url = "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.43.0.tgz";
-        sha512 = "FrL6gIbluwkr/d5ZhsEf13GVEgg8CYolfS/d2xZisZ/rOE3t73RKAmBbvT0Ng++9dNGZEFC8Yn26n6c3TmkLVw==";
+        name = "cronstrue___cronstrue_2.44.0.tgz";
+        url = "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.44.0.tgz";
+        sha512 = "71aQD16uXrqjDUYHsFYY4/SSmEepzQZqTqWsU9x2kDMCYKyIp/5e0QW/cp2lBNO9PJB1xOpIbBJuQEa5yKx98A==";
       };
     }
     {
