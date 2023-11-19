@@ -2158,13 +2158,6 @@
     "@sentry/types" "7.80.1"
     "@sentry/utils" "7.80.1"
 
-"@sentry/tracing@^7.0.0":
-  version "7.80.1"
-  resolved "https://registry.yarnpkg.com/@sentry/tracing/-/tracing-7.80.1.tgz#2c85758ff45f70086f14eef136cacaf8ffabb230"
-  integrity sha512-sFkcxCBtLNVa3EyeCafZqhJHZ714f2+ryPWTBckAmxAsON4yjh/YLs2X1FJ2n6Rnv16TP6gWGt4SnhFT03WStA==
-  dependencies:
-    "@sentry-internal/tracing" "7.80.1"
-
 "@sentry/types@7.80.1":
   version "7.80.1"
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.80.1.tgz#dc720d6f2da0b510d586814451a04a2cdd2f4a9d"
@@ -8644,7 +8637,7 @@ matrix-events-sdk@2.0.0:
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
   version "30.0.1"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/59c2d7a68e009f4b299adfe4df217dc0a447e308"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/9f11cbce3463442e23ff4a44d0fe6e0591968cfd"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^3.0.1"
@@ -8670,7 +8663,7 @@ matrix-mock-request@^2.5.0:
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
   version "3.84.1"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/0629d6aada0980bd14bad7470822398f3fde040e"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/c6b69d499a1d4c0845e602efb3296026d3639a89"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.9.0"
@@ -8679,7 +8672,6 @@ matrix-mock-request@^2.5.0:
     "@matrix-org/react-sdk-module-api" "^2.2.1"
     "@matrix-org/spec" "^1.7.0"
     "@sentry/browser" "^7.0.0"
-    "@sentry/tracing" "^7.0.0"
     "@testing-library/react-hooks" "^8.0.1"
     "@vector-im/compound-design-tokens" "^0.0.7"
     "@vector-im/compound-web" "0.8.1"

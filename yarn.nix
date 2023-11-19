@@ -2032,14 +2032,6 @@
       };
     }
     {
-      name = "_sentry_tracing___tracing_7.80.1.tgz";
-      path = fetchurl {
-        name = "_sentry_tracing___tracing_7.80.1.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/tracing/-/tracing-7.80.1.tgz";
-        sha512 = "sFkcxCBtLNVa3EyeCafZqhJHZ714f2+ryPWTBckAmxAsON4yjh/YLs2X1FJ2n6Rnv16TP6gWGt4SnhFT03WStA==";
-      };
-    }
-    {
       name = "_sentry_types___types_7.80.1.tgz";
       path = fetchurl {
         name = "_sentry_types___types_7.80.1.tgz";
@@ -8992,11 +8984,11 @@
       };
     }
     {
-      name = "59c2d7a68e009f4b299adfe4df217dc0a447e308";
+      name = "9f11cbce3463442e23ff4a44d0fe6e0591968cfd";
       path = fetchurl {
-        name = "59c2d7a68e009f4b299adfe4df217dc0a447e308";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/59c2d7a68e009f4b299adfe4df217dc0a447e308";
-        sha256 = "1s9qc6255w4igi5r7x5jq28afk67qak503pzfh24c1pc0adqsba5";
+        name = "9f11cbce3463442e23ff4a44d0fe6e0591968cfd";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/9f11cbce3463442e23ff4a44d0fe6e0591968cfd";
+        sha256 = "1jdl09q3ba3z03cc8diy21xan2h4hb4mkimn5wg53kqczp60ifjh";
       };
     }
     {
@@ -9008,11 +9000,11 @@
       };
     }
     {
-      name = "0629d6aada0980bd14bad7470822398f3fde040e";
+      name = "c6b69d499a1d4c0845e602efb3296026d3639a89";
       path = fetchurl {
-        name = "0629d6aada0980bd14bad7470822398f3fde040e";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/0629d6aada0980bd14bad7470822398f3fde040e";
-        sha256 = "0v8ks1268zq8w1rb69bly8yjkfza2hggcxsq2mmydaaw8gs16li9";
+        name = "c6b69d499a1d4c0845e602efb3296026d3639a89";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/c6b69d499a1d4c0845e602efb3296026d3639a89";
+        sha256 = "0622a5c4ks4nkyvy8pdsndgi777bcqv708kglr7v28mz3fjw44a2";
       };
     }
     {
