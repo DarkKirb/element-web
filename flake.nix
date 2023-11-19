@@ -2,9 +2,28 @@
   description = "Description for the project";
 
   inputs = {
+    devshell = {
+      url = "github:numtide/devshell";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    flake-parts = {
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs";
+    };
     nixpkgs.url = "github:NixOS/nixpkgs";
-    flake-parts.url = "github:hercules-ci/flake-parts";
-    devshell.url = "github:numtide/devshell";
+    matrix-js-sdk = {
+      url = "github:darkkirb/matrix-js-sdk";
+      inputs.devshell.follows = "devshell";
+      inputs.flake-parts.follows = "flake-parts";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    matrix-react-sdk = {
+      url = "github:darkkirb/matrix-react-sdk";
+      inputs.devshell.follows = "devshell";
+      inputs.flake-parts.follows = "flake-parts";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.matrix-js-sdk.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -41,24 +60,34 @@
           };
           configOverrides = writeText "element-config-overrides.json" (builtins.toJSON noPhoningHome);
         in
-          stdenv.mkDerivation rec {
+            mkYarnPackage rec {
             pname = "element-web";
             version = inputs.self.lastModifiedDate;
             src = ./.;
 
-            offlineCache = (callPackage ./yarn.nix {}).offline_cache;
+            packageJSON = ./package.json;
+            yarnLock = ./yarn.lock;
+            yarnNix = ./yarn.nix;
 
             nativeBuildInputs = [yarn jq nodejs fixup_yarn_lock];
 
             configurePhase = ''
               runHook preConfigure
 
+              cp -r $node_modules node_modules
+
               export HOME=$(mktemp -d)
 
               export NODE_OPTIONS=--openssl-legacy-provider
               fixup_yarn_lock yarn.lock
-              yarn config --offline set yarn-offline-mirror $offlineCache
-              yarn install --offline --frozen-lockfile --ignore-platform --ignore-scripts --no-progress --non-interactive
+              #yarn config --offline set yarn-offline-mirror $offlineCache
+              #yarn install --offline --frozen-lockfile --ignore-platform --ignore-scripts --no-progress --non-interactive
+              chmod -R +w node_modules
+              rm -rf node_modules/matrix-js-sdk
+              cp -rv ${inputs.matrix-js-sdk} node_modules/matrix-js-sdk
+              rm -rf node_modules/matrix-react-sdk
+              cp -rv ${inputs.matrix-react-sdk} node_modules/matrix-react-sdk
+              chmod -R +w node_modules
               patchShebangs node_modules
 
               runHook postConfigure
@@ -85,6 +114,8 @@
 
               runHook postInstall
             '';
+
+            distPhase = "true";
             meta = {
               description = "A glossy Matrix collaboration client for the web";
               homepage = "https://element.io/";
