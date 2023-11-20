@@ -10704,11 +10704,11 @@
       };
     }
     {
-      name = "postcss_nested___postcss_nested_4.2.3.tgz";
+      name = "postcss_nested___postcss_nested_6.0.1.tgz";
       path = fetchurl {
-        name = "postcss_nested___postcss_nested_4.2.3.tgz";
-        url = "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-4.2.3.tgz";
-        sha512 = "rOv0W1HquRCamWy2kFl3QazJMMe1ku6rCFoAAH+9AcxdbpDeBr6k968MLWuLjvjMcGEip01ak09hKOEgpK9hvw==";
+        name = "postcss_nested___postcss_nested_6.0.1.tgz";
+        url = "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-6.0.1.tgz";
+        sha512 = "mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==";
       };
     }
     {
