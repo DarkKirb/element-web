@@ -60,7 +60,7 @@
           };
           configOverrides = writeText "element-config-overrides.json" (builtins.toJSON noPhoningHome);
         in
-            mkYarnPackage rec {
+          mkYarnPackage rec {
             pname = "element-web";
             version = inputs.self.lastModifiedDate;
             src = ./.;
