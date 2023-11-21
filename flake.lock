@@ -54,11 +54,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1700415870,
-        "narHash": "sha256-Yg+zeiHT2ztPyeJa3PbbeYJiEWmOc5y9fc+jHBinx4Q=",
+        "lastModified": 1700580455,
+        "narHash": "sha256-2PboOuzXx9orPeyuz83C0OOz5fmHovtCbnxr6ogA004=",
         "owner": "darkkirb",
         "repo": "matrix-js-sdk",
-        "rev": "a9d4a12f2f1e50dc05992ec3a5b6d5877ff28ff2",
+        "rev": "a1fd3e0d71c7f440b9a0c13e56ec89d2994d32c2",
         "type": "github"
       },
       "original": {
@@ -83,11 +83,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1700393167,
-        "narHash": "sha256-rDE1bgLNNjTpQ+b8h6a/qAiaOtcr7710RL7SxsOQg4s=",
+        "lastModified": 1700580901,
+        "narHash": "sha256-Iw8TBtTsiSmyMaYMJmMgQa5ed2uC46Cy1j1bOCUd0mY=",
         "owner": "darkkirb",
         "repo": "matrix-react-sdk",
-        "rev": "c6b69d499a1d4c0845e602efb3296026d3639a89",
+        "rev": "dbfb64a1c6ab2e87788d8f3431433781bf4fd21a",
         "type": "github"
       },
       "original": {
