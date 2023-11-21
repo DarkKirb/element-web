@@ -60,7 +60,7 @@
           };
           configOverrides = writeText "element-config-overrides.json" (builtins.toJSON noPhoningHome);
         in
-          mkYarnPackage rec {
+          stdenv.mkDerivation rec {
             pname = "element-web";
             version = inputs.self.lastModifiedDate;
             src = ./.;
@@ -71,17 +71,19 @@
 
             nativeBuildInputs = [yarn jq nodejs fixup_yarn_lock];
 
+            offlineCache = (callPackage ./yarn.nix {}).offline_cache;
+
             configurePhase = ''
               runHook preConfigure
 
-              cp -r $node_modules node_modules
+              #cp -rv $node_modules node_modules
 
               export HOME=$(mktemp -d)
 
-              export NODE_OPTIONS=--openssl-legacy-provider
+              #export NODE_OPTIONS=--openssl-legacy-provider
               fixup_yarn_lock yarn.lock
-              #yarn config --offline set yarn-offline-mirror $offlineCache
-              #yarn install --offline --frozen-lockfile --ignore-platform --ignore-scripts --no-progress --non-interactive
+              yarn config --offline set yarn-offline-mirror $offlineCache
+              yarn install --offline --frozen-lockfile --ignore-platform --ignore-scripts --no-progress --non-interactive
               chmod -R +w node_modules
               rm -rf node_modules/matrix-js-sdk
               cp -rv ${inputs.matrix-js-sdk} node_modules/matrix-js-sdk
