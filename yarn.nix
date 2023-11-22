@@ -11792,11 +11792,11 @@
       };
     }
     {
-      name = "style_loader___style_loader_2.0.0.tgz";
+      name = "style_loader___style_loader_3.3.3.tgz";
       path = fetchurl {
-        name = "style_loader___style_loader_2.0.0.tgz";
-        url = "https://registry.yarnpkg.com/style-loader/-/style-loader-2.0.0.tgz";
-        sha512 = "Z0gYUJmzZ6ZdRUqpg1r8GsaFKypE+3xAzuFeMuoHgjc9KZv3wMyCRjQIWEbhoFSq7+7yoHXySDJyyWQaPajeiQ==";
+        name = "style_loader___style_loader_3.3.3.tgz";
+        url = "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.3.tgz";
+        sha512 = "53BiGLXAcll9maCYtZi2RCQZKa8NQQai5C4horqKyRmHj9H7QmcUyucrH+4KW/gBQbXM2AsB0axoEcFZPlfPcw==";
       };
     }
     {
