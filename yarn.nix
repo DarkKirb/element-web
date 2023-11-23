@@ -5184,11 +5184,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.590.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.592.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.590.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.590.tgz";
-        sha512 = "hohItzsQcG7/FBsviCYMtQwUSWvVF7NVqPOnJCErWsAshsP/CR2LAXdmq276RbESNdhxiAq5/vRo1g2pxGXVww==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.592.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.592.tgz";
+        sha512 = "D3NOkROIlF+d5ixnz7pAf3Lu/AuWpd6AYgI9O67GQXMXTcCP1gJQRotOq35eQy5Sb4hez33XH1YdTtILA7Udww==";
       };
     }
     {
@@ -8288,11 +8288,11 @@
       };
     }
     {
-      name = "lru_cache___lru_cache_10.0.3.tgz";
+      name = "lru_cache___lru_cache_10.1.0.tgz";
       path = fetchurl {
-        name = "lru_cache___lru_cache_10.0.3.tgz";
-        url = "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.3.tgz";
-        sha512 = "B7gr+F6MkqB3uzINHXNctGieGsRTMwIBgxkp0yq/5BwcuDzD4A8wQpHQW6vDAm1uKSLQghmRdD9sKqf2vJ1cEg==";
+        name = "lru_cache___lru_cache_10.1.0.tgz";
+        url = "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.1.0.tgz";
+        sha512 = "/1clY/ui8CzjKFyjdvwPWJUYKiFVXG2I2cY0ssG7h4+hwk+XOIX7ZSG9Q7TW8TW3Kp3BUSqgFWBLgL4PJ+Blag==";
       };
     }
     {
@@ -8433,11 +8433,18 @@
     }
     {
       name = "992693727e07a50d06a9627da953cad3e30cfd3a";
-      path = fetchurl {
-        name = "992693727e07a50d06a9627da953cad3e30cfd3a";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/992693727e07a50d06a9627da953cad3e30cfd3a";
-        sha256 = "10yylvn1brqkwfsqg4hs5a7c48ravzhgwsfr8dai1j7xvn4gf3x8";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "992693727e07a50d06a9627da953cad3e30cfd3a";
+          sha256 = "1kziwwp2w5587b6qyrw7wzid3i0gjzdrzk6h354q4zz2hdmq1qvp";
+        };
+      in
+        runCommand "992693727e07a50d06a9627da953cad3e30cfd3a" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8449,11 +8456,18 @@
     }
     {
       name = "bd86a95b57e8c0b2ec67ad6a147000ccfcd712bd";
-      path = fetchurl {
-        name = "bd86a95b57e8c0b2ec67ad6a147000ccfcd712bd";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/bd86a95b57e8c0b2ec67ad6a147000ccfcd712bd";
-        sha256 = "1mschm7qv8wii1z0ms5jiic5gns0p6mzypygsdzyqlbga7m5brgp";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "bd86a95b57e8c0b2ec67ad6a147000ccfcd712bd";
+          sha256 = "1fx43nzr1vz0s11kg1c33iq6g172s7dfncjv6qrbjc6ky3zz0rxg";
+        };
+      in
+        runCommand "bd86a95b57e8c0b2ec67ad6a147000ccfcd712bd" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.1.5.tgz";
