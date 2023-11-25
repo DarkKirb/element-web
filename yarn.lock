@@ -8,16 +8,16 @@
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
 "@action-validator/cli@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@action-validator/cli/-/cli-0.5.3.tgz#2d4fe473058f6ef17530b9bb5929f0eade4e8672"
-  integrity sha512-u/kv77ZC55PfAc9RQeP76xV1GysTisEJjO+b5TgCrBBcaKtGLt5Y7ki2GSdc7CDzncNc1oeoGcwaLMW6JSdQAw==
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@action-validator/cli/-/cli-0.5.4.tgz#44b41881f717753e4fec247aaf73a99c88481e32"
+  integrity sha512-Puj/f8E8OzPCmDDkVslU+hvTwxM+VL9GOqmuEpdwp4E2Ufsni0lJMNvkHMBc3Da13WwGG49ydOvGVTpMT5H+7A==
   dependencies:
     chalk "5.2.0"
 
 "@action-validator/core@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@action-validator/core/-/core-0.5.3.tgz#493b850ef7a2801830069d78f60cbefe0697423f"
-  integrity sha512-0ABelaY7nmpvV5q0z8Vl1cDeq2OZ1HyNXjXS54fBadLaCssZLbDvTa7M2uUaNMcEWV+Xl48WWbnqJWKePt9qHQ==
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@action-validator/core/-/core-0.5.4.tgz#160a6d9ac8919a1eed0a0b0a7780b82ef03686fe"
+  integrity sha512-uODXaU5sJw9CilmjVG9IUpc1ENivixQI7+DtebWgG80PMQBfZ/4b5PKXJ5ESJVlvafrHcuIjN0qou99zN2bDtw==
 
 "@actions/core@^1.4.0":
   version "1.10.1"
@@ -2220,16 +2220,59 @@
     magic-string "0.27.0"
     unplugin "1.0.1"
 
+"@sentry/cli-darwin@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.22.2.tgz#c06c7ee99bd6b6dded5f87511ffcca110a5e5bfd"
+  integrity sha512-FjQOEASBi81sFuXLtuzE9Jzfk95HQmWxx7qa3KwfKbH5XcA04tmoZO0InGhxAm9cjxJtCVOMMhHOKkqaP4rLNw==
+
+"@sentry/cli-linux-arm64@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.22.2.tgz#e398fc8618b2ba595cf18468d619e8fdd30119e9"
+  integrity sha512-qQAjOR1ftXgY2uv1Rw3fp9jbw3JVq6KXOg87BLXkKZQvAwsAIlcm5EDFpqNaS9N62YixtOjLZCuSKLRmLQOPrQ==
+
+"@sentry/cli-linux-arm@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.22.2.tgz#077be65eea964f1c54916fc12d79fbed77a37b3e"
+  integrity sha512-Gb05dGcj9wsbOrJsOkCQ+WlBuuHQ6yb2lArceGiWKQAQdKBRFwdeS0aemVyHdOaDBS29YRzNPZ/i9vwBHPffJg==
+
+"@sentry/cli-linux-i686@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.22.2.tgz#3990a89b6949368f5f9ae649f21a5a9263220d88"
+  integrity sha512-Z9GWumk3kdkYImHyEuij9qa2Z99l9T3uadsoCp1lv7LkDGDn++8P4Iq7UkZ7XDnsl+JCC3oFt26K+ULrfjsTTQ==
+
+"@sentry/cli-linux-x64@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.22.2.tgz#c50864c1e59ff44f28020e2a8aab9ed8e4acc776"
+  integrity sha512-QvEbXJ/qzWNInhz+ovhKOxrEkjOHwekE+I4vxjmxquTGyVJR/b20tpWsK/LunAD7MHegDYfoiHhII2qV9pDqxg==
+
+"@sentry/cli-win32-i686@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.22.2.tgz#9567950c64e749e5bf90ccb8a9911b367541e893"
+  integrity sha512-EBNbPP7sMoWbyfg5wZTELgt6gQ5S3GWoe+Tp58t7osWqVMfX1Ny00BWNAdzmG0PMzwUFCkK+0auFH+KdM6di/A==
+
+"@sentry/cli-win32-x64@2.22.2":
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.22.2.tgz#bfb49183643532f442a2eb51a3ca5d051c0faf67"
+  integrity sha512-Lv2RdLrkEBkWxozO9HsJgKKybTNGrocM8QMaumdSpd/goeN3Zut2nh7hYSM3Z1UWJmVnLirmOBxA8g6RRO9v1Q==
+
 "@sentry/cli@^2.21.4":
-  version "2.21.5"
-  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.21.5.tgz#9ee4c51b267ac5ba8cdbf9bb9d4e8b74410d9669"
-  integrity sha512-RqKBqE10pb7zh0G/YiYVdX/MqenDYIgLGcaCqbszTAfW2SSLyp9EczsnmHtRgO1fO1OQq76+gaK7UdC1TEIGqQ==
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.22.2.tgz#ac142b66672d47b102e71b70e85a501a82f96714"
+  integrity sha512-p3qShwT59GgKbaZ1Y49wxyE2ZTHc69PgBlaP2ilBOIdtntMkOhvd8YbGdQFlMzmWcLR2ybSj9cXqMi7wIUQL6A==
   dependencies:
     https-proxy-agent "^5.0.0"
     node-fetch "^2.6.7"
     progress "^2.0.3"
     proxy-from-env "^1.1.0"
     which "^2.0.2"
+  optionalDependencies:
+    "@sentry/cli-darwin" "2.22.2"
+    "@sentry/cli-linux-arm" "2.22.2"
+    "@sentry/cli-linux-arm64" "2.22.2"
+    "@sentry/cli-linux-i686" "2.22.2"
+    "@sentry/cli-linux-x64" "2.22.2"
+    "@sentry/cli-win32-i686" "2.22.2"
+    "@sentry/cli-win32-x64" "2.22.2"
 
 "@sentry/core@7.81.1":
   version "7.81.1"
@@ -2989,10 +3032,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@vector-im/compound-design-tokens@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@vector-im/compound-design-tokens/-/compound-design-tokens-0.0.7.tgz#b0716dd4782dd95900491e45b003b58f93748024"
-  integrity sha512-RCQc6qr+s8cp4xKbNi/I3OL43uPCH+N4L9vYf0r+qwRy4WCKdI4QL0TBTV4bOo8hF49z8e+BgU5ZIu5TVQXNMQ==
+"@vector-im/compound-design-tokens@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@vector-im/compound-design-tokens/-/compound-design-tokens-0.1.0.tgz#1a574fba872ff93b1de8490f475e30b922cd02a2"
+  integrity sha512-vnDrd1CPPR7CwQLss/JnIE1ga6QwmCkhgBvXm1huMhCs7nIiqf90Sbgc0WugbHNaRXGEEhMVGrE69DaQIUcqOA==
   dependencies:
     svg2vectordrawable "^2.9.1"
 
@@ -5099,9 +5142,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.593"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.593.tgz#f71b157f7382f3d3a164f73ff2da772d4b3fd984"
-  integrity sha512-c7+Hhj87zWmdpmjDONbvNKNo24tvmD4mjal1+qqTYTrlF0/sNpAcDlU0Ki84ftA/5yj3BF2QhSGEC0Rky6larg==
+  version "1.4.594"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.594.tgz#f69f207fba80735a44a988df42f3f439115d0515"
+  integrity sha512-xT1HVAu5xFn7bDfkjGQi9dNpMqGchUkebwf1GL7cZN32NSwwlHRPMSDJ1KN6HkS0bWUtndbSQZqvpQftKG2uFQ==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -8234,8 +8277,8 @@ matrix-events-sdk@0.0.1:
   integrity sha512-1QEOsXO+bhyCroIe2/A5OwaxHvBm7EsSQ46DEDn8RBIfQwN5HWBpFvyWWR4QY0KHPPnnJdI99wgRiAl7Ad5qaA==
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
-  version "30.0.1"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/4fd1aa4b17faa725c36d4000080ab135212d745f"
+  version "30.1.0"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/cacac4c9557c32ba50ad398c34427bcabc9fe5af"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^3.0.1"
@@ -8260,8 +8303,8 @@ matrix-mock-request@^2.5.0:
     expect "^28.1.0"
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
-  version "3.84.1"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/3a19a4f79f533357e752ca1897f460d792e5e1e0"
+  version "3.85.0"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.9.0"
@@ -8271,7 +8314,7 @@ matrix-mock-request@^2.5.0:
     "@matrix-org/spec" "^1.7.0"
     "@sentry/browser" "^7.0.0"
     "@testing-library/react-hooks" "^8.0.1"
-    "@vector-im/compound-design-tokens" "^0.0.7"
+    "@vector-im/compound-design-tokens" "^0.1.0"
     "@vector-im/compound-web" "0.9.0"
     "@zxcvbn-ts/core" "^3.0.4"
     "@zxcvbn-ts/language-common" "^3.0.4"
@@ -11974,9 +12017,9 @@ undici-types@~5.26.4:
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 undici@^5.25.4:
-  version "5.27.2"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.27.2.tgz#a270c563aea5b46cc0df2550523638c95c5d4411"
-  integrity sha512-iS857PdOEy/y3wlM3yRp+6SNQQ6xU0mmZcwRSriqk+et/cwWAtwmIGf6WkoDN2EK/AMdCO/dfXzIwi+rFMrjjQ==
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.28.0.tgz#09f6aa4a6f34de8996eec585fe4ceebaa9ef3f36"
+  integrity sha512-gM12DkXhlAc5+/TPe60iy9P6ETgVfqTuRJ6aQ4w8RYu0MqKuXhaq3/b86GfzDQnNA3NUO6aUNdvevrKH59D0Nw==
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
