@@ -8624,11 +8624,11 @@
       };
     }
     {
-      name = "cacac4c9557c32ba50ad398c34427bcabc9fe5af";
+      name = "40f5c69ac802599ef6068718c9cae6a5d9937d85";
       path = fetchurl {
-        name = "cacac4c9557c32ba50ad398c34427bcabc9fe5af";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/cacac4c9557c32ba50ad398c34427bcabc9fe5af";
-        sha256 = "14ajm9l21mlkbb9rpvs5r5xjnwyybmspsz73i0alr0n82n5fva20";
+        name = "40f5c69ac802599ef6068718c9cae6a5d9937d85";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/40f5c69ac802599ef6068718c9cae6a5d9937d85";
+        sha256 = "0n0j2v9jvg9yp83kig8k7sb5bwf2zh78d0l11xqsqaz38sqwgbnj";
       };
     }
     {
@@ -8640,11 +8640,11 @@
       };
     }
     {
-      name = "66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
+      name = "5b3265464e3061d7a8ebfd5441efcbab5b653723";
       path = fetchurl {
-        name = "66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
-        sha256 = "1sws7h9b79287kx44bdc4vcx17ck1ywdwwki2rdn3618pmfgcbsm";
+        name = "5b3265464e3061d7a8ebfd5441efcbab5b653723";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/5b3265464e3061d7a8ebfd5441efcbab5b653723";
+        sha256 = "0ib4yw739w28sl08yh21v64gbhic13gyckycc4plv7kzq2f4kqsx";
       };
     }
     {
