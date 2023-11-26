@@ -8624,12 +8624,19 @@
       };
     }
     {
-      name = "cacac4c9557c32ba50ad398c34427bcabc9fe5af";
-      path = fetchurl {
-        name = "cacac4c9557c32ba50ad398c34427bcabc9fe5af";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/cacac4c9557c32ba50ad398c34427bcabc9fe5af";
-        sha256 = "14ajm9l21mlkbb9rpvs5r5xjnwyybmspsz73i0alr0n82n5fva20";
-      };
+      name = "40f5c69ac802599ef6068718c9cae6a5d9937d85";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "40f5c69ac802599ef6068718c9cae6a5d9937d85";
+          sha256 = "0kfdsvdh74nz0hn5my3wa1fgm965b18bh5armkdab686rb8fyi9s";
+        };
+      in
+        runCommand "40f5c69ac802599ef6068718c9cae6a5d9937d85" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8640,12 +8647,19 @@
       };
     }
     {
-      name = "66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
-      path = fetchurl {
-        name = "66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/66f8ebba11fdfb75f65ae82dca1ab7b30b42c5ab";
-        sha256 = "1sws7h9b79287kx44bdc4vcx17ck1ywdwwki2rdn3618pmfgcbsm";
-      };
+      name = "5b3265464e3061d7a8ebfd5441efcbab5b653723";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "5b3265464e3061d7a8ebfd5441efcbab5b653723";
+          sha256 = "0rmhx044yzz844a7jc9jdf1960rpx6ic1nd9118h7a2h6c5bkcr6";
+        };
+      in
+        runCommand "5b3265464e3061d7a8ebfd5441efcbab5b653723" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.1.5.tgz";
