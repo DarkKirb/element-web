@@ -8278,7 +8278,7 @@ matrix-events-sdk@0.0.1:
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
   version "30.1.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/40f5c69ac802599ef6068718c9cae6a5d9937d85"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/3063981716d4d44674f6584b86a3094f3d6f172d"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^3.0.1"
@@ -8304,7 +8304,7 @@ matrix-mock-request@^2.5.0:
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
   version "3.85.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/5b3265464e3061d7a8ebfd5441efcbab5b653723"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/da0fdd84974e3550570eb7b9729a18f909cec1f0"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.9.0"
