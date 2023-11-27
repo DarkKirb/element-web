@@ -2048,75 +2048,75 @@
       };
     }
     {
-      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.10.1.tgz";
+      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.10.2.tgz";
       path = fetchurl {
-        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.10.1.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.10.1.tgz";
-        sha512 = "cT8cs90NnoTC3gJ6syaUOdogn7jjI27HyIiE5G750956sw5bUKy4Yw5S2S6RFBW7460yPQ1oR6f/WVhyDYrTYA==";
+        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.10.2.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.10.2.tgz";
+        sha512 = "7IoekLtROlJZqTxtHQ3IhocBuf9dsEq+JjqlHMyZXoq+QKuvJFvMd/4T+r6KjZ15kMZOIkR+spK3V7duH201hw==";
       };
     }
     {
-      name = "_sentry_cli_darwin___cli_darwin_2.22.2.tgz";
+      name = "_sentry_cli_darwin___cli_darwin_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_darwin___cli_darwin_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.22.2.tgz";
-        sha512 = "FjQOEASBi81sFuXLtuzE9Jzfk95HQmWxx7qa3KwfKbH5XcA04tmoZO0InGhxAm9cjxJtCVOMMhHOKkqaP4rLNw==";
+        name = "_sentry_cli_darwin___cli_darwin_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.22.3.tgz";
+        sha512 = "A1DwFTffg3+fF68qujaJI07dk/1H1pRuihlvS5WQ9sD7nQLnXZGoLUht4eULixhDzZYinWHKkcWzQ6k40UTvNA==";
       };
     }
     {
-      name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.2.tgz";
+      name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.22.2.tgz";
-        sha512 = "qQAjOR1ftXgY2uv1Rw3fp9jbw3JVq6KXOg87BLXkKZQvAwsAIlcm5EDFpqNaS9N62YixtOjLZCuSKLRmLQOPrQ==";
+        name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.22.3.tgz";
+        sha512 = "PnBPb4LJ+A2LlqLjtVFn4mEizcVdxBSLZvB85pEGzq9DRXjZ6ZEuGWFHTVnWvjd79TB/s0me29QnLc3n4B6lgA==";
       };
     }
     {
-      name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.2.tgz";
+      name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.22.2.tgz";
-        sha512 = "Gb05dGcj9wsbOrJsOkCQ+WlBuuHQ6yb2lArceGiWKQAQdKBRFwdeS0aemVyHdOaDBS29YRzNPZ/i9vwBHPffJg==";
+        name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.22.3.tgz";
+        sha512 = "mDtLVbqbCu/5b/v2quTAMzY/atGlJVvrqO2Wvpro0Jb/LYhn7Y1pVBdoXEDcnOX82/pseFkLT8PFfq/OcezPhA==";
       };
     }
     {
-      name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.2.tgz";
+      name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.22.2.tgz";
-        sha512 = "Z9GWumk3kdkYImHyEuij9qa2Z99l9T3uadsoCp1lv7LkDGDn++8P4Iq7UkZ7XDnsl+JCC3oFt26K+ULrfjsTTQ==";
+        name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.22.3.tgz";
+        sha512 = "wxvbpQ2hiw4hwJWfJMp7K45BV40nXL62f91jLuftFXIbieKX1Li57NNKNu2JUVn7W1bJxkwz/PKGGTXSgeJlRw==";
       };
     }
     {
-      name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.2.tgz";
+      name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.22.2.tgz";
-        sha512 = "QvEbXJ/qzWNInhz+ovhKOxrEkjOHwekE+I4vxjmxquTGyVJR/b20tpWsK/LunAD7MHegDYfoiHhII2qV9pDqxg==";
+        name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.22.3.tgz";
+        sha512 = "0GxsYNO5GyRWifeOpng+MmdUFZRA64bgA1n1prsEsXnoeLcm3Zj4Q63hBZmiwz9Qbhf5ibohkpf94a7dI7pv3A==";
       };
     }
     {
-      name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.2.tgz";
+      name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.22.2.tgz";
-        sha512 = "EBNbPP7sMoWbyfg5wZTELgt6gQ5S3GWoe+Tp58t7osWqVMfX1Ny00BWNAdzmG0PMzwUFCkK+0auFH+KdM6di/A==";
+        name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.22.3.tgz";
+        sha512 = "YERPsd7ClBrxKcmCUw+ZrAvQfbyIZFrqh269hgDuXFodpsB7LPGnI33ilo0uzmKdq2vGppTb6Z3gf1Rbq0Hadg==";
       };
     }
     {
-      name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.2.tgz";
+      name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.22.2.tgz";
-        sha512 = "Lv2RdLrkEBkWxozO9HsJgKKybTNGrocM8QMaumdSpd/goeN3Zut2nh7hYSM3Z1UWJmVnLirmOBxA8g6RRO9v1Q==";
+        name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.22.3.tgz";
+        sha512 = "NUh56xWvgJo2KuC9lI6o6nTPXdzbpQUB4qGwJ73L9NP3HT2P1I27jtHyrC2zlXTVlYE23gQZGrL3wgW4Jy80QA==";
       };
     }
     {
-      name = "_sentry_cli___cli_2.22.2.tgz";
+      name = "_sentry_cli___cli_2.22.3.tgz";
       path = fetchurl {
-        name = "_sentry_cli___cli_2.22.2.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.22.2.tgz";
-        sha512 = "p3qShwT59GgKbaZ1Y49wxyE2ZTHc69PgBlaP2ilBOIdtntMkOhvd8YbGdQFlMzmWcLR2ybSj9cXqMi7wIUQL6A==";
+        name = "_sentry_cli___cli_2.22.3.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.22.3.tgz";
+        sha512 = "VFHdtrHsMyTRSZhDLeMyXvit7xB4e81KugIEwMve95c7h5HO672bfmCcM/403CAugj4NzvQ+IR2NKF/2SsEPlg==";
       };
     }
     {
@@ -2160,11 +2160,11 @@
       };
     }
     {
-      name = "_sentry_webpack_plugin___webpack_plugin_2.10.1.tgz";
+      name = "_sentry_webpack_plugin___webpack_plugin_2.10.2.tgz";
       path = fetchurl {
-        name = "_sentry_webpack_plugin___webpack_plugin_2.10.1.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.10.1.tgz";
-        sha512 = "denRI/ej4QWjAaQq5fw/d/eADOBUzmv0w4T272N9gupiSCc0O/dyEbqMxOZ0jWcCrIcQXqkzlGCior5Rbx1HUg==";
+        name = "_sentry_webpack_plugin___webpack_plugin_2.10.2.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.10.2.tgz";
+        sha512 = "sA+oHgxoiLEaxZt3/o3fVsItyR37PIUWSiSkpdxcziekRZ6EM/h0BqW4qXi+46OmLE+ZiB8qtaqid+GUG9C9VA==";
       };
     }
     {
