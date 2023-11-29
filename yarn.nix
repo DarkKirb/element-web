@@ -2032,19 +2032,19 @@
       };
     }
     {
-      name = "_sentry_internal_tracing___tracing_7.82.0.tgz";
+      name = "_sentry_internal_tracing___tracing_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_internal_tracing___tracing_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry-internal/tracing/-/tracing-7.82.0.tgz";
-        sha512 = "kgZVHYbZCeOb5apTDZJG9bioaKNPImmHTggZSWMmZj1Q037ft4481EleIVtKWOUvJzmEndEmD91mglkXBGPQwA==";
+        name = "_sentry_internal_tracing___tracing_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry-internal/tracing/-/tracing-7.83.0.tgz";
+        sha512 = "fY1ZyOiQaaUTuoq5rO+G4/5Ov3n8BnfNK7ck97yAGxy3w+E1CwhVZkXHEvTngNfdYV3ArxvlrtPRb9STFRqXvQ==";
       };
     }
     {
-      name = "_sentry_browser___browser_7.82.0.tgz";
+      name = "_sentry_browser___browser_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_browser___browser_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.82.0.tgz";
-        sha512 = "u5QMnkuI1Xl6yLKIIyGPoLorVzsqwmMhGTxDbZ3r3Khr1au9BV+7P87L1jqaUC5uz7lmQ6T3U8jwY3zC4t3yiw==";
+        name = "_sentry_browser___browser_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.83.0.tgz";
+        sha512 = "8v7QEaC/fVAHn8pi59ZlJznr7ZdOQIgtz8DAOJeJsC2vHTAxQ9nVkoMkJWjTp/qaDHUjSe5ob6eqaChuhi6t2g==";
       };
     }
     {
@@ -2120,43 +2120,43 @@
       };
     }
     {
-      name = "_sentry_core___core_7.82.0.tgz";
+      name = "_sentry_core___core_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_core___core_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/core/-/core-7.82.0.tgz";
-        sha512 = "Wc+AYPzDIgFbuKkyYd/8tFm4E8CQboDkxefsz26N66CU1Ueqlk0RA8nVbzhbklhO/SuPJeR+fVOOx1spXYoybg==";
+        name = "_sentry_core___core_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/core/-/core-7.83.0.tgz";
+        sha512 = "fglvpw8aWM6nWXzCjAVXIMTiTEAQ9G9b85IpDd/7L8fuwaFTPQAUSJXupF2PfbpQ3FUYbJt80dxshbERVJG8vQ==";
       };
     }
     {
-      name = "_sentry_node___node_7.82.0.tgz";
+      name = "_sentry_node___node_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_node___node_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/node/-/node-7.82.0.tgz";
-        sha512 = "/Eg8FxXaXbthoU6NaAilWMzQQuyG48oeeZKMKqFEKnul334GX+vNEOp8Xlnd72FMiACMKjFJqgb+amBVh5jOxw==";
+        name = "_sentry_node___node_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/node/-/node-7.83.0.tgz";
+        sha512 = "ibnON+5ovoGOsvcLxcWQu5XAc4rbkvDkzCP74YGnME3/NzRuo3cKam8bUL5Wlm15h68QzxskyNOLuj6BEJ6AfQ==";
       };
     }
     {
-      name = "_sentry_replay___replay_7.82.0.tgz";
+      name = "_sentry_replay___replay_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_replay___replay_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/replay/-/replay-7.82.0.tgz";
-        sha512 = "GisaYEudkVC87UV9DnrDuliuczixmq0UusPfBvp3LPJoJcV8v1d/jM2wE9GJr1eclZvctGV01aD8yBx7w8xFYQ==";
+        name = "_sentry_replay___replay_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/replay/-/replay-7.83.0.tgz";
+        sha512 = "B/rzmjmQ3ZWE68m4Z9rHIN3Fa/wkfVVTK+iSQtqErFflyMETMNwtWRNd6P9FhXnphEINZEbcn/UZF5w5xu/DfA==";
       };
     }
     {
-      name = "_sentry_types___types_7.82.0.tgz";
+      name = "_sentry_types___types_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_types___types_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/types/-/types-7.82.0.tgz";
-        sha512 = "mWiSaWXas2zAyO7Kt5Eb9/W2vEiDiTw56NGRjKWsZnmKyl9bK3Mnxuk0TR7M6F+q8OoAFZPK1rECnyGIcb0fqQ==";
+        name = "_sentry_types___types_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/types/-/types-7.83.0.tgz";
+        sha512 = "Bd+zJcy8p1VgCfQqUprmUaw0QPWUV+GmCt6zJRHrHTb2pwLahXv6sHJvQ8F8Va6S7Keuy088U+kHzUFGQLMZMQ==";
       };
     }
     {
-      name = "_sentry_utils___utils_7.82.0.tgz";
+      name = "_sentry_utils___utils_7.83.0.tgz";
       path = fetchurl {
-        name = "_sentry_utils___utils_7.82.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.82.0.tgz";
-        sha512 = "Tba4yemyePW+bwKO/UR5/hlY3CBuBWc/PiKMLLfE6VNhFgZN/Ei9T/Wfp2ld/ANhfC0imqSd2iCv2rUuDPNRpQ==";
+        name = "_sentry_utils___utils_7.83.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.83.0.tgz";
+        sha512 = "7SrZtgAn3pHFBqSSvV/VL0CWTBQ7VenJjok4+WGWd6/FhP3fKrEEd9rjVTUb2Pzq9WLJJYzdvxAG8RlggG+H4g==";
       };
     }
     {
@@ -2992,11 +2992,11 @@
       };
     }
     {
-      name = "_vector_im_compound_web___compound_web_0.9.0.tgz";
+      name = "_vector_im_compound_web___compound_web_0.9.1.tgz";
       path = fetchurl {
-        name = "_vector_im_compound_web___compound_web_0.9.0.tgz";
-        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-0.9.0.tgz";
-        sha512 = "X+Z5JHYUJgA5nrmxXEJ/Ug6JRJeygSHUE57RTjTVOIalx/Fg9oL9ZzCjbHAeYMpqBLRykRLvFS/DbKBbOVCcPA==";
+        name = "_vector_im_compound_web___compound_web_0.9.1.tgz";
+        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-0.9.1.tgz";
+        sha512 = "HJKD2mITSZaHp0HpCO/21s2DmyGPvxZu8vTw77xNDf6jZuKawZp59ZFPb1dOczCJcfj6jURQMirjk91FjdGitg==";
       };
     }
     {
@@ -5352,11 +5352,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.595.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.596.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.595.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.595.tgz";
-        sha512 = "+ozvXuamBhDOKvMNUQvecxfbyICmIAwS4GpLmR0bsiSBlGnLaOcs2Cj7J8XSbW+YEaN3Xl3ffgpm+srTUWFwFQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.596.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.596.tgz";
+        sha512 = "zW3zbZ40Icb2BCWjm47nxwcFGYlIgdXkAx85XDO7cyky9J4QQfq8t0W19/TLZqq3JPQXtlv8BPIGmfa9Jb4scg==";
       };
     }
     {
@@ -8625,11 +8625,18 @@
     }
     {
       name = "b398d5e756f82e47db84e67c105dcf433c9c1f36";
-      path = fetchurl {
-        name = "b398d5e756f82e47db84e67c105dcf433c9c1f36";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/b398d5e756f82e47db84e67c105dcf433c9c1f36";
-        sha256 = "163n3krxk4fpm7skca5xwl24prfxb949jdg7qic1bj2kpc5wspgs";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "b398d5e756f82e47db84e67c105dcf433c9c1f36";
+          sha256 = "1pp2i7dmkfldgppi3xhm3cbr7n50z271b0ndc554a5vzglcpnvcy";
+        };
+      in
+        runCommand "b398d5e756f82e47db84e67c105dcf433c9c1f36" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8640,12 +8647,19 @@
       };
     }
     {
-      name = "5bdc911e61ba314773df78c7fdc9dc4f490e55d5";
-      path = fetchurl {
-        name = "5bdc911e61ba314773df78c7fdc9dc4f490e55d5";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/5bdc911e61ba314773df78c7fdc9dc4f490e55d5";
-        sha256 = "0lar6bxvpmadp3wghrf40yd98vpawxax3hc8328hx1n5r24817wp";
-      };
+      name = "7aa5cc54edcf1a836216d31d7ef00999d20cc377";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "7aa5cc54edcf1a836216d31d7ef00999d20cc377";
+          sha256 = "0h92vif7mgrg8f7pl0nh5lfp98r30dn4ndbmbjx97f65x4kphlr5";
+        };
+      in
+        runCommand "7aa5cc54edcf1a836216d31d7ef00999d20cc377" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.1.5.tgz";
