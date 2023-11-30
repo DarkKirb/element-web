@@ -19,4 +19,5 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: vector-im-develop
+          title: Update from vector-im upstream
           token: ${{ secrets.PAT }}
