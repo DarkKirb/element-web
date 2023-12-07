@@ -1216,11 +1216,11 @@
       };
     }
     {
-      name = "_floating_ui_core___core_1.5.1.tgz";
+      name = "_floating_ui_core___core_1.5.2.tgz";
       path = fetchurl {
-        name = "_floating_ui_core___core_1.5.1.tgz";
-        url = "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.5.1.tgz";
-        sha512 = "QgcKYwzcc8vvZ4n/5uklchy8KVdjJwcOeI+HnnTNclJjs2nYsy23DOCf+sSV1kBwD9yDAoVKCkv/gEPzgQU3Pw==";
+        name = "_floating_ui_core___core_1.5.2.tgz";
+        url = "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.5.2.tgz";
+        sha512 = "Ii3MrfY/GAIN3OhXNzpCKaLxHQfJF9qvwq/kEJYdqDxeIHa01K8sldugal6TmeeXl+WMvhv9cnVzUTaFFJF09A==";
       };
     }
     {
@@ -1576,11 +1576,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_3.3.0.tgz";
+      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_3.4.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_3.3.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-3.3.0.tgz";
-        sha512 = "ZrPNBulXKXq9T+kVyopmD/rjbv592RvGFCPSLySe2G9v336AclLQBTgprv7upz9bm+IwYouk7Lg6U9lDxyOlYQ==";
+        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_3.4.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-3.4.0.tgz";
+        sha512 = "noO6QnH+ypT//CxewoQdlK/z2iuyQo1Ecp1PDaYyr/NV5yXkWvGfGIIcShXqrQJfL5kuWxg/14edNplXsaXoDQ==";
       };
     }
     {
@@ -2064,67 +2064,67 @@
       };
     }
     {
-      name = "_sentry_cli_darwin___cli_darwin_2.22.3.tgz";
+      name = "_sentry_cli_darwin___cli_darwin_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_darwin___cli_darwin_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.22.3.tgz";
-        sha512 = "A1DwFTffg3+fF68qujaJI07dk/1H1pRuihlvS5WQ9sD7nQLnXZGoLUht4eULixhDzZYinWHKkcWzQ6k40UTvNA==";
+        name = "_sentry_cli_darwin___cli_darwin_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.23.0.tgz";
+        sha512 = "tWuTxvb6P5pA0E+O1/7jKQ6AP45DOOW+BAd7mwBMHZ+5xG3nsvvrRS9hOIzBNPTeB2RyIEXgpQ2Mb6NdD21DBQ==";
       };
     }
     {
-      name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.3.tgz";
+      name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.22.3.tgz";
-        sha512 = "PnBPb4LJ+A2LlqLjtVFn4mEizcVdxBSLZvB85pEGzq9DRXjZ6ZEuGWFHTVnWvjd79TB/s0me29QnLc3n4B6lgA==";
+        name = "_sentry_cli_linux_arm64___cli_linux_arm64_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.23.0.tgz";
+        sha512 = "KsOckP+b0xAzrRuoP4eiqJ6ASD6SqIplL8BCHOAODQfvWn9rgNwsJWOgKlWwfrJnkJYkpWVYvYeyx0oeUx3N0g==";
       };
     }
     {
-      name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.3.tgz";
+      name = "_sentry_cli_linux_arm___cli_linux_arm_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_arm___cli_linux_arm_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.22.3.tgz";
-        sha512 = "mDtLVbqbCu/5b/v2quTAMzY/atGlJVvrqO2Wvpro0Jb/LYhn7Y1pVBdoXEDcnOX82/pseFkLT8PFfq/OcezPhA==";
+        name = "_sentry_cli_linux_arm___cli_linux_arm_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.23.0.tgz";
+        sha512 = "1R8ngBDKtPw++Km6VnVTx76ndrBL9BuBBNpF9TUCGftK3ArdaifqoIx8cZ8aKu8sWXLAKO7lHzxL4BNPZvlDiw==";
       };
     }
     {
-      name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.3.tgz";
+      name = "_sentry_cli_linux_i686___cli_linux_i686_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_i686___cli_linux_i686_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.22.3.tgz";
-        sha512 = "wxvbpQ2hiw4hwJWfJMp7K45BV40nXL62f91jLuftFXIbieKX1Li57NNKNu2JUVn7W1bJxkwz/PKGGTXSgeJlRw==";
+        name = "_sentry_cli_linux_i686___cli_linux_i686_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.23.0.tgz";
+        sha512 = "KRqB98KstBkKh33ZqUq+q8O0U4c01aTWCNPpVrqAX7zikSk0AAJTG8eAtqwDSx949IkKUl8xa6PFLfz+Nb2EMQ==";
       };
     }
     {
-      name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.3.tgz";
+      name = "_sentry_cli_linux_x64___cli_linux_x64_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_linux_x64___cli_linux_x64_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.22.3.tgz";
-        sha512 = "0GxsYNO5GyRWifeOpng+MmdUFZRA64bgA1n1prsEsXnoeLcm3Zj4Q63hBZmiwz9Qbhf5ibohkpf94a7dI7pv3A==";
+        name = "_sentry_cli_linux_x64___cli_linux_x64_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.23.0.tgz";
+        sha512 = "USHZ0zzg9qujGYAyRjLeUfLDZOMgNjCr82m0BSBMmlFs4oKwHmO6bSvdi9UzNNcpmkOavNAdUM4jnZWk11i46Q==";
       };
     }
     {
-      name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.3.tgz";
+      name = "_sentry_cli_win32_i686___cli_win32_i686_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_win32_i686___cli_win32_i686_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.22.3.tgz";
-        sha512 = "YERPsd7ClBrxKcmCUw+ZrAvQfbyIZFrqh269hgDuXFodpsB7LPGnI33ilo0uzmKdq2vGppTb6Z3gf1Rbq0Hadg==";
+        name = "_sentry_cli_win32_i686___cli_win32_i686_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.23.0.tgz";
+        sha512 = "lS/B3pONDl18IEu/I//3vcMnosThobyXpqfAm4WYUtFTiw/wwDHgwGgaIjZWm5wMRkPFzYoRFpZfPlUrJd/4cQ==";
       };
     }
     {
-      name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.3.tgz";
+      name = "_sentry_cli_win32_x64___cli_win32_x64_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli_win32_x64___cli_win32_x64_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.22.3.tgz";
-        sha512 = "NUh56xWvgJo2KuC9lI6o6nTPXdzbpQUB4qGwJ73L9NP3HT2P1I27jtHyrC2zlXTVlYE23gQZGrL3wgW4Jy80QA==";
+        name = "_sentry_cli_win32_x64___cli_win32_x64_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.23.0.tgz";
+        sha512 = "7LP6wA3w93ViYKQR8tMN2i/SfpQzaXqM2SAHI3yfJ3bdREHOV3+/N0mNiWVRvgL0TKNQJS42v2IILLhiDxufHQ==";
       };
     }
     {
-      name = "_sentry_cli___cli_2.22.3.tgz";
+      name = "_sentry_cli___cli_2.23.0.tgz";
       path = fetchurl {
-        name = "_sentry_cli___cli_2.22.3.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.22.3.tgz";
-        sha512 = "VFHdtrHsMyTRSZhDLeMyXvit7xB4e81KugIEwMve95c7h5HO672bfmCcM/403CAugj4NzvQ+IR2NKF/2SsEPlg==";
+        name = "_sentry_cli___cli_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.23.0.tgz";
+        sha512 = "xFTv7YOaKWMCSPgN8A1jZpxJQhwdES89pqMTWjJOgjmkwFvziuaTM7O7kazps/cACDhJp2lK2j6AT6imhr4t9w==";
       };
     }
     {
@@ -2600,11 +2600,11 @@
       };
     }
     {
-      name = "_types_jest___jest_29.5.10.tgz";
+      name = "_types_jest___jest_29.5.11.tgz";
       path = fetchurl {
-        name = "_types_jest___jest_29.5.10.tgz";
-        url = "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.10.tgz";
-        sha512 = "tE4yxKEphEyxj9s4inideLHktW/x6DwesIwWZ9NN1FKf9zbJYsnhBoA9vrHA/IuIOKwPa5PcFBNV4lpMIOEzyQ==";
+        name = "_types_jest___jest_29.5.11.tgz";
+        url = "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.11.tgz";
+        sha512 = "S2mHmYIVe13vrm6q4kN6fLYYAka15ALQki/vgDC3mIukEOx8WJlv0kQPM+d4w8Gp6u0uSdKND04IlTXBv0rwnQ==";
       };
     }
     {
@@ -3000,11 +3000,11 @@
       };
     }
     {
-      name = "_vector_im_compound_web___compound_web_0.9.1.tgz";
+      name = "_vector_im_compound_web___compound_web_0.9.2.tgz";
       path = fetchurl {
-        name = "_vector_im_compound_web___compound_web_0.9.1.tgz";
-        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-0.9.1.tgz";
-        sha512 = "HJKD2mITSZaHp0HpCO/21s2DmyGPvxZu8vTw77xNDf6jZuKawZp59ZFPb1dOczCJcfj6jURQMirjk91FjdGitg==";
+        name = "_vector_im_compound_web___compound_web_0.9.2.tgz";
+        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-0.9.2.tgz";
+        sha512 = "CBpWbAuFacAETdJkxoQ5tX0l75tCzk5+c9ueEmg6TE2R+VfV+PwfnYUBC+wQdmtAXUwCsc/x6mEwu9uEcNuvNg==";
       };
     }
     {
@@ -3240,11 +3240,11 @@
       };
     }
     {
-      name = "acorn_walk___acorn_walk_8.3.0.tgz";
+      name = "acorn_walk___acorn_walk_8.3.1.tgz";
       path = fetchurl {
-        name = "acorn_walk___acorn_walk_8.3.0.tgz";
-        url = "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.3.0.tgz";
-        sha512 = "FS7hV565M5l1R08MXqo8odwMTB02C2UqzB17RVgu9EyuYFBqJZ3/ZY97sQD5FewVu1UyDFc1yztUDrAwT0EypA==";
+        name = "acorn_walk___acorn_walk_8.3.1.tgz";
+        url = "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.3.1.tgz";
+        sha512 = "TgUZgYvqZprrl7YldZNoa9OciCAyZR+Ejm9eXzKCmjsF5IKp/wgQ7Z/ZpjpGTIUPwrHQIcYeI8qDh4PsEwxMbw==";
       };
     }
     {
@@ -4472,19 +4472,19 @@
       };
     }
     {
-      name = "core_js_compat___core_js_compat_3.33.3.tgz";
+      name = "core_js_compat___core_js_compat_3.34.0.tgz";
       path = fetchurl {
-        name = "core_js_compat___core_js_compat_3.33.3.tgz";
-        url = "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.33.3.tgz";
-        sha512 = "cNzGqFsh3Ot+529GIXacjTJ7kegdt5fPXxCBVS1G0iaZpuo/tBz399ymceLJveQhFFZ8qThHiP3fzuoQjKN2ow==";
+        name = "core_js_compat___core_js_compat_3.34.0.tgz";
+        url = "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.34.0.tgz";
+        sha512 = "4ZIyeNbW/Cn1wkMMDy+mvrRUxrwFNjKwbhCfQpDd+eLgYipDqp8oGFGtLmhh18EDPKA0g3VUBYOxQGGwvWLVpA==";
       };
     }
     {
-      name = "core_js___core_js_3.33.3.tgz";
+      name = "core_js___core_js_3.34.0.tgz";
       path = fetchurl {
-        name = "core_js___core_js_3.33.3.tgz";
-        url = "https://registry.yarnpkg.com/core-js/-/core-js-3.33.3.tgz";
-        sha512 = "lo0kOocUlLKmm6kv/FswQL8zbkH7mVsLJ/FULClOhv8WRVmKLVcs6XPNQAzstfeJTCHMyButEwG+z1kHxHoDZw==";
+        name = "core_js___core_js_3.34.0.tgz";
+        url = "https://registry.yarnpkg.com/core-js/-/core-js-3.34.0.tgz";
+        sha512 = "aDdvlDder8QmY91H88GzNi9EtQi2TjvQhpCX6B1v/dAZHU1AuLgHvRh54RiOerpEhEW46Tkf+vgAViB/CWC0ag==";
       };
     }
     {
@@ -5360,11 +5360,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.603.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.603.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.603.tgz";
-        sha512 = "Dvo5OGjnl7AZTU632dFJtWj0uJK835eeOVQIuRcmBmsFsTNn3cL05FqOyHAfGQDIoHfLhyJ1Tya3PJ0ceMz54g==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.607.tgz";
+        sha512 = "YUlnPwE6eYxzwBnFmawA8LiLRfm70R2aJRIUv0n03uHt/cUzzYACOogmvk8M2+hVzt/kB80KJXx7d5f5JofPvQ==";
       };
     }
     {
@@ -5400,11 +5400,11 @@
       };
     }
     {
-      name = "emojibase_regex___emojibase_regex_15.2.0.tgz";
+      name = "emojibase_regex___emojibase_regex_15.3.0.tgz";
       path = fetchurl {
-        name = "emojibase_regex___emojibase_regex_15.2.0.tgz";
-        url = "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-15.2.0.tgz";
-        sha512 = "65H5YepRW3gdrghV/Ed9kW3Qry8/qeKJmMlm31nTsOrEZfuAgyr28FmloXpyak86+chR8cukZA7dlafZzrJXbw==";
+        name = "emojibase_regex___emojibase_regex_15.3.0.tgz";
+        url = "https://registry.yarnpkg.com/emojibase-regex/-/emojibase-regex-15.3.0.tgz";
+        sha512 = "EBz/292VBF9naBPBsGzkZUccgIv1xJibTXIINl8SezgVRnTCpKJx7MgZcR+UAd2RwjGkRJJZ/lhP7riOFZLicA==";
       };
     }
     {
@@ -6824,11 +6824,11 @@
       };
     }
     {
-      name = "html_webpack_plugin___html_webpack_plugin_5.5.3.tgz";
+      name = "html_webpack_plugin___html_webpack_plugin_5.5.4.tgz";
       path = fetchurl {
-        name = "html_webpack_plugin___html_webpack_plugin_5.5.3.tgz";
-        url = "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.5.3.tgz";
-        sha512 = "6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==";
+        name = "html_webpack_plugin___html_webpack_plugin_5.5.4.tgz";
+        url = "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.5.4.tgz";
+        sha512 = "3wNSaVVxdxcu0jd4FpQFoICdqgxs4zIQQvj+2yQKFfBOnLETQ6X5CDWdeasuGlSsooFlMkEioWDTqBv1wvw5Iw==";
       };
     }
     {
@@ -8632,11 +8632,11 @@
       };
     }
     {
-      name = "d28b49d4b87b270531d0d00673ce90321d717325";
+      name = "97404d88ad4b4067d0b8692ea2a8b27d1e26ec0d";
       path = fetchurl {
-        name = "d28b49d4b87b270531d0d00673ce90321d717325";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/d28b49d4b87b270531d0d00673ce90321d717325";
-        sha256 = "1hvcy2ar780ry3n136yrkilclf4hl1r2jqlb694kh8phhiwymzc6";
+        name = "97404d88ad4b4067d0b8692ea2a8b27d1e26ec0d";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/97404d88ad4b4067d0b8692ea2a8b27d1e26ec0d";
+        sha256 = "0dlqr7ap5fphkj2w1m99cjffmhvg1cxpyswl05r0afx8lfrx022g";
       };
     }
     {
@@ -8648,11 +8648,11 @@
       };
     }
     {
-      name = "effe2ce1fa494d2bef70dcbea23b71b24d146fb8";
+      name = "7e273b84ece3d6a706cf947b3585c0246d48bad8";
       path = fetchurl {
-        name = "effe2ce1fa494d2bef70dcbea23b71b24d146fb8";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/effe2ce1fa494d2bef70dcbea23b71b24d146fb8";
-        sha256 = "19fhql3g76wn35qcxijk5rfmrwm4rxx007ph68igmhdg7g6xnf63";
+        name = "7e273b84ece3d6a706cf947b3585c0246d48bad8";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/7e273b84ece3d6a706cf947b3585c0246d48bad8";
+        sha256 = "0f88b47xnly1p1yyl63jdxy3mrk0z4znxsy8b1qg59hy1911jsj5";
       };
     }
     {
