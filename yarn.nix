@@ -5496,11 +5496,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.607.tgz";
-        sha512 = "YUlnPwE6eYxzwBnFmawA8LiLRfm70R2aJRIUv0n03uHt/cUzzYACOogmvk8M2+hVzt/kB80KJXx7d5f5JofPvQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.609.tgz";
+        sha512 = "ihiCP7PJmjoGNuLpl7TjNA8pCQWu09vGyjlPYw1Rqww4gvNuCcmvl+44G+2QyJ6S2K4o+wbTS++Xz0YN8Q9ERw==";
       };
     }
     {
@@ -8768,11 +8768,11 @@
       };
     }
     {
-      name = "3f1492c1711d3e911fa3f54b0befc613fedb740d";
+      name = "47b414a64401e00549f7bf217ada8bda8d04eafa";
       path = fetchurl {
-        name = "3f1492c1711d3e911fa3f54b0befc613fedb740d";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/3f1492c1711d3e911fa3f54b0befc613fedb740d";
-        sha256 = "0ayf82nhbkhwc2v83jkl0wl5y5z80xcrz6r38qqlw6f137mwran9";
+        name = "47b414a64401e00549f7bf217ada8bda8d04eafa";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/47b414a64401e00549f7bf217ada8bda8d04eafa";
+        sha256 = "1z36p725yx4vxy7nmz6yz4v7x2m7c4awhfik1199lwl4di1w49dn";
       };
     }
     {
@@ -12592,11 +12592,11 @@
       };
     }
     {
-      name = "ts_node___ts_node_10.9.1.tgz";
+      name = "ts_node___ts_node_10.9.2.tgz";
       path = fetchurl {
-        name = "ts_node___ts_node_10.9.1.tgz";
-        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz";
-        sha512 = "NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==";
+        name = "ts_node___ts_node_10.9.2.tgz";
+        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.2.tgz";
+        sha512 = "f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==";
       };
     }
     {
