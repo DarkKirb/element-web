@@ -2424,11 +2424,11 @@
       };
     }
     {
-      name = "_types_babel__generator___babel__generator_7.6.7.tgz";
+      name = "_types_babel__generator___babel__generator_7.6.8.tgz";
       path = fetchurl {
-        name = "_types_babel__generator___babel__generator_7.6.7.tgz";
-        url = "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.6.7.tgz";
-        sha512 = "6Sfsq+EaaLrw4RmdFWE9Onp63TOUue71AWb4Gpa6JxzgTYtimbM086WnYTy2U67AofR++QKCo08ZP6pwx8YFHQ==";
+        name = "_types_babel__generator___babel__generator_7.6.8.tgz";
+        url = "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.6.8.tgz";
+        sha512 = "ASsj+tpEDsEiFr1arWrlN6V3mdfjRMZt6LtK/Vp/kreFLnr5QH5+DhvD5nINYZXzwJvXeGq+05iUXcAzVrqWtw==";
       };
     }
     {
@@ -2784,11 +2784,11 @@
       };
     }
     {
-      name = "_types_node___node_20.10.4.tgz";
+      name = "_types_node___node_20.10.5.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.10.4.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.4.tgz";
-        sha512 = "D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==";
+        name = "_types_node___node_20.10.5.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.5.tgz";
+        sha512 = "nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==";
       };
     }
     {
@@ -8696,11 +8696,11 @@
       };
     }
     {
-      name = "22572161b1e1b34b78bb379ba1396a650f375f02";
+      name = "507640c489ff63c843036b8e235ca874c108b98a";
       path = fetchurl {
-        name = "22572161b1e1b34b78bb379ba1396a650f375f02";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/22572161b1e1b34b78bb379ba1396a650f375f02";
-        sha256 = "0z1x0ify1sfd909s01xdswgq0xzcmzczw1n37biy9ywzb6bhf5ri";
+        name = "507640c489ff63c843036b8e235ca874c108b98a";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/507640c489ff63c843036b8e235ca874c108b98a";
+        sha256 = "05yvvwjmgibjai622l437w2j75g20f22dxbcab3d17zl2wr8dfw6";
       };
     }
     {
@@ -8712,11 +8712,11 @@
       };
     }
     {
-      name = "2fbf956d1661dec11c31b82cc5ffaf9f413546b1";
+      name = "5d7942d16343c9f6c2409012119546f25175ec61";
       path = fetchurl {
-        name = "2fbf956d1661dec11c31b82cc5ffaf9f413546b1";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/2fbf956d1661dec11c31b82cc5ffaf9f413546b1";
-        sha256 = "0ynip4r6k3g786k7b0ppw0pn7q8zp6vbyfbx71qi1332sp4sk8kh";
+        name = "5d7942d16343c9f6c2409012119546f25175ec61";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/5d7942d16343c9f6c2409012119546f25175ec61";
+        sha256 = "0a4fy93876dclcmc2g5nl2nsir9qhwlgak1zb3l6d18fgjcc704f";
       };
     }
     {
