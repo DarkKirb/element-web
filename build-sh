@@ -1,0 +1,27 @@
+#!/bin/sh
+rm -rf webapp/bundles/
+
+#export CI_PACKAGE="this is a hacky way to enable debug builds"
+
+echo "Updating matrix-js-sdk..."
+cd matrix-js-sdk
+yarn link
+yarn && yarn build
+cd ..
+
+echo "Updating matrix-react-sdk..."
+cd matrix-react-sdk
+yarn link
+yarn link matrix-js-sdk
+yarn && yarn build
+cd ..
+
+echo "Updating element-web..."
+yarn link matrix-js-sdk
+yarn link matrix-react-sdk
+yarn && yarn build
+
+echo "$VERSION" > webapp/version
+cp -f config.*.json webapp/
+
+echo "All done"
