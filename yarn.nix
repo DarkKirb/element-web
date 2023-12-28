@@ -2768,11 +2768,11 @@
       };
     }
     {
-      name = "_types_node_fetch___node_fetch_2.6.9.tgz";
+      name = "_types_node_fetch___node_fetch_2.6.10.tgz";
       path = fetchurl {
-        name = "_types_node_fetch___node_fetch_2.6.9.tgz";
-        url = "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.9.tgz";
-        sha512 = "bQVlnMLFJ2d35DkPNjEPmd9ueO/rh5EiaZt2bhqiSarPjZIuIV6bPQVqcrEyvNo+AfTrRGVazle1tl597w3gfA==";
+        name = "_types_node_fetch___node_fetch_2.6.10.tgz";
+        url = "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.10.tgz";
+        sha512 = "PPpPK6F9ALFTn59Ka3BaL+qGuipRfxNE8qVgkp0bVixeiR2c2/L+IVOiBdu9JhhT22sWnQEp6YyHGI2b2+CMcA==";
       };
     }
     {
@@ -4200,11 +4200,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001571.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001572.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001571.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz";
-        sha512 = "tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001572.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001572.tgz";
+        sha512 = "1Pbh5FLmn5y4+QhNyJE9j3/7dK44dGB83/ZMjv/qJk86TvDbjk0LosiZo0i0WB0Vx607qMX9jYrn1VLHCkN4rw==";
       };
     }
     {
@@ -4288,11 +4288,11 @@
       };
     }
     {
-      name = "classnames___classnames_2.4.0.tgz";
+      name = "classnames___classnames_2.5.0.tgz";
       path = fetchurl {
-        name = "classnames___classnames_2.4.0.tgz";
-        url = "https://registry.yarnpkg.com/classnames/-/classnames-2.4.0.tgz";
-        sha512 = "lWxiIlphgAhTLN657pwU/ofFxsUTOWc2CRIFeoV5st0MGRJHStUnWIUJgDHxjUO/F0mXzGufXIM4Lfu/8h+MpA==";
+        name = "classnames___classnames_2.5.0.tgz";
+        url = "https://registry.yarnpkg.com/classnames/-/classnames-2.5.0.tgz";
+        sha512 = "FQuRlyKinxrb5gwJlfVASbSrDlikDJ07426TrfPsdGLvtochowmkbnSFdQGJ2aoXrSetq5KqGV9emvWpy+91xA==";
       };
     }
     {
@@ -8728,11 +8728,11 @@
       };
     }
     {
-      name = "64b46f8e4c91749f6b961a15aef0a708e65f5f7f";
+      name = "ac7d37a43e88246ebd260468e7c0672016294557";
       path = fetchurl {
-        name = "64b46f8e4c91749f6b961a15aef0a708e65f5f7f";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/64b46f8e4c91749f6b961a15aef0a708e65f5f7f";
-        sha256 = "1ms7zzxfwfhkzqd60q6r5w2xr95xvsggjix5ibyz9fndq3yabnnk";
+        name = "ac7d37a43e88246ebd260468e7c0672016294557";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/ac7d37a43e88246ebd260468e7c0672016294557";
+        sha256 = "0lm7xg5d0nivk219fb48ryv64didvsk3djwrcrnyzn1q86anmj8f";
       };
     }
     {

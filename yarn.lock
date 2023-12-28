@@ -2825,9 +2825,9 @@
   integrity sha512-yslwR0zZ3zAT1qXcCPxIcD23CZ6W6nKsl6JufSJHAmdwOBuYwCVJkaMsEo9yzxGV7ATfoX8S+RgtnajOEtKxYA==
 
 "@types/node-fetch@^2.6.4":
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.9.tgz#15f529d247f1ede1824f7e7acdaa192d5f28071e"
-  integrity sha512-bQVlnMLFJ2d35DkPNjEPmd9ueO/rh5EiaZt2bhqiSarPjZIuIV6bPQVqcrEyvNo+AfTrRGVazle1tl597w3gfA==
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.10.tgz#ff5c1ceacab782f2b7ce69957d38c1c27b0dc469"
+  integrity sha512-PPpPK6F9ALFTn59Ka3BaL+qGuipRfxNE8qVgkp0bVixeiR2c2/L+IVOiBdu9JhhT22sWnQEp6YyHGI2b2+CMcA==
   dependencies:
     "@types/node" "*"
     form-data "^4.0.0"
@@ -4108,9 +4108,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001565:
-  version "1.0.30001571"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz#4182e93d696ff42930f4af7eba515ddeb57917ac"
-  integrity sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==
+  version "1.0.30001572"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001572.tgz#1ccf7dc92d2ee2f92ed3a54e11b7b4a3041acfa0"
+  integrity sha512-1Pbh5FLmn5y4+QhNyJE9j3/7dK44dGB83/ZMjv/qJk86TvDbjk0LosiZo0i0WB0Vx607qMX9jYrn1VLHCkN4rw==
 
 chalk@5.2.0:
   version "5.2.0"
@@ -4185,9 +4185,9 @@ class-utils@^0.3.5:
     static-extend "^0.1.1"
 
 classnames@^2.2.6, classnames@^2.3.2:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.4.0.tgz#78011af2612f5c552195e2e657bd5fe2de973cac"
-  integrity sha512-lWxiIlphgAhTLN657pwU/ofFxsUTOWc2CRIFeoV5st0MGRJHStUnWIUJgDHxjUO/F0mXzGufXIM4Lfu/8h+MpA==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.0.tgz#9304d63d8d7135989e33e1ffb0bcc65178f92c2a"
+  integrity sha512-FQuRlyKinxrb5gwJlfVASbSrDlikDJ07426TrfPsdGLvtochowmkbnSFdQGJ2aoXrSetq5KqGV9emvWpy+91xA==
 
 clean-css@^5.2.2:
   version "5.3.3"
@@ -8371,7 +8371,7 @@ matrix-mock-request@^2.5.0:
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
   version "3.87.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/64b46f8e4c91749f6b961a15aef0a708e65f5f7f"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/ac7d37a43e88246ebd260468e7c0672016294557"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.9.0"
