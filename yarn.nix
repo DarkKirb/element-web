@@ -2864,11 +2864,11 @@
       };
     }
     {
-      name = "_types_react_beautiful_dnd___react_beautiful_dnd_13.1.7.tgz";
+      name = "_types_react_beautiful_dnd___react_beautiful_dnd_13.1.8.tgz";
       path = fetchurl {
-        name = "_types_react_beautiful_dnd___react_beautiful_dnd_13.1.7.tgz";
-        url = "https://registry.yarnpkg.com/@types/react-beautiful-dnd/-/react-beautiful-dnd-13.1.7.tgz";
-        sha512 = "jQZLov9OkD0xRQkqz8/lx66bHYAYv+g4+POBqnH5Jtt/xo4MygzM879Q9sxAiosPBdNj1JYTdbPxDn3dNRYgow==";
+        name = "_types_react_beautiful_dnd___react_beautiful_dnd_13.1.8.tgz";
+        url = "https://registry.yarnpkg.com/@types/react-beautiful-dnd/-/react-beautiful-dnd-13.1.8.tgz";
+        sha512 = "E3TyFsro9pQuK4r8S/OL6G99eq7p8v29sX0PM7oT8Z+PJfZvSQTx4zTQbUJ+QZXioAF0e7TGBEcA1XhYhCweyQ==";
       };
     }
     {
@@ -4608,19 +4608,19 @@
       };
     }
     {
-      name = "core_js_compat___core_js_compat_3.34.0.tgz";
+      name = "core_js_compat___core_js_compat_3.35.0.tgz";
       path = fetchurl {
-        name = "core_js_compat___core_js_compat_3.34.0.tgz";
-        url = "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.34.0.tgz";
-        sha512 = "4ZIyeNbW/Cn1wkMMDy+mvrRUxrwFNjKwbhCfQpDd+eLgYipDqp8oGFGtLmhh18EDPKA0g3VUBYOxQGGwvWLVpA==";
+        name = "core_js_compat___core_js_compat_3.35.0.tgz";
+        url = "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.35.0.tgz";
+        sha512 = "5blwFAddknKeNgsjBzilkdQ0+YK8L1PfqPYq40NOYMYFSS38qj+hpTcLLWwpIwA2A5bje/x5jmVn2tzUMg9IVw==";
       };
     }
     {
-      name = "core_js___core_js_3.34.0.tgz";
+      name = "core_js___core_js_3.35.0.tgz";
       path = fetchurl {
-        name = "core_js___core_js_3.34.0.tgz";
-        url = "https://registry.yarnpkg.com/core-js/-/core-js-3.34.0.tgz";
-        sha512 = "aDdvlDder8QmY91H88GzNi9EtQi2TjvQhpCX6B1v/dAZHU1AuLgHvRh54RiOerpEhEW46Tkf+vgAViB/CWC0ag==";
+        name = "core_js___core_js_3.35.0.tgz";
+        url = "https://registry.yarnpkg.com/core-js/-/core-js-3.35.0.tgz";
+        sha512 = "ntakECeqg81KqMueeGJ79Q5ZgQNR+6eaE8sxGCx62zMbAIj65q+uYvatToew3m6eAGdU4gNZwpZ34NMe4GYswg==";
       };
     }
     {
