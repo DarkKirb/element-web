@@ -936,11 +936,11 @@
       };
     }
     {
-      name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.6.tgz";
+      name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.7.tgz";
       path = fetchurl {
-        name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.6.tgz";
-        url = "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.23.6.tgz";
-        sha512 = "kF1Zg62aPseQ11orDhFRw+aPG/eynNQtI+TyY+m33qJa2cJ5EEvza2P2BNTIA9E5MyqFABHEyY6CPHwgdy9aNg==";
+        name = "_babel_plugin_transform_runtime___plugin_transform_runtime_7.23.7.tgz";
+        url = "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.23.7.tgz";
+        sha512 = "fa0hnfmiXc9fq/weK34MUV0drz2pOL/vfKWvN7Qw127hiUPabFCUMgAbYWcchRzMJit4o5ARsK/s+5h0249pLw==";
       };
     }
     {
@@ -1056,11 +1056,11 @@
       };
     }
     {
-      name = "_babel_register___register_7.22.15.tgz";
+      name = "_babel_register___register_7.23.7.tgz";
       path = fetchurl {
-        name = "_babel_register___register_7.22.15.tgz";
-        url = "https://registry.yarnpkg.com/@babel/register/-/register-7.22.15.tgz";
-        sha512 = "V3Q3EqoQdn65RCgTLwauZaTfd1ShhwPmbBv+1dkZV/HpCGMKVyn6oFcRlI7RaKqiDQjX2Qd3AuoEguBgdjIKlg==";
+        name = "_babel_register___register_7.23.7.tgz";
+        url = "https://registry.yarnpkg.com/@babel/register/-/register-7.23.7.tgz";
+        sha512 = "EjJeB6+kvpk+Y5DAkEAmbOBEFkh9OASx0huoEkqYTFxAZHzOAX2Oh5uwAUuL2rUddqfM0SA+KPXV2TbzoZ2kvQ==";
       };
     }
     {
@@ -1072,11 +1072,11 @@
       };
     }
     {
-      name = "_babel_runtime___runtime_7.23.6.tgz";
+      name = "_babel_runtime___runtime_7.23.7.tgz";
       path = fetchurl {
-        name = "_babel_runtime___runtime_7.23.6.tgz";
-        url = "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.6.tgz";
-        sha512 = "zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==";
+        name = "_babel_runtime___runtime_7.23.7.tgz";
+        url = "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.7.tgz";
+        sha512 = "w06OXVOFso7LcbzMiDGt+3X7Rh7Ho8MmgPoWU3rarH+8upf+wSU/grlGbWzQyr3DkdN6ZeuMFjpdwW0Q+HxobA==";
       };
     }
     {
