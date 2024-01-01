@@ -1213,19 +1213,19 @@
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
 "@csstools/css-parser-algorithms@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.4.0.tgz#88c7b62b8e00c391b24c585f9db5a0b62ed665b0"
-  integrity sha512-/PPLr2g5PAUCKAPEbfyk6/baZA+WJHQtUhPkoCQMpyRE8I0lXrG1QFRN8e5s3ZYxM8d/g5BZc6lH3s8Op7/VEg==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.5.0.tgz#0c03cd5418a9f404a05ff2ffcb1b69d04e8ec532"
+  integrity sha512-abypo6m9re3clXA00eu5syw+oaPHbJTPapu9C4pzNsJ4hdZDzushT50Zhu+iIYXgEe1CxnRMn7ngsbV+MLrlpQ==
 
 "@csstools/css-tokenizer@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-2.2.2.tgz#bcd85cef4468c356833b21e96d38b940c9760605"
-  integrity sha512-wCDUe/MAw7npAHFLyW3QjSyLA66S5QFaV1jIXlNQvdJ8RzXDSgALa49eWcUO6P55ARQaz0TsDdAgdRgkXFYY8g==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-2.2.3.tgz#b099d543ea57b64f495915a095ead583866c50c6"
+  integrity sha512-pp//EvZ9dUmGuGtG1p+n17gTHEOqu9jO+FiCUjNN3BDmyhdA2Jq9QsVeR7K8/2QCK17HSsioPlTW9ZkzoWb3Lg==
 
 "@csstools/media-query-list-parser@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.6.tgz#e4e9a8a35be7a066836389b03ec19e584bc61af3"
-  integrity sha512-R6AKl9vaU0It7D7TR2lQn0pre5aQfdeqHRePlaRCY8rHL3l9eVlNRpsEVDKFi/zAjzv68CxH2M5kqbhPFPKjvw==
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.7.tgz#a4836e3dbd693081a30b32ce9c2a781e1be16788"
+  integrity sha512-lHPKJDkPUECsyAvD60joYfDmp8UERYxHGkFfyLJFTVK/ERJe0sVlIFLXU5XFxdjNDTerp5L4KeaKG+Z5S94qxQ==
 
 "@csstools/selector-specificity@^3.0.1":
   version "3.0.1"
@@ -8345,7 +8345,7 @@ matrix-events-sdk@0.0.1:
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
   version "30.3.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/7e4351fedba8b10cc955915302dbb21a16b33716"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/bd8de2187c741a815bfe9792599bc1f01d69e3ff"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^3.5.0"
@@ -8371,7 +8371,7 @@ matrix-mock-request@^2.5.0:
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
   version "3.87.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/69609161bf17d66eb3b4636da7068ccea53bf8a3"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/1bd40944be31ffeccfdac49d09d73a0c0c7501e0"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.9.0"
