@@ -1,11 +1,11 @@
 {
     "name": "element-web",
-    "version": "1.11.52",
+    "version": "1.11.53",
     "description": "A feature-rich client for Matrix.org",
     "author": "New Vector Ltd.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vector-im/element-web"
+        "url": "https://github.com/element-hq/element-web"
     },
     "license": "Apache-2.0",
     "files": [
@@ -32,7 +32,7 @@
     "scripts": {
         "i18n": "matrix-gen-i18n && yarn i18n:sort && yarn i18n:lint",
         "i18n:sort": "jq --sort-keys '.' src/i18n/strings/en_EN.json > src/i18n/strings/en_EN.json.tmp && mv src/i18n/strings/en_EN.json.tmp src/i18n/strings/en_EN.json",
-        "i18n:lint": "prettier --write src/i18n/strings/ --ignore-path /dev/null",
+        "i18n:lint": "prettier --log-level=silent  --write src/i18n/strings/ --ignore-path /dev/null",
         "i18n:diff": "cp src/i18n/strings/en_EN.json src/i18n/strings/en_EN_orig.json && yarn i18n && matrix-compare-i18n-files src/i18n/strings/en_EN_orig.json src/i18n/strings/en_EN.json",
         "clean": "rimraf lib webapp",
         "build": "yarn clean && yarn build:genfiles && yarn build:bundle",
@@ -53,7 +53,7 @@
         "lint:js:src": "eslint --max-warnings 0 src test && prettier --check .",
         "lint:js:module_system": "eslint --max-warnings 0 --config .eslintrc-module_system.js module_system",
         "lint:js-fix": "yarn lint:js-fix:src && yarn lint:js-fix:module_system",
-        "lint:js-fix:src": "prettier --write . && eslint --fix src test",
+        "lint:js-fix:src": "prettier --log-level=warn --write . && eslint --fix src test",
         "lint:js-fix:module_system": "eslint --fix --config .eslintrc-module_system.js module_system",
         "lint:types": "yarn lint:types:src && yarn lint:types:module_system",
         "lint:types:src": "tsc --noEmit --jsx react",
@@ -136,7 +136,7 @@
         "@types/tar-js": "^0.3.5",
         "@types/ua-parser-js": "^0.7.36",
         "@types/uuid": "^9.0.7",
-        "@typescript-eslint/eslint-plugin": "^6.16.0",
+        "@typescript-eslint/eslint-plugin": "^6.17.0",
         "@typescript-eslint/parser": "^6.15.0",
         "allchange": "^1.0.6",
         "babel-jest": "^29.0.0",
@@ -175,7 +175,7 @@
         "mkdirp": "^3.0.0",
         "modernizr": "^3.12.0",
         "node-fetch": "^3.3.2",
-        "postcss": "^8.4.31",
+        "postcss": "^8.4.33",
         "postcss-easings": "^2.0.0",
         "postcss-hexrgba": "2.0.1",
         "postcss-import": "^12.0.1",
