@@ -1584,11 +1584,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
+      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.22.0.tgz";
-        sha512 = "kT9zW2MMTc/IvOMc5xXNUIf6IMHZpc02se4CLM7nESUM2Thm7nTyjQzgHW9mFbPgp/+5gUOqx33liPj3x1r6VQ==";
+        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.23.0.tgz";
+        sha512 = "pb/4ccebARDxogliChUoRVTzSklzlls0ArquCE6x2EXI7t+OaI+PPrnWTujRANMsTt52vp7Rvt58aI081m3eAQ==";
       };
     }
     {
@@ -10608,11 +10608,11 @@
       };
     }
     {
-      name = "prettier___prettier_3.1.1.tgz";
+      name = "prettier___prettier_3.2.2.tgz";
       path = fetchurl {
-        name = "prettier___prettier_3.1.1.tgz";
-        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz";
-        sha512 = "22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==";
+        name = "prettier___prettier_3.2.2.tgz";
+        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.2.2.tgz";
+        sha512 = "HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==";
       };
     }
     {
