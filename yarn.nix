@@ -1584,11 +1584,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
+      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.22.0.tgz";
-        sha512 = "kT9zW2MMTc/IvOMc5xXNUIf6IMHZpc02se4CLM7nESUM2Thm7nTyjQzgHW9mFbPgp/+5gUOqx33liPj3x1r6VQ==";
+        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.23.0.tgz";
+        sha512 = "pb/4ccebARDxogliChUoRVTzSklzlls0ArquCE6x2EXI7t+OaI+PPrnWTujRANMsTt52vp7Rvt58aI081m3eAQ==";
       };
     }
     {
@@ -4800,11 +4800,11 @@
       };
     }
     {
-      name = "css_loader___css_loader_6.8.1.tgz";
+      name = "css_loader___css_loader_6.9.0.tgz";
       path = fetchurl {
-        name = "css_loader___css_loader_6.8.1.tgz";
-        url = "https://registry.yarnpkg.com/css-loader/-/css-loader-6.8.1.tgz";
-        sha512 = "xDAXtEVGlD0gJ07iclwWVkLoZOpEvAWaSyf6W18S2pOC//K8+qUDIx8IIT3D+HjnmkJPQeesOPv5aiUaJsCM2g==";
+        name = "css_loader___css_loader_6.9.0.tgz";
+        url = "https://registry.yarnpkg.com/css-loader/-/css-loader-6.9.0.tgz";
+        sha512 = "3I5Nu4ytWlHvOP6zItjiHlefBNtrH+oehq8tnQa2kO305qpVyx9XNIT1CXIj5bgCJs7qICBCkgCYxQLKPANoLA==";
       };
     }
     {
