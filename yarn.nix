@@ -1584,11 +1584,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
+      name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.22.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.22.0.tgz";
-        sha512 = "kT9zW2MMTc/IvOMc5xXNUIf6IMHZpc02se4CLM7nESUM2Thm7nTyjQzgHW9mFbPgp/+5gUOqx33liPj3x1r6VQ==";
+        name = "_matrix_org_matrix_wysiwyg___matrix_wysiwyg_2.23.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.23.0.tgz";
+        sha512 = "pb/4ccebARDxogliChUoRVTzSklzlls0ArquCE6x2EXI7t+OaI+PPrnWTujRANMsTt52vp7Rvt58aI081m3eAQ==";
       };
     }
     {
@@ -4648,11 +4648,11 @@
       };
     }
     {
-      name = "copy_webpack_plugin___copy_webpack_plugin_12.0.0.tgz";
+      name = "copy_webpack_plugin___copy_webpack_plugin_12.0.1.tgz";
       path = fetchurl {
-        name = "copy_webpack_plugin___copy_webpack_plugin_12.0.0.tgz";
-        url = "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-12.0.0.tgz";
-        sha512 = "WQfxZKgoRB94/g0BP/cjADvE6jXQKoSk0lFFeIC5HZlE1JuabYPwhQUtOZsGI0cI+QMsi6vhdIDy4eNXKcTgFg==";
+        name = "copy_webpack_plugin___copy_webpack_plugin_12.0.1.tgz";
+        url = "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-12.0.1.tgz";
+        sha512 = "dhMfjJMYKDmmbG6Yn2pRSs1g8FgeQRtbE/JM6VAM9Xouk3KO1UVrwlLHLXxaI5F+o9WgnRfhFZzY9eV34O2gZQ==";
       };
     }
     {
