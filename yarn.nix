@@ -2784,11 +2784,11 @@
       };
     }
     {
-      name = "_types_node___node_20.10.6.tgz";
+      name = "_types_node___node_20.11.4.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.10.6.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.6.tgz";
-        sha512 = "Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==";
+        name = "_types_node___node_20.11.4.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.4.tgz";
+        sha512 = "6I0fMH8Aoy2lOejL3s4LhyIYX34DPwY8bl5xlNjBvUEk8OHrcuzsFt+Ied4LvJihbtXPM+8zUqdydfIti86v9g==";
       };
     }
     {
