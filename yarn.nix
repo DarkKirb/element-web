@@ -8264,11 +8264,11 @@
       };
     }
     {
-      name = "jsrsasign___jsrsasign_10.9.0.tgz";
+      name = "jsrsasign___jsrsasign_11.0.0.tgz";
       path = fetchurl {
-        name = "jsrsasign___jsrsasign_10.9.0.tgz";
-        url = "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-10.9.0.tgz";
-        sha512 = "QWLUikj1SBJGuyGK8tjKSx3K7Y69KYJnrs/pQ1KZ6wvZIkHkWjZ1PJDpuvc1/28c1uP0KW9qn1eI1LzHQqDOwQ==";
+        name = "jsrsasign___jsrsasign_11.0.0.tgz";
+        url = "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-11.0.0.tgz";
+        sha512 = "BtRwVKS+5dsgPpAtzJcpo5OoWjSs1/zllSBG0+8o8/aV0Ki76m6iZwHnwnsqoTdhfFZDN1XIdcaZr5ZkP+H2gg==";
       };
     }
     {
