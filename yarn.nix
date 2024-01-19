@@ -5472,11 +5472,11 @@
       };
     }
     {
-      name = "dotenv___dotenv_16.3.1.tgz";
+      name = "dotenv___dotenv_16.3.2.tgz";
       path = fetchurl {
-        name = "dotenv___dotenv_16.3.1.tgz";
-        url = "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz";
-        sha512 = "IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==";
+        name = "dotenv___dotenv_16.3.2.tgz";
+        url = "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.2.tgz";
+        sha512 = "HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==";
       };
     }
     {
