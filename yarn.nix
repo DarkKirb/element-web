@@ -1488,11 +1488,11 @@
       };
     }
     {
-      name = "_jridgewell_trace_mapping___trace_mapping_0.3.21.tgz";
+      name = "_jridgewell_trace_mapping___trace_mapping_0.3.22.tgz";
       path = fetchurl {
-        name = "_jridgewell_trace_mapping___trace_mapping_0.3.21.tgz";
-        url = "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.21.tgz";
-        sha512 = "SRfKmRe1KvYnxjEMtxEr+J4HIeMX5YBg/qhRHpxEIGjhX1rshcHlnFUE9K0GazhVKWM7B+nARSkV8LuvJdJ5/g==";
+        name = "_jridgewell_trace_mapping___trace_mapping_0.3.22.tgz";
+        url = "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.22.tgz";
+        sha512 = "Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw==";
       };
     }
     {
@@ -4800,11 +4800,11 @@
       };
     }
     {
-      name = "css_minimizer_webpack_plugin___css_minimizer_webpack_plugin_5.0.1.tgz";
+      name = "css_minimizer_webpack_plugin___css_minimizer_webpack_plugin_6.0.0.tgz";
       path = fetchurl {
-        name = "css_minimizer_webpack_plugin___css_minimizer_webpack_plugin_5.0.1.tgz";
-        url = "https://registry.yarnpkg.com/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-5.0.1.tgz";
-        sha512 = "3caImjKFQkS+ws1TGcFn0V1HyDJFq1Euy589JlD6/3rV2kj+w7r5G9WDMgSHvpvXHNZ2calVypZWuEDQd9wfLg==";
+        name = "css_minimizer_webpack_plugin___css_minimizer_webpack_plugin_6.0.0.tgz";
+        url = "https://registry.yarnpkg.com/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-6.0.0.tgz";
+        sha512 = "BLpR9CCDkKvhO3i0oZQgad6v9pCxUuhSc5RT6iUEy9M8hBXi4TJb5vqF2GQ2deqYHmRi3O6IR9hgAZQWg0EBwA==";
       };
     }
     {
