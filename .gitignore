@@ -25,7 +25,9 @@ electron/pub
 .env
 /coverage
 # Auto-generated file
+.direnv
 /src/modules.ts
 /build_config.yaml
 /book
 /index.html
+/matrix-*-sdk

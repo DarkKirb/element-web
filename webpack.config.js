@@ -310,6 +310,9 @@ module.exports = (env, argv) => {
                         // probably be removed.
                         if (f.includes(path.join("@vector-im", "compound-web"))) return true;
 
+                        if (f.includes("p-retry")) return true;
+                        if (f.includes("super-regex")) return true;
+
                         // but we can't run all of our dependencies through babel (many of them still
                         // use module.exports which breaks if babel injects an 'include' for its
                         // polyfills: probably fixable but babeling all our dependencies is probably
