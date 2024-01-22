@@ -24,6 +24,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.matrix-js-sdk.follows = "nixpkgs";
     };
+    flake-compat.url = "github:edolstra/flake-compat";
   };
 
   outputs = inputs @ {flake-parts, ...}:
