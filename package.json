@@ -149,7 +149,7 @@
         "cronstrue": "^2.41.0",
         "css-loader": "^6",
         "css-minimizer-webpack-plugin": "^6.0.0",
-        "dotenv": "^16.4.0",
+        "dotenv": "^16.4.1",
         "eslint": "8.56.0",
         "eslint-config-google": "^0.14.0",
         "eslint-config-prettier": "^9.0.0",
