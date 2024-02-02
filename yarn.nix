@@ -2816,11 +2816,11 @@
       };
     }
     {
-      name = "_types_node___node_20.11.5.tgz";
+      name = "_types_node___node_20.11.16.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.11.5.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.5.tgz";
-        sha512 = "g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==";
+        name = "_types_node___node_20.11.16.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.16.tgz";
+        sha512 = "gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==";
       };
     }
     {
