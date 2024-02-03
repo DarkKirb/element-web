@@ -2072,6 +2072,14 @@
       };
     }
     {
+      name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.13.0.tgz";
+      path = fetchurl {
+        name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.13.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/babel-plugin-component-annotate/-/babel-plugin-component-annotate-2.13.0.tgz";
+        sha512 = "NOKin57L0ZePOHsnbRJpaWxdDnPS+SQUBJDyBYfcIrS74EPXFoFhFADYwGGI5hEKYL7/L0H3a4sIB5iJci3+fQ==";
+      };
+    }
+    {
       name = "_sentry_browser___browser_7.99.0.tgz";
       path = fetchurl {
         name = "_sentry_browser___browser_7.99.0.tgz";
@@ -2080,11 +2088,11 @@
       };
     }
     {
-      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.11.0.tgz";
+      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.13.0.tgz";
       path = fetchurl {
-        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.11.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.11.0.tgz";
-        sha512 = "IceEPd3RNVyyaxoI92JFnTMsOk/vYCuClV7c/bVBCZZD6dZLercs+abpO6gxbzu758LOjbAmwwIIKtsTKhD0kg==";
+        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.13.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.13.0.tgz";
+        sha512 = "KCq5JL/bW/bvY+0LIB4kgtDcg/5cyHzJjuDKOorcMV4OmKD2BG5xCG518gIARfPlELxWpURO4LYz9ZKkkPs/hw==";
       };
     }
     {
@@ -2152,14 +2160,6 @@
       };
     }
     {
-      name = "_sentry_component_annotate_plugin___component_annotate_plugin_2.11.0.tgz";
-      path = fetchurl {
-        name = "_sentry_component_annotate_plugin___component_annotate_plugin_2.11.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/component-annotate-plugin/-/component-annotate-plugin-2.11.0.tgz";
-        sha512 = "2Nf9e05HcvGT9b/8OFaBC90I1d3P6hOu1265T6u3WASxJNvKf3kF44kpt0nZAEVNFcgbyPiPyJ/gmOR/ZIG91A==";
-      };
-    }
-    {
       name = "_sentry_core___core_7.99.0.tgz";
       path = fetchurl {
         name = "_sentry_core___core_7.99.0.tgz";
@@ -2200,11 +2200,11 @@
       };
     }
     {
-      name = "_sentry_webpack_plugin___webpack_plugin_2.11.0.tgz";
+      name = "_sentry_webpack_plugin___webpack_plugin_2.13.0.tgz";
       path = fetchurl {
-        name = "_sentry_webpack_plugin___webpack_plugin_2.11.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.11.0.tgz";
-        sha512 = "I5Y2o42ONXq+5uWn77FbD9AYcnggpe255dT5/aAjIwY6Y8Zp/N0thCJ2n1B/blzL1niy7IR3QGykjIShEgDdFQ==";
+        name = "_sentry_webpack_plugin___webpack_plugin_2.13.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.13.0.tgz";
+        sha512 = "7/sgggWG2BcCjOMJ71zEwkeSTnJZZcGaFhhD4H0ld05o2F2iTcQ3wyT9YwQaJD3R6gSlPuO4vbh5B4+X5NPPqg==";
       };
     }
     {
@@ -5520,11 +5520,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.655.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.656.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.655.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.655.tgz";
-        sha512 = "2yszojF7vIZ68adIOvzV4bku8OZad9w5H9xF3ZAMZjPuOjBarlflUkjN6DggdV+L71WZuKUfKUhov/34+G5QHg==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.656.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz";
+        sha512 = "9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==";
       };
     }
     {
@@ -8768,11 +8768,11 @@
       };
     }
     {
-      name = "109c21eff7baeb8f1629b17ed57876f680937c32";
+      name = "4cdb23f49c58dc3a707d71f4d9a96a3784eb0199";
       path = fetchurl {
-        name = "109c21eff7baeb8f1629b17ed57876f680937c32";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/109c21eff7baeb8f1629b17ed57876f680937c32";
-        sha256 = "1lj0nkzs0gj6niqpbkkpvmvakwpyj98m4gxjmqw28gvqjb5rkqm5";
+        name = "4cdb23f49c58dc3a707d71f4d9a96a3784eb0199";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/4cdb23f49c58dc3a707d71f4d9a96a3784eb0199";
+        sha256 = "1j504l586hah72p25hcvqy31vr4ig9k7cch1wm4f1wnm3mmimj5g";
       };
     }
     {
