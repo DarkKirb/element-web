@@ -2960,11 +2960,11 @@
       };
     }
     {
-      name = "_types_sanitize_html___sanitize_html_2.9.5.tgz";
+      name = "_types_sanitize_html___sanitize_html_2.11.0.tgz";
       path = fetchurl {
-        name = "_types_sanitize_html___sanitize_html_2.9.5.tgz";
-        url = "https://registry.yarnpkg.com/@types/sanitize-html/-/sanitize-html-2.9.5.tgz";
-        sha512 = "2Sr1vd8Dw+ypsg/oDDfZ57OMSG2Befs+l2CMyCC5bVSK3CpE7lTB2aNlbbWzazgVA+Qqfuholwom6x/mWd1qmw==";
+        name = "_types_sanitize_html___sanitize_html_2.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@types/sanitize-html/-/sanitize-html-2.11.0.tgz";
+        sha512 = "7oxPGNQHXLHE48r/r/qjn7q0hlrs3kL7oZnGj0Wf/h9tj/6ibFyRkNbsDxaBBZ4XUZ0Dx5LGCyDJ04ytSofacQ==";
       };
     }
     {
