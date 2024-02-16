@@ -12720,11 +12720,11 @@
       };
     }
     {
-      name = "undici___undici_5.28.2.tgz";
+      name = "undici___undici_5.28.3.tgz";
       path = fetchurl {
-        name = "undici___undici_5.28.2.tgz";
-        url = "https://registry.yarnpkg.com/undici/-/undici-5.28.2.tgz";
-        sha512 = "wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==";
+        name = "undici___undici_5.28.3.tgz";
+        url = "https://registry.yarnpkg.com/undici/-/undici-5.28.3.tgz";
+        sha512 = "3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==";
       };
     }
     {
