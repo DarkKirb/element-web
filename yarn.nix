@@ -3408,11 +3408,11 @@
       };
     }
     {
-      name = "_typescript_eslint_parser___parser_7.1.1.tgz";
+      name = "_typescript_eslint_parser___parser_7.3.1.tgz";
       path = fetchurl {
-        name = "_typescript_eslint_parser___parser_7.1.1.tgz";
-        url = "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-7.1.1.tgz";
-        sha512 = "ZWUFyL0z04R1nAEgr9e79YtV5LbafdOtN7yapNbn1ansMyaegl2D4bL7vHoJ4HPSc4CaLwuCVas8CVuneKzplQ==";
+        name = "_typescript_eslint_parser___parser_7.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-7.3.1.tgz";
+        sha512 = "Rq49+pq7viTRCH48XAbTA+wdLRrB/3sRq4Lpk0oGDm0VmnjBrAOVXH/Laalmwsv2VpekiEfVFwJYVk6/e8uvQw==";
       };
     }
     {
@@ -3421,6 +3421,14 @@
         name = "_typescript_eslint_scope_manager___scope_manager_7.1.1.tgz";
         url = "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-7.1.1.tgz";
         sha512 = "cirZpA8bJMRb4WZ+rO6+mnOJrGFDd38WoXCEI57+CYBqta8Yc8aJym2i7vyqLL1vVYljgw0X27axkUXz32T8TA==";
+      };
+    }
+    {
+      name = "_typescript_eslint_scope_manager___scope_manager_7.3.1.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_scope_manager___scope_manager_7.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-7.3.1.tgz";
+        sha512 = "fVS6fPxldsKY2nFvyT7IP78UO1/I2huG+AYu5AMjCT9wtl6JFiDnsv4uad4jQ0GTFzcUV5HShVeN96/17bTBag==";
       };
     }
     {
@@ -3440,11 +3448,27 @@
       };
     }
     {
+      name = "_typescript_eslint_types___types_7.3.1.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_types___types_7.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-7.3.1.tgz";
+        sha512 = "2tUf3uWggBDl4S4183nivWQ2HqceOZh1U4hhu4p1tPiIJoRRXrab7Y+Y0p+dozYwZVvLPRI6r5wKe9kToF9FIw==";
+      };
+    }
+    {
       name = "_typescript_eslint_typescript_estree___typescript_estree_7.1.1.tgz";
       path = fetchurl {
         name = "_typescript_eslint_typescript_estree___typescript_estree_7.1.1.tgz";
         url = "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-7.1.1.tgz";
         sha512 = "9ZOncVSfr+sMXVxxca2OJOPagRwT0u/UHikM2Rd6L/aB+kL/QAuTnsv6MeXtjzCJYb8PzrXarypSGIPx3Jemxw==";
+      };
+    }
+    {
+      name = "_typescript_eslint_typescript_estree___typescript_estree_7.3.1.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_typescript_estree___typescript_estree_7.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-7.3.1.tgz";
+        sha512 = "tLpuqM46LVkduWP7JO7yVoWshpJuJzxDOPYIVWUUZbW+4dBpgGeUdl/fQkhuV0A8eGnphYw3pp8d2EnvPOfxmQ==";
       };
     }
     {
@@ -3461,6 +3485,14 @@
         name = "_typescript_eslint_visitor_keys___visitor_keys_7.1.1.tgz";
         url = "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-7.1.1.tgz";
         sha512 = "yTdHDQxY7cSoCcAtiBzVzxleJhkGB9NncSIyMYe2+OGON1ZsP9zOPws/Pqgopa65jvknOjlk/w7ulPlZ78PiLQ==";
+      };
+    }
+    {
+      name = "_typescript_eslint_visitor_keys___visitor_keys_7.3.1.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_visitor_keys___visitor_keys_7.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-7.3.1.tgz";
+        sha512 = "9RMXwQF8knsZvfv9tdi+4D/j7dMG28X/wMJ8Jj6eOHyHWwDW4ngQJcqEczSsqIKKjFiLFr40Mnr7a5ulDD3vmw==";
       };
     }
     {
@@ -9001,11 +9033,18 @@
     }
     {
       name = "fc0c8db5cc60ce384d21b6d4cd7ceb34955c6d1c";
-      path = fetchurl {
-        name = "fc0c8db5cc60ce384d21b6d4cd7ceb34955c6d1c";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/fc0c8db5cc60ce384d21b6d4cd7ceb34955c6d1c";
-        sha256 = "1yf7nclq8q270p0y7935fl7gw5a86hp21l8cy05rkncbh30lw4j0";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "fc0c8db5cc60ce384d21b6d4cd7ceb34955c6d1c";
+          sha256 = "1px3rb1jq2k4cq6sgcwj2r29287bpnhwigij6ivzv004rszfiadc";
+        };
+      in
+        runCommand "fc0c8db5cc60ce384d21b6d4cd7ceb34955c6d1c" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -9017,11 +9056,18 @@
     }
     {
       name = "6582704e79d2ec8d2d840e356dd48ba5a3174b21";
-      path = fetchurl {
-        name = "6582704e79d2ec8d2d840e356dd48ba5a3174b21";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/6582704e79d2ec8d2d840e356dd48ba5a3174b21";
-        sha256 = "1wjsryz1qvh2pm87z88wf0jcps897v76lfrpg8prgyirjc9af2ik";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "6582704e79d2ec8d2d840e356dd48ba5a3174b21";
+          sha256 = "1fj1gv34334i0bjhq16z14j9pwzvdh49imxqvlfnbvfr985pmbhn";
+        };
+      in
+        runCommand "6582704e79d2ec8d2d840e356dd48ba5a3174b21" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
