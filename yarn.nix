@@ -12216,11 +12216,11 @@
       };
     }
     {
-      name = "webpack_dev_middleware___webpack_dev_middleware_7.0.0.tgz";
+      name = "webpack_dev_middleware___webpack_dev_middleware_7.1.1.tgz";
       path = fetchurl {
-        name = "webpack_dev_middleware___webpack_dev_middleware_7.0.0.tgz";
-        url = "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.0.0.tgz";
-        sha512 = "tZ5hqsWwww/8DislmrzXE3x+4f+v10H1z57mA2dWFrILb4i3xX+dPhTkcdR0DLyQztrhF2AUmO5nN085UYjd/Q==";
+        name = "webpack_dev_middleware___webpack_dev_middleware_7.1.1.tgz";
+        url = "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.1.1.tgz";
+        sha512 = "NmRVq4AvRQs66dFWyDR4GsFDJggtSi2Yn38MXLk0nffgF9n/AIP4TFBg2TQKYaRAN4sHuKOTiz9BnNCENDLEVA==";
       };
     }
     {
