@@ -1,0 +1,41 @@
+{
+    "enabled": 1,
+    "hidden": false,
+    "description": "jobsets",
+    "nixexprinput": "element-web",
+    "nixexprpath": "hydra/jobs.nix",
+    "checkinterval": 3600,
+    "schedulingshares": 100,
+    "enableemail": false,
+    "emailoverride": "",
+    "keepnr": 1,
+    "inputs": {
+        "element-web": {
+            "type": "git",
+            "value": "https://github.com/DarkKirb/element-web.git develop",
+            "emailresponsible": false
+        },
+        "nixpkgs": {
+            "type": "git",
+            "value": "https://github.com/NixOS/nixpkgs.git",
+            "emailresponsible": false
+        },
+        "prsJSON": {
+            "type": "githubpulls",
+            "value": "DarkKirb element-web",
+            "emailresponsible": false
+        },
+        "github_input": {
+            "type": "string",
+            "value": "element-web"
+        },
+        "github_repo_owner": {
+            "type": "string",
+            "value": "DarkKirb"
+        },
+        "github_repo_name": {
+            "type": "string",
+            "value": "element-web"
+        }
+    }
+}

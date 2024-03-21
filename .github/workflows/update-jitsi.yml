@@ -2,8 +2,6 @@
 name: Update Jitsi
 on:
     workflow_dispatch: {}
-    schedule:
-        - cron: "0 3 * * 0" # 3am every Sunday
 jobs:
     update:
         runs-on: ubuntu-latest

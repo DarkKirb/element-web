@@ -1,10 +1,6 @@
 name: Build downstream artifacts
 on:
-    merge_group:
-        types: [checks_requested]
-    pull_request: {}
-    push:
-        branches: [develop, master]
+    workflow_dispatch:
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
