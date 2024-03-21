@@ -17,7 +17,7 @@ jobs:
                   extra_nix_config: |
                       trusted-public-keys = nixcache:8KKuGz95Pk4UJ5W/Ni+pN+v+LDTkMMFV4yrGmAYgkDg= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
                       substituters = https://f000.backblazeb2.com/file/cache-chir-rs/ https://cache.nixos.org/
-            - run: nix run github:nixos/nixpkgs#yarn2nix > yarn.nix
+            - run: nix run .#yarn2nix > yarn.nix
             - run: nix fmt
             - run: git add yarn.nix
             - run: git config user.email autoupdate@chir.rs
