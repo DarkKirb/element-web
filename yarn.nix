@@ -3120,14 +3120,6 @@
       };
     }
     {
-      name = "_types_node___node_16.18.91.tgz";
-      path = fetchurl {
-        name = "_types_node___node_16.18.91.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-16.18.91.tgz";
-        sha512 = "h8Q4klc8xzc9kJKr7UYNtJde5TU2qEePVyH3WyzJaUC+3ptyc5kPQbWOIUcn8ZsG5+KSkq+P0py0kC0VqxgAXw==";
-      };
-    }
-    {
       name = "_types_normalize_package_data___normalize_package_data_2.4.4.tgz";
       path = fetchurl {
         name = "_types_normalize_package_data___normalize_package_data_2.4.4.tgz";
