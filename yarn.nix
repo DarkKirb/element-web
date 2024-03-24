@@ -6832,14 +6832,6 @@
       };
     }
     {
-      name = "html_entities___html_entities_2.4.0.tgz";
-      path = fetchurl {
-        name = "html_entities___html_entities_2.4.0.tgz";
-        url = "https://registry.yarnpkg.com/html-entities/-/html-entities-2.4.0.tgz";
-        sha512 = "igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==";
-      };
-    }
-    {
       name = "html_entities___html_entities_2.5.2.tgz";
       path = fetchurl {
         name = "html_entities___html_entities_2.5.2.tgz";
@@ -12216,19 +12208,19 @@
       };
     }
     {
-      name = "webpack_dev_middleware___webpack_dev_middleware_7.0.0.tgz";
+      name = "webpack_dev_middleware___webpack_dev_middleware_7.1.1.tgz";
       path = fetchurl {
-        name = "webpack_dev_middleware___webpack_dev_middleware_7.0.0.tgz";
-        url = "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.0.0.tgz";
-        sha512 = "tZ5hqsWwww/8DislmrzXE3x+4f+v10H1z57mA2dWFrILb4i3xX+dPhTkcdR0DLyQztrhF2AUmO5nN085UYjd/Q==";
+        name = "webpack_dev_middleware___webpack_dev_middleware_7.1.1.tgz";
+        url = "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-7.1.1.tgz";
+        sha512 = "NmRVq4AvRQs66dFWyDR4GsFDJggtSi2Yn38MXLk0nffgF9n/AIP4TFBg2TQKYaRAN4sHuKOTiz9BnNCENDLEVA==";
       };
     }
     {
-      name = "webpack_dev_server___webpack_dev_server_5.0.3.tgz";
+      name = "webpack_dev_server___webpack_dev_server_5.0.4.tgz";
       path = fetchurl {
-        name = "webpack_dev_server___webpack_dev_server_5.0.3.tgz";
-        url = "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-5.0.3.tgz";
-        sha512 = "4aj4I8FJLsFbd4Vt6YBXC8CWrOOwviEI9DdVTu9hrgIBGWs4oKOVfDnaRc+vgf1JUSir1psph1ChPFDkTGHR2Q==";
+        name = "webpack_dev_server___webpack_dev_server_5.0.4.tgz";
+        url = "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-5.0.4.tgz";
+        sha512 = "dljXhUgx3HqKP2d8J/fUMvhxGhzjeNVarDLcbO/EWMSgRizDkxHQDZQaLFL5VJY9tRBj2Gz+rvCEYYvhbqPHNA==";
       };
     }
     {
@@ -12453,14 +12445,6 @@
         name = "ws___ws_7.5.9.tgz";
         url = "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz";
         sha512 = "F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==";
-      };
-    }
-    {
-      name = "ws___ws_8.14.2.tgz";
-      path = fetchurl {
-        name = "ws___ws_8.14.2.tgz";
-        url = "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz";
-        sha512 = "wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==";
       };
     }
     {
