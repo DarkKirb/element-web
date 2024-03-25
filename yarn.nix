@@ -8040,11 +8040,11 @@
       };
     }
     {
-      name = "katex___katex_0.16.9.tgz";
+      name = "katex___katex_0.16.10.tgz";
       path = fetchurl {
-        name = "katex___katex_0.16.9.tgz";
-        url = "https://registry.yarnpkg.com/katex/-/katex-0.16.9.tgz";
-        sha512 = "fsSYjWS0EEOwvy81j3vRA8TEAhQhKiqO+FQaKWp0m39qwOzHVBgAUBIXWj1pB+O2W3fIpNa6Y9KSKCVbfPhyAQ==";
+        name = "katex___katex_0.16.10.tgz";
+        url = "https://registry.yarnpkg.com/katex/-/katex-0.16.10.tgz";
+        sha512 = "ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==";
       };
     }
     {
