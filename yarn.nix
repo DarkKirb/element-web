@@ -3216,11 +3216,11 @@
       };
     }
     {
-      name = "_types_react_transition_group___react_transition_group_4.4.9.tgz";
+      name = "_types_react_transition_group___react_transition_group_4.4.10.tgz";
       path = fetchurl {
-        name = "_types_react_transition_group___react_transition_group_4.4.9.tgz";
-        url = "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.9.tgz";
-        sha512 = "ZVNmWumUIh5NhH8aMD9CR2hdW0fNuYInlocZHaZ+dgk/1K49j1w/HoAuK1ki+pgscQrOFRTlXeoURtuzEkV3dg==";
+        name = "_types_react_transition_group___react_transition_group_4.4.10.tgz";
+        url = "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.10.tgz";
+        sha512 = "hT/+s0VQs2ojCX823m60m5f0sL5idt9SO6Tj6Dg+rdphGPIeJbJ6CxvBYkgkGKrYeDjvIpKTR38UzmtHJOGW3Q==";
       };
     }
     {
