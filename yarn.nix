@@ -4768,11 +4768,11 @@
       };
     }
     {
-      name = "cookie___cookie_0.5.0.tgz";
+      name = "cookie___cookie_0.6.0.tgz";
       path = fetchurl {
-        name = "cookie___cookie_0.5.0.tgz";
-        url = "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz";
-        sha512 = "YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==";
+        name = "cookie___cookie_0.6.0.tgz";
+        url = "https://registry.yarnpkg.com/cookie/-/cookie-0.6.0.tgz";
+        sha512 = "U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==";
       };
     }
     {
@@ -6104,11 +6104,11 @@
       };
     }
     {
-      name = "express___express_4.18.3.tgz";
+      name = "express___express_4.19.2.tgz";
       path = fetchurl {
-        name = "express___express_4.18.3.tgz";
-        url = "https://registry.yarnpkg.com/express/-/express-4.18.3.tgz";
-        sha512 = "6VyCijWQ+9O7WuVMTRBTl+cjNNIzD5cY5mQ1WM8r/LEkI2u8EYpOotESNwzNlyCn3g+dmjKYI6BmNneSr/FSRw==";
+        name = "express___express_4.19.2.tgz";
+        url = "https://registry.yarnpkg.com/express/-/express-4.19.2.tgz";
+        sha512 = "5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==";
       };
     }
     {
