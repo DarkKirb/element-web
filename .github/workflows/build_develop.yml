@@ -2,10 +2,7 @@
 # environment secrets, largely similar to build.yaml.
 name: Build and Deploy develop
 on:
-    push:
-        branches: [develop]
-    repository_dispatch:
-        types: [element-web-notify]
+    workflow_dispatch:
 concurrency:
     group: ${{ github.repository_owner }}-${{ github.workflow }}-${{ github.ref_name }}
     cancel-in-progress: true

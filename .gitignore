@@ -29,3 +29,5 @@ electron/pub
 /build_config.yaml
 /book
 /index.html
+/matrix-*-sdk
+.direnv/
