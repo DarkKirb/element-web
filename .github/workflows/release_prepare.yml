@@ -1,27 +1,6 @@
 name: Cut branches
 on:
     workflow_dispatch:
-        inputs:
-            element-desktop:
-                description: Prepare element-desktop
-                required: true
-                type: boolean
-                default: true
-            element-web:
-                description: Prepare element-web
-                required: true
-                type: boolean
-                default: true
-            matrix-react-sdk:
-                description: Prepare matrix-react-sdk
-                required: true
-                type: boolean
-                default: true
-            matrix-js-sdk:
-                description: Prepare matrix-js-sdk
-                required: true
-                type: boolean
-                default: true
 jobs:
     prepare:
         runs-on: ubuntu-latest
