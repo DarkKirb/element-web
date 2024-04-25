@@ -170,7 +170,7 @@
         "jest-raw-loader": "^1.0.1",
         "matrix-mock-request": "^2.5.0",
         "matrix-web-i18n": "^3.2.1",
-        "mini-css-extract-plugin": "2.8.1",
+        "mini-css-extract-plugin": "2.9.0",
         "minimist": "^1.2.6",
         "mkdirp": "^3.0.0",
         "modernizr": "^3.12.0",
