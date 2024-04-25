@@ -9792,14 +9792,6 @@
       };
     }
     {
-      name = "postcss___postcss_8.4.33.tgz";
-      path = fetchurl {
-        name = "postcss___postcss_8.4.33.tgz";
-        url = "https://registry.yarnpkg.com/postcss/-/postcss-8.4.33.tgz";
-        sha512 = "Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==";
-      };
-    }
-    {
       name = "postcss___postcss_8.4.38.tgz";
       path = fetchurl {
         name = "postcss___postcss_8.4.38.tgz";
