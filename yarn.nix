@@ -8424,11 +8424,11 @@
       };
     }
     {
-      name = "mini_css_extract_plugin___mini_css_extract_plugin_2.8.1.tgz";
+      name = "mini_css_extract_plugin___mini_css_extract_plugin_2.9.0.tgz";
       path = fetchurl {
-        name = "mini_css_extract_plugin___mini_css_extract_plugin_2.8.1.tgz";
-        url = "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.8.1.tgz";
-        sha512 = "/1HDlyFRxWIZPI1ZpgqlZ8jMw/1Dp/dl3P0L1jtZ+zVcHqwPhGwaJwKL00WVgfnBy6PWCde9W65or7IIETImuA==";
+        name = "mini_css_extract_plugin___mini_css_extract_plugin_2.9.0.tgz";
+        url = "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.9.0.tgz";
+        sha512 = "Zs1YsZVfemekSZG+44vBsYTLQORkPMwnlv+aehcxK/NLKC+EGhDB39/YePYYqx/sTk6NnYpuqikhSn7+JIevTA==";
       };
     }
     {
