@@ -5672,11 +5672,11 @@
       };
     }
     {
-      name = "eslint_plugin_react_hooks___eslint_plugin_react_hooks_4.6.0.tgz";
+      name = "eslint_plugin_react_hooks___eslint_plugin_react_hooks_4.6.1.tgz";
       path = fetchurl {
-        name = "eslint_plugin_react_hooks___eslint_plugin_react_hooks_4.6.0.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz";
-        sha512 = "oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==";
+        name = "eslint_plugin_react_hooks___eslint_plugin_react_hooks_4.6.1.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.1.tgz";
+        sha512 = "Ck77j8hF7l9N4S/rzSLOWEKpn994YH6iwUK8fr9mXIaQvGpQYmOnQLbiue1u5kI5T1y+gdgqosnEAO9NCz0DBg==";
       };
     }
     {
