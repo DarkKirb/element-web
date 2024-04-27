@@ -1931,10 +1931,10 @@
     rw "^1.3.3"
     sort-object "^3.0.3"
 
-"@matrix-org/analytics-events@^0.19.0":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@matrix-org/analytics-events/-/analytics-events-0.19.1.tgz#304d48b7b8e51117dfd9c1cf46a65e8bee9f46cb"
-  integrity sha512-bYWJIkOzl4Jt02fg1+XoQv5xZ3mP6qBzNmytt1UVfKLaGgLBSvlk9gXx2/3GhSuPBq99/CljEX/zABJ//mexAw==
+"@matrix-org/analytics-events@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@matrix-org/analytics-events/-/analytics-events-0.20.0.tgz#062a532ddcf0e2e5eb64c5576cd212cb32a11ccf"
+  integrity sha512-YCRbZrpZU9q+nrB6RsfPZ4NlKs31ySjP2F7GFUZNPKv96GcbihrnMK086td480SJOYpjPv2vttDJC+S67SFe2w==
 
 "@matrix-org/emojibase-bindings@^1.1.2":
   version "1.1.3"
@@ -1949,10 +1949,10 @@
   resolved "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-4.9.0.tgz#9dfed83e33f760650596c4e5c520e5e4c53355d2"
   integrity sha512-/bgA4QfE7qkK6GFr9hnhjAvRSebGrmEJxukU0ukbudZcYvbzymoBBM8j3HeULXZT8kbw8WH6z63txYTMCBSDOA==
 
-"@matrix-org/matrix-wysiwyg@2.34.0":
-  version "2.34.0"
-  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.34.0.tgz#36d7370568c5972b42cfb86b0a4b18b1ec897257"
-  integrity sha512-i86BbPyYVAl1xXzu06D87dJvRVeUUJcLRASnIxpZEKDKBlQkLEUe0tYfo8HKHGHTAlnCXv0NbtcZrXfFR5O54w==
+"@matrix-org/matrix-wysiwyg@2.37.0":
+  version "2.37.0"
+  resolved "https://registry.yarnpkg.com/@matrix-org/matrix-wysiwyg/-/matrix-wysiwyg-2.37.0.tgz#97e6b47b1489daf572002da8f2abc19c8b7f93b3"
+  integrity sha512-kVoxLaIuIVd4EuIE31FknPIjjENPdwnGXMorRWys3eg/3fCBF2uSk8dcN7+Aq2hpSTdTSE5BpOHyywgWqwLdcQ==
 
 "@matrix-org/olm@3.2.15":
   version "3.2.15"
@@ -5156,9 +5156,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.668:
-  version "1.4.748"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.748.tgz#aa7d4f2f3eac3a6a863cd1779bd4682b4bb68ed5"
-  integrity sha512-VWqjOlPZn70UZ8FTKUOkUvBLeTQ0xpty66qV0yJcAGY2/CthI4xyW9aEozRVtuwv3Kpf5xTesmJUcPwuJmgP4A==
+  version "1.4.750"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.750.tgz#d278a619af727ed069de1317115187282b1131ee"
+  integrity sha512-9ItEpeu15hW5m8jKdriL+BQrgwDTXEL9pn4SkillWFu73ZNNNQ2BKKLS+ZHv2vC9UkNhosAeyfxOf/5OSeTCPA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -5245,7 +5245,7 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.17.5, es-abstract@^1.18.3, es-abstract@^1.22.1, es-abstract@^1.22.3, es-abstract@^1.23.0, es-abstract@^1.23.1, es-abstract@^1.23.2:
+es-abstract@^1.17.5, es-abstract@^1.18.3, es-abstract@^1.22.1, es-abstract@^1.22.3, es-abstract@^1.23.0, es-abstract@^1.23.1, es-abstract@^1.23.2, es-abstract@^1.23.3:
   version "1.23.3"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.23.3.tgz#8f0c5a35cd215312573c5a27c87dfd6c881a0aa0"
   integrity sha512-e+HfNH61Bj1X9/jLc5v1owaLYuHdeHHSQlkhCBiTK8rBvKaULl/beGMxwrMXjpYrv4pz22BlY570vVePA2ho4A==
@@ -5325,13 +5325,13 @@ es-get-iterator@^1.1.3:
     stop-iteration-iterator "^1.0.0"
 
 es-iterator-helpers@^1.0.17:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/es-iterator-helpers/-/es-iterator-helpers-1.0.18.tgz#4d3424f46b24df38d064af6fbbc89274e29ea69d"
-  integrity sha512-scxAJaewsahbqTYrGKJihhViaM6DDZDDoucfvzNbK0pOren1g/daDQ3IAhzn+1G14rBG7w+i5N+qul60++zlKA==
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/es-iterator-helpers/-/es-iterator-helpers-1.0.19.tgz#117003d0e5fec237b4b5c08aded722e0c6d50ca8"
+  integrity sha512-zoMwbCcH5hwUkKJkT8kDIBZSz9I6mVG//+lDCinLCGov4+r7NIy0ld8o03M0cJxl2spVf6ESYVS6/gpIfq1FFw==
   dependencies:
     call-bind "^1.0.7"
     define-properties "^1.2.1"
-    es-abstract "^1.23.0"
+    es-abstract "^1.23.3"
     es-errors "^1.3.0"
     es-set-tostringtag "^2.0.3"
     function-bind "^1.1.2"
@@ -5477,9 +5477,9 @@ eslint-plugin-matrix-org@^1.0.0:
   integrity sha512-A3cDjhG7RHwfCS8o3bOip8hSCsxtmgk2ahvqE5v/Ic2kPEZxixY6w8zLj7hFGsrRmPSEpLWqkVLt8uvQBapiQA==
 
 eslint-plugin-react-hooks@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.1.tgz#85a7e271da14ae4eb4ed717abb4db6e99700550f"
-  integrity sha512-Ck77j8hF7l9N4S/rzSLOWEKpn994YH6iwUK8fr9mXIaQvGpQYmOnQLbiue1u5kI5T1y+gdgqosnEAO9NCz0DBg==
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
+  integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
 eslint-plugin-react@^7.28.0:
   version "7.34.1"
@@ -7831,9 +7831,9 @@ lower-case@^2.0.2:
     tslib "^2.0.3"
 
 lru-cache@^10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
-  integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.1.tgz#e8d901141f22937968e45a6533d52824070151e4"
+  integrity sha512-tS24spDe/zXhWbNPErCHs/AGOzbKGHT+ybSBqmdLm8WZ1xXLWvH8Qn71QPAlqVhd0qUTWjy+Kl9JmISgDdEjsA==
 
 lru-cache@^5.1.1:
   version "5.1.1"
@@ -7947,8 +7947,8 @@ matrix-events-sdk@0.0.1:
   integrity sha512-1QEOsXO+bhyCroIe2/A5OwaxHvBm7EsSQ46DEDn8RBIfQwN5HWBpFvyWWR4QY0KHPPnnJdI99wgRiAl7Ad5qaA==
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
-  version "32.0.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/b21afe57e9cba08ee796aa722e95554920ee47be"
+  version "32.1.0"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/529c67561047e8821756259ab66955a4b5657ed6"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^4.9.0"
@@ -7973,13 +7973,13 @@ matrix-mock-request@^2.5.0:
     expect "^28.1.0"
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
-  version "3.97.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/61fb52f33bd614ca46e916d5d85b16ba3400d239"
+  version "3.98.0"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/6d160becbb85271909190ae1854e0613b7deb667"
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@matrix-org/analytics-events" "^0.19.0"
+    "@matrix-org/analytics-events" "^0.20.0"
     "@matrix-org/emojibase-bindings" "^1.1.2"
-    "@matrix-org/matrix-wysiwyg" "2.34.0"
+    "@matrix-org/matrix-wysiwyg" "2.37.0"
     "@matrix-org/olm" "3.2.15"
     "@matrix-org/react-sdk-module-api" "^2.4.0"
     "@matrix-org/spec" "^1.7.0"
@@ -8026,7 +8026,7 @@ matrix-mock-request@^2.5.0:
     opus-recorder "^8.0.3"
     pako "^2.0.3"
     png-chunks-extract "^1.0.0"
-    posthog-js "1.126.0"
+    posthog-js "1.129.0"
     proposal-temporal "^0.9.0"
     qrcode "1.5.3"
     re-resizable "^6.9.0"
@@ -9415,10 +9415,10 @@ postcss@^8.3.11, postcss@^8.4.33, postcss@^8.4.38:
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
 
-posthog-js@1.126.0:
-  version "1.126.0"
-  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.126.0.tgz#52ca294505d3ddc3ba34aeaafe388676113ff82f"
-  integrity sha512-8qCdPE9RZkyXI3kKCnkXWxK0jn2mLZg6g5a6KezDPqH7mHTG66v7ANU31hcwzQGV5F5UW1GXw0xL0PaC3HkA6g==
+posthog-js@1.129.0:
+  version "1.129.0"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.129.0.tgz#e14c4354b107308cea9637dc52bbb491fd071ef0"
+  integrity sha512-Vddg6Shbum/SxFFUYrEUMu6PmFk7tNHIxTXQwtqrYtar6YKUXDUslW8kf8vwsK09AOglX7ISynisSJ8u/MzicA==
   dependencies:
     fflate "^0.4.8"
     preact "^10.19.3"
@@ -9630,9 +9630,9 @@ raw-loader@^4.0.2:
     schema-utils "^3.0.0"
 
 re-resizable@^6.9.0:
-  version "6.9.14"
-  resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-6.9.14.tgz#b31e2bdef5e9068f295ca2ec2118d1e7b64449d9"
-  integrity sha512-2UbPrpezMr6gkHKNCRA/N6QGGU237SKOZ78yMHId204A/oXWSAREAIuGZNQ9qlrJosewzcsv2CphZH3u7hC6ng==
+  version "6.9.16"
+  resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-6.9.16.tgz#d040a3ba9ccb25a3cc85b7622d4eafdee48cf2c2"
+  integrity sha512-D9+ofwgPQRC6PL6cwavCZO9MUR8TKKxV1nHjbutSdNaFHK9v5k8m6DcESMXrw1+mRJn7fBHJRhZpa7EQ1ZWEEA==
 
 react-beautiful-dnd@^13.1.0:
   version "13.1.1"
@@ -9698,9 +9698,9 @@ react-is@^17.0.1, react-is@^17.0.2:
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-is@^18.0.0:
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
-  integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
+  integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
 react-redux@^7.2.0:
   version "7.2.9"
