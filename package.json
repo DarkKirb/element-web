@@ -87,7 +87,7 @@
     "devDependencies": {
         "@action-validator/cli": "^0.6.0",
         "@action-validator/core": "^0.6.0",
-        "@babel/core": "^7.12.10",
+        "@babel/core": "^7.24.5",
         "@babel/eslint-parser": "^7.12.10",
         "@babel/eslint-plugin": "^7.12.10",
         "@babel/plugin-proposal-class-properties": "^7.12.1",
