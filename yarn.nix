@@ -3064,11 +3064,11 @@
       };
     }
     {
-      name = "_types_react_dom___react_dom_17.0.21.tgz";
+      name = "_types_react_dom___react_dom_17.0.25.tgz";
       path = fetchurl {
-        name = "_types_react_dom___react_dom_17.0.21.tgz";
-        url = "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.21.tgz";
-        sha512 = "3rQEFUNUUz2MYiRwJJj6UekcW7rFLOtmK7ajQP7qJpjNdggInl3I/xM4I3Hq1yYPdCGVMgax1gZsB7BBTtayXg==";
+        name = "_types_react_dom___react_dom_17.0.25.tgz";
+        url = "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.25.tgz";
+        sha512 = "urx7A7UxkZQmThYA4So0NelOVjx3V4rNFVJwp0WZlbIK5eM4rNJDiN3R/E9ix0MBh6kAEojk/9YL+Te6D9zHNA==";
       };
     }
     {
@@ -3088,11 +3088,11 @@
       };
     }
     {
-      name = "_types_react___react_17.0.68.tgz";
+      name = "_types_react___react_17.0.80.tgz";
       path = fetchurl {
-        name = "_types_react___react_17.0.68.tgz";
-        url = "https://registry.yarnpkg.com/@types/react/-/react-17.0.68.tgz";
-        sha512 = "y8heXejd/Gi43S28GOqIFmr6BzhLa3anMlPojRu4rHh3MtRrrpB+BtLEcqP3XPO1urXByzBdkOLU7sodYWnpkA==";
+        name = "_types_react___react_17.0.80.tgz";
+        url = "https://registry.yarnpkg.com/@types/react/-/react-17.0.80.tgz";
+        sha512 = "LrgHIu2lEtIo8M7d1FcI3BdwXWoRQwMoXOZ7+dPTW0lYREjmlHl3P0U1VD0i/9tppOuv8/sam7sOjx34TxSFbA==";
       };
     }
     {
@@ -3120,11 +3120,11 @@
       };
     }
     {
-      name = "_types_scheduler___scheduler_0.23.0.tgz";
+      name = "_types_scheduler___scheduler_0.16.8.tgz";
       path = fetchurl {
-        name = "_types_scheduler___scheduler_0.23.0.tgz";
-        url = "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.23.0.tgz";
-        sha512 = "YIoDCTH3Af6XM5VuwGG/QL/CJqga1Zm3NkU3HZ4ZHK2fRMPYP1VczsTUqtsf43PH/iJNVlPHAo2oWX7BSdB2Hw==";
+        name = "_types_scheduler___scheduler_0.16.8.tgz";
+        url = "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.8.tgz";
+        sha512 = "WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==";
       };
     }
     {
