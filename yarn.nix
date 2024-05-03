@@ -2896,11 +2896,11 @@
       };
     }
     {
-      name = "_types_jsrsasign___jsrsasign_10.5.13.tgz";
+      name = "_types_jsrsasign___jsrsasign_10.5.14.tgz";
       path = fetchurl {
-        name = "_types_jsrsasign___jsrsasign_10.5.13.tgz";
-        url = "https://registry.yarnpkg.com/@types/jsrsasign/-/jsrsasign-10.5.13.tgz";
-        sha512 = "vvVHLrXxoUZgBWTcJnTMSC4FAQcG2loK7N1Uy20I3nr/aUhetbGdfuwSzXkrMoll2RoYKW0IcMIN0I0bwMwVMQ==";
+        name = "_types_jsrsasign___jsrsasign_10.5.14.tgz";
+        url = "https://registry.yarnpkg.com/@types/jsrsasign/-/jsrsasign-10.5.14.tgz";
+        sha512 = "lppSlfK6etu+cuKs40K4rg8As79PH6hzIB+v55zSqImbSH3SE6Fm8MBHCiI91cWlAP3Z4igtJK1VL3fSN09blQ==";
       };
     }
     {
