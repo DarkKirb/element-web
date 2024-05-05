@@ -1472,11 +1472,11 @@
       };
     }
     {
-      name = "_floating_ui_dom___dom_1.6.4.tgz";
+      name = "_floating_ui_dom___dom_1.6.5.tgz";
       path = fetchurl {
-        name = "_floating_ui_dom___dom_1.6.4.tgz";
-        url = "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.4.tgz";
-        sha512 = "0G8R+zOvQsAG1pg2Q99P21jiqxqGBW1iRe/iXHsBRBxnpXKFI8QwbB4x5KmYLggNO5m34IQgOIu9SCRfR/WWiQ==";
+        name = "_floating_ui_dom___dom_1.6.5.tgz";
+        url = "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.5.tgz";
+        sha512 = "Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==";
       };
     }
     {
@@ -1832,11 +1832,11 @@
       };
     }
     {
-      name = "_maplibre_maplibre_gl_style_spec___maplibre_gl_style_spec_20.1.1.tgz";
+      name = "_maplibre_maplibre_gl_style_spec___maplibre_gl_style_spec_20.2.0.tgz";
       path = fetchurl {
-        name = "_maplibre_maplibre_gl_style_spec___maplibre_gl_style_spec_20.1.1.tgz";
-        url = "https://registry.yarnpkg.com/@maplibre/maplibre-gl-style-spec/-/maplibre-gl-style-spec-20.1.1.tgz";
-        sha512 = "z85ARNPCBI2Cs5cPOS3DSbraTN+ue8zrcYVoSWBuNrD/mA+2SKAJ+hIzI22uN7gac6jBMnCdpPKRxS/V0KSZVQ==";
+        name = "_maplibre_maplibre_gl_style_spec___maplibre_gl_style_spec_20.2.0.tgz";
+        url = "https://registry.yarnpkg.com/@maplibre/maplibre-gl-style-spec/-/maplibre-gl-style-spec-20.2.0.tgz";
+        sha512 = "BTw6/3ysowky22QMtNDjElp+YLwwvBDh3xxnq1izDFjTtUERm5nYSihlNZ6QaxXb+6lX2T2t0hBEjheAI+kBEQ==";
       };
     }
     {
@@ -2901,6 +2901,14 @@
         name = "_types_jsrsasign___jsrsasign_10.5.14.tgz";
         url = "https://registry.yarnpkg.com/@types/jsrsasign/-/jsrsasign-10.5.14.tgz";
         sha512 = "lppSlfK6etu+cuKs40K4rg8As79PH6hzIB+v55zSqImbSH3SE6Fm8MBHCiI91cWlAP3Z4igtJK1VL3fSN09blQ==";
+      };
+    }
+    {
+      name = "_types_junit_report_builder___junit_report_builder_3.0.2.tgz";
+      path = fetchurl {
+        name = "_types_junit_report_builder___junit_report_builder_3.0.2.tgz";
+        url = "https://registry.yarnpkg.com/@types/junit-report-builder/-/junit-report-builder-3.0.2.tgz";
+        sha512 = "R5M+SYhMbwBeQcNXYWNCZkl09vkVfAtcPIaCGdzIkkbeaTrVbGQ7HVgi4s+EmM/M1K4ZuWQH0jGcvMvNePfxYA==";
       };
     }
     {
@@ -8208,11 +8216,11 @@
       };
     }
     {
-      name = "maplibre_gl___maplibre_gl_4.1.3.tgz";
+      name = "maplibre_gl___maplibre_gl_4.2.0.tgz";
       path = fetchurl {
-        name = "maplibre_gl___maplibre_gl_4.1.3.tgz";
-        url = "https://registry.yarnpkg.com/maplibre-gl/-/maplibre-gl-4.1.3.tgz";
-        sha512 = "nMy5h0kzq9Z66C6AIb3p2BvLIVHz75dGGQow22x+h9/VOihr0IPQI26ylAi6lHqvEy2VqjiRmKAMlFwt0xFKfQ==";
+        name = "maplibre_gl___maplibre_gl_4.2.0.tgz";
+        url = "https://registry.yarnpkg.com/maplibre-gl/-/maplibre-gl-4.2.0.tgz";
+        sha512 = "x5GgYyKKn5UDvbUZFK7ng3Pq829/uYWDSVN/itZoP2slWSzKbjIXKi/Qhz5FnYiMXwpRgM08UIcVjtn1PLK9Tg==";
       };
     }
     {
@@ -8249,11 +8257,18 @@
     }
     {
       name = "a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-      path = fetchurl {
-        name = "a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-        sha256 = "0l0vjk7nyb82mn624kklvzwkz9n22i8kg2j1zfcbkbx4wpfvz3f2";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
+          sha256 = "1kql6adlimlg6s42fidyqixi40v369xmkl63qcmfg8g1lbfwvqqv";
+        };
+      in
+        runCommand "a5a49b4b2889c2d15a078b2c604cf1c92b22840f" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8265,11 +8280,18 @@
     }
     {
       name = "808fba16608f9e32f321f791fed0b2f3e346296c";
-      path = fetchurl {
-        name = "808fba16608f9e32f321f791fed0b2f3e346296c";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/808fba16608f9e32f321f791fed0b2f3e346296c";
-        sha256 = "0h35h9xr2hj8r6vazkfvvvc40dbkc8zhs9z826hgrwsx325kzdlh";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "808fba16608f9e32f321f791fed0b2f3e346296c";
+          sha256 = "0a6i0z2160hcyiv56hrddrlfm5q9gvsk65qbpb2d91qmz3y91fs2";
+        };
+      in
+        runCommand "808fba16608f9e32f321f791fed0b2f3e346296c" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -9720,11 +9742,11 @@
       };
     }
     {
-      name = "postcss_preset_env___postcss_preset_env_9.5.10.tgz";
+      name = "postcss_preset_env___postcss_preset_env_9.5.11.tgz";
       path = fetchurl {
-        name = "postcss_preset_env___postcss_preset_env_9.5.10.tgz";
-        url = "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-9.5.10.tgz";
-        sha512 = "a4GyPp3kafGI5FosRBz6xoWw3XOskYrocjSGYKKPRx5dN9eSStGV9tDvnhSyBurdG9TR84Co/94Mhqq2UHXcSQ==";
+        name = "postcss_preset_env___postcss_preset_env_9.5.11.tgz";
+        url = "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-9.5.11.tgz";
+        sha512 = "rPFnftk1vQAaR45UmsuXhKd/IZrTj39dIc4usu8qbfxyNevHnG+FB8E50U7vs0v2OxBqBt5u0J5+cwb4newzGA==";
       };
     }
     {
