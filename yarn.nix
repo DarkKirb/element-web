@@ -2984,11 +2984,11 @@
       };
     }
     {
-      name = "_types_node___node_20.12.8.tgz";
+      name = "_types_node___node_20.12.10.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.12.8.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.12.8.tgz";
-        sha512 = "NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==";
+        name = "_types_node___node_20.12.10.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.12.10.tgz";
+        sha512 = "Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==";
       };
     }
     {
@@ -3336,11 +3336,11 @@
       };
     }
     {
-      name = "_vector_im_compound_web___compound_web_4.1.2.tgz";
+      name = "_vector_im_compound_web___compound_web_4.2.0.tgz";
       path = fetchurl {
-        name = "_vector_im_compound_web___compound_web_4.1.2.tgz";
-        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-4.1.2.tgz";
-        sha512 = "u/jj8HF8qpX1NU+sh6f/S1B7HUMGcoAGYLH0wc5lVbf6x6elBsYKD0LSa+/8NDPuQqVWMztu76chUsM5slC49w==";
+        name = "_vector_im_compound_web___compound_web_4.2.0.tgz";
+        url = "https://registry.yarnpkg.com/@vector-im/compound-web/-/compound-web-4.2.0.tgz";
+        sha512 = "VSZxIFToDesjiiCGLOj+DrrKv1I0rtpzJbdylarJXY7REnHzVdgaBBtGm403iJ8KkZ2Rn16Mxe+P1/+VS4yiAA==";
       };
     }
     {
@@ -4696,11 +4696,11 @@
       };
     }
     {
-      name = "cronstrue___cronstrue_2.49.0.tgz";
+      name = "cronstrue___cronstrue_2.50.0.tgz";
       path = fetchurl {
-        name = "cronstrue___cronstrue_2.49.0.tgz";
-        url = "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.49.0.tgz";
-        sha512 = "FWZBqdStQaPR8ZTBQGALh1EK9Hl1HcG70dyGvD1rKLPafFO3H73o38dz/e8YkIlbLn3JxmBI/f6Doe3Nh+DcEQ==";
+        name = "cronstrue___cronstrue_2.50.0.tgz";
+        url = "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.50.0.tgz";
+        sha512 = "ULYhWIonJzlScCCQrPUG5uMXzXxSixty4djud9SS37DoNxDdkeRocxzHuAo4ImRBUK+mAuU5X9TSwEDccnnuPg==";
       };
     }
     {
@@ -5376,11 +5376,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.756.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.758.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.756.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
-        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.758.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.758.tgz";
+        sha512 = "/o9x6TCdrYZBMdGeTifAP3wlF/gVT+TtWJe3BSmtNh92Mw81U9hrYwW9OAGUh+sEOX/yz5e34sksqRruZbjYrw==";
       };
     }
     {
@@ -5456,11 +5456,11 @@
       };
     }
     {
-      name = "enhanced_resolve___enhanced_resolve_5.16.0.tgz";
+      name = "enhanced_resolve___enhanced_resolve_5.16.1.tgz";
       path = fetchurl {
-        name = "enhanced_resolve___enhanced_resolve_5.16.0.tgz";
-        url = "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.16.0.tgz";
-        sha512 = "O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==";
+        name = "enhanced_resolve___enhanced_resolve_5.16.1.tgz";
+        url = "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.16.1.tgz";
+        sha512 = "4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==";
       };
     }
     {
@@ -8160,14 +8160,6 @@
       };
     }
     {
-      name = "lru_cache___lru_cache_6.0.0.tgz";
-      path = fetchurl {
-        name = "lru_cache___lru_cache_6.0.0.tgz";
-        url = "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz";
-        sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
-      };
-    }
-    {
       name = "lz_string___lz_string_1.5.0.tgz";
       path = fetchurl {
         name = "lz_string___lz_string_1.5.0.tgz";
@@ -8256,12 +8248,19 @@
       };
     }
     {
-      name = "a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-      path = fetchurl {
-        name = "a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/a5a49b4b2889c2d15a078b2c604cf1c92b22840f";
-        sha256 = "0l0vjk7nyb82mn624kklvzwkz9n22i8kg2j1zfcbkbx4wpfvz3f2";
-      };
+      name = "771783454f5ca1d1f11b4dea81a96bbe314c794b";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "771783454f5ca1d1f11b4dea81a96bbe314c794b";
+          sha256 = "1k5bwjf5cz7blzwvvbb2hzz6sa74ldb4fmv64pfxq7p1cib9gazn";
+        };
+      in
+        runCommand "771783454f5ca1d1f11b4dea81a96bbe314c794b" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8272,12 +8271,19 @@
       };
     }
     {
-      name = "808fba16608f9e32f321f791fed0b2f3e346296c";
-      path = fetchurl {
-        name = "808fba16608f9e32f321f791fed0b2f3e346296c";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/808fba16608f9e32f321f791fed0b2f3e346296c";
-        sha256 = "0h35h9xr2hj8r6vazkfvvvc40dbkc8zhs9z826hgrwsx325kzdlh";
-      };
+      name = "d0cd1ba4a612433c887504cfdf965c2ec1624f81";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "d0cd1ba4a612433c887504cfdf965c2ec1624f81";
+          sha256 = "0jm6nbfmlak0b3271xnrm9bpcrg52783ayb0vair2jh8g70g3hg8";
+        };
+      in
+        runCommand "d0cd1ba4a612433c887504cfdf965c2ec1624f81" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -10704,11 +10710,11 @@
       };
     }
     {
-      name = "semver___semver_7.6.0.tgz";
+      name = "semver___semver_7.6.1.tgz";
       path = fetchurl {
-        name = "semver___semver_7.6.0.tgz";
-        url = "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz";
-        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+        name = "semver___semver_7.6.1.tgz";
+        url = "https://registry.yarnpkg.com/semver/-/semver-7.6.1.tgz";
+        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
       };
     }
     {
@@ -12421,14 +12427,6 @@
         name = "yallist___yallist_3.1.1.tgz";
         url = "https://registry.yarnpkg.com/yallist/-/yallist-3.1.1.tgz";
         sha512 = "a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==";
-      };
-    }
-    {
-      name = "yallist___yallist_4.0.0.tgz";
-      path = fetchurl {
-        name = "yallist___yallist_4.0.0.tgz";
-        url = "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz";
-        sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
       };
     }
     {
