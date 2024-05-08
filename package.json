@@ -1,6 +1,6 @@
 {
     "name": "element-web",
-    "version": "1.11.65",
+    "version": "1.11.66",
     "description": "A feature-rich client for Matrix.org",
     "author": "New Vector Ltd.",
     "repository": {
@@ -145,9 +145,9 @@
         "chokidar": "^3.5.1",
         "concurrently": "^8.0.0",
         "copy-webpack-plugin": "^12.0.0",
-        "cronstrue": "^2.41.0",
+        "cronstrue": "^2.50.0",
         "css-loader": "^7.0.0",
-        "css-minimizer-webpack-plugin": "^6.0.0",
+        "css-minimizer-webpack-plugin": "^7.0.0",
         "dotenv": "^16.0.2",
         "eslint": "8.57.0",
         "eslint-config-google": "^0.14.0",
@@ -189,7 +189,7 @@
         "process": "^0.11.10",
         "raw-loader": "^4.0.2",
         "rimraf": "^5.0.0",
-        "semver": "^7.5.2",
+        "semver": "^7.6.1",
         "setimmediate": "^1.0.5",
         "string-replace-loader": "3",
         "style-loader": "4",
