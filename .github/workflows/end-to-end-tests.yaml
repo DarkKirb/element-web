@@ -3,11 +3,7 @@
 
 name: matrix-react-sdk End to End Tests
 on:
-    merge_group:
-        types: [checks_requested]
-    pull_request: {}
-    push:
-        branches: [develop, master]
+    workflow_dispatch:
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.event.workflow_run.head_branch || github.run_id }}

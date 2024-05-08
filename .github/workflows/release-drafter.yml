@@ -1,7 +1,5 @@
 name: Release Drafter
 on:
-    push:
-        branches: [staging]
     workflow_dispatch: {}
 concurrency: ${{ github.workflow }}
 jobs:
