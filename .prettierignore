@@ -32,3 +32,4 @@ src/vector/modernizr.js
 
 # Downloaded and already minified
 res/jitsi_external_api.min.js
+flake.lock

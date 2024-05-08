@@ -1,8 +1,7 @@
 name: Move unlabelled from needs info columns to triaged
 
 on:
-    issues:
-        types: [unlabeled]
+    workflow_dispatch:
 
 jobs:
     Move_Unabeled_Issue_On_Project_Board:
