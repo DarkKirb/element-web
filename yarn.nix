@@ -4824,11 +4824,11 @@
       };
     }
     {
-      name = "cssdb___cssdb_8.0.0.tgz";
+      name = "cssdb___cssdb_8.0.1.tgz";
       path = fetchurl {
-        name = "cssdb___cssdb_8.0.0.tgz";
-        url = "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.0.tgz";
-        sha512 = "hfpm8VXc7/dhcEWpLvKDLwImOSk1sa2DxL36OEiY/4h2MGfKjPYIMZo4hnEEl+TCJr2GwcX46jF5TafRASDe9w==";
+        name = "cssdb___cssdb_8.0.1.tgz";
+        url = "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.1.tgz";
+        sha512 = "diegY/vnOYmPXY0bOBj5jeHaiK8MMpjgPuipirY8pF9AthtqEXgqVdKF5tnb6RTc/ZdhQqG0TBnInQ5CbbUW7Q==";
       };
     }
     {
@@ -5376,11 +5376,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.762.tgz";
-        sha512 = "rrFvGweLxPwwSwJOjIopy3Vr+J3cIPtZzuc74bmlvmBIgQO3VYJDvVrlj94iKZ3ukXUH64Ex31hSfRTLqvjYJQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     }
     {
@@ -8249,11 +8249,18 @@
     }
     {
       name = "a4b0079ff081d4bfd098aee67e2a4f180e512bef";
-      path = fetchurl {
-        name = "a4b0079ff081d4bfd098aee67e2a4f180e512bef";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/a4b0079ff081d4bfd098aee67e2a4f180e512bef";
-        sha256 = "0dc95rvz1awn2fnwpjrlxbnn68lrx519ghxdzfmavrhlxg06v8nf";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "a4b0079ff081d4bfd098aee67e2a4f180e512bef";
+          sha256 = "011444822zcf1csp2kj38dy34blx3v14glk9g2g4dkzy15ygs1fh";
+        };
+      in
+        runCommand "a4b0079ff081d4bfd098aee67e2a4f180e512bef" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8265,11 +8272,18 @@
     }
     {
       name = "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
-      path = fetchurl {
-        name = "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
-        sha256 = "01pppaa1p2q3an8kb26z4za7b0rwwxzq0rc03iwd7syxaamgarrq";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
+          sha256 = "1k11xpyqawkxl38ppmaylkbk7r6i7akhcr0853q0n1fka6awf6k3";
+        };
+      in
+        runCommand "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -10528,11 +10542,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_5.0.5.tgz";
+      name = "rimraf___rimraf_5.0.6.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_5.0.5.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz";
-        sha512 = "CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==";
+        name = "rimraf___rimraf_5.0.6.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz";
+        sha512 = "X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==";
       };
     }
     {
