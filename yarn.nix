@@ -10528,11 +10528,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_5.0.5.tgz";
+      name = "rimraf___rimraf_5.0.6.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_5.0.5.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz";
-        sha512 = "CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==";
+        name = "rimraf___rimraf_5.0.6.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz";
+        sha512 = "X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==";
       };
     }
     {
