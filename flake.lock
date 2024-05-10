@@ -118,11 +118,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1715147645,
-        "narHash": "sha256-Tw/7nHPgIUS+SnpzRqRuAHYqDMh5H474M8Q9k4XZMpI=",
+        "lastModified": 1715248774,
+        "narHash": "sha256-xN4JAuw308DHW+wjnJ0twTJDQrfkZ6OfhkL8sr9J1NY=",
         "owner": "darkkirb",
         "repo": "matrix-js-sdk",
-        "rev": "a498a26dd99ae09ac1f6cea5ccf6e46408b1e5f7",
+        "rev": "ccd4fe9fd1a5a4ad97ff5fcd6eb782ec5727edf7",
         "type": "github"
       },
       "original": {
@@ -148,11 +148,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1715152249,
-        "narHash": "sha256-FPolbyKrDvUEDMyCYvLDie7GFluxQ7KuvJacl+5ZXi0=",
+        "lastModified": 1715249959,
+        "narHash": "sha256-YxrHlVHTBQvwKAhkBqc60eQz16Re1XvRoH1yhf3tIcw=",
         "owner": "darkkirb",
         "repo": "matrix-react-sdk",
-        "rev": "91e803f520ec8473cc31f5ae88a42fef62a21436",
+        "rev": "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec",
         "type": "github"
       },
       "original": {
@@ -163,11 +163,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1715227070,
-        "narHash": "sha256-r8pw0q0TJ5jS1ipjuLBJee/rPy3qxSJqOQ7OqdCoSuE=",
+        "lastModified": 1715313886,
+        "narHash": "sha256-FMW+X1/YPf7VnFfBkCaxxwcj4mSEw8z7Xs59xTe3qtE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1b8f21cb6152b964662fd5c79b54b3b52eb00368",
+        "rev": "7527f25e87147b2f9f7d52a08b81696f0b9a4025",
         "type": "github"
       },
       "original": {
