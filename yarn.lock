@@ -4714,9 +4714,9 @@ css-what@^6.0.1, css-what@^6.1.0:
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
 
 cssdb@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.0.tgz#7fdaea83364f6c9edc364e7681ebef644a327d3d"
-  integrity sha512-hfpm8VXc7/dhcEWpLvKDLwImOSk1sa2DxL36OEiY/4h2MGfKjPYIMZo4hnEEl+TCJr2GwcX46jF5TafRASDe9w==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.1.tgz#970b4d1890715625ba25999454e9c9aca7b1e809"
+  integrity sha512-diegY/vnOYmPXY0bOBj5jeHaiK8MMpjgPuipirY8pF9AthtqEXgqVdKF5tnb6RTc/ZdhQqG0TBnInQ5CbbUW7Q==
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -5193,9 +5193,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.668:
-  version "1.4.762"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.762.tgz#c29c9d47cf7cc128a9c364baa28adbadde95a47c"
-  integrity sha512-rrFvGweLxPwwSwJOjIopy3Vr+J3cIPtZzuc74bmlvmBIgQO3VYJDvVrlj94iKZ3ukXUH64Ex31hSfRTLqvjYJQ==
+  version "1.4.763"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz#64f2041ed496fd6fc710b9be806fe91da9334f91"
+  integrity sha512-k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -7999,7 +7999,7 @@ matrix-events-sdk@0.0.1:
 
 "matrix-js-sdk@github:DarkKirb/matrix-js-sdk":
   version "32.2.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/a4b0079ff081d4bfd098aee67e2a4f180e512bef"
+  resolved "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/88143a79b33dd05b578189577f8ccf9992d4e695"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/matrix-sdk-crypto-wasm" "^4.9.0"
@@ -8025,7 +8025,7 @@ matrix-mock-request@^2.5.0:
 
 "matrix-react-sdk@github:DarkKirb/matrix-react-sdk":
   version "3.99.0"
-  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/ab585d36e5f0410227ffce3bf9ebaf60a41f43ec"
+  resolved "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/4499f432b21f9f4b9575dd96191dc5e5b30b4cd7"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@matrix-org/analytics-events" "^0.21.0"
@@ -8077,7 +8077,7 @@ matrix-mock-request@^2.5.0:
     opus-recorder "^8.0.3"
     pako "^2.0.3"
     png-chunks-extract "^1.0.0"
-    posthog-js "1.131.3"
+    posthog-js "1.131.4"
     proposal-temporal "^0.9.0"
     qrcode "1.5.3"
     re-resizable "^6.9.0"
@@ -9469,10 +9469,10 @@ postcss@^8.3.11, postcss@^8.4.33, postcss@^8.4.38:
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
 
-posthog-js@1.131.3:
-  version "1.131.3"
-  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.131.3.tgz#bd3e6123dc715f089825a92d3ec62480b7ec0a76"
-  integrity sha512-ds/TADDS+rT/WgUyeW4cJ+X+fX+O1KdkOyssNI/tP90PrFf0IJsck5B42YOLhfz87U2vgTyBaKHkdlMgWuOFog==
+posthog-js@1.131.4:
+  version "1.131.4"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.131.4.tgz#b29de94a26132e7cb5abcc16c7b57fd6d918e277"
+  integrity sha512-pKa1p6Q9jRU6s+xSluqGifODMncWTXRaeQw7yVet5U+0U56P0srdMO8NpzllIgDjYL9WLgUjDInucOBw5Cl/tA==
   dependencies:
     fflate "^0.4.8"
     preact "^10.19.3"
@@ -10071,10 +10071,10 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^5.0.0, rimraf@^5.0.5:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz#9be65d2d6e683447d2e9013da2bf451139a61ccf"
-  integrity sha512-CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==
+rimraf@^5.0.5, rimraf@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz#f13b90af1794a2e8e1ecd052263bcf688742af88"
+  integrity sha512-X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==
   dependencies:
     glob "^10.3.7"
 

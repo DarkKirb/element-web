@@ -4832,11 +4832,11 @@
       };
     }
     {
-      name = "cssdb___cssdb_8.0.0.tgz";
+      name = "cssdb___cssdb_8.0.1.tgz";
       path = fetchurl {
-        name = "cssdb___cssdb_8.0.0.tgz";
-        url = "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.0.tgz";
-        sha512 = "hfpm8VXc7/dhcEWpLvKDLwImOSk1sa2DxL36OEiY/4h2MGfKjPYIMZo4hnEEl+TCJr2GwcX46jF5TafRASDe9w==";
+        name = "cssdb___cssdb_8.0.1.tgz";
+        url = "https://registry.yarnpkg.com/cssdb/-/cssdb-8.0.1.tgz";
+        sha512 = "diegY/vnOYmPXY0bOBj5jeHaiK8MMpjgPuipirY8pF9AthtqEXgqVdKF5tnb6RTc/ZdhQqG0TBnInQ5CbbUW7Q==";
       };
     }
     {
@@ -5384,11 +5384,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.762.tgz";
-        sha512 = "rrFvGweLxPwwSwJOjIopy3Vr+J3cIPtZzuc74bmlvmBIgQO3VYJDvVrlj94iKZ3ukXUH64Ex31hSfRTLqvjYJQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     }
     {
@@ -8280,11 +8280,11 @@
       };
     }
     {
-      name = "a4b0079ff081d4bfd098aee67e2a4f180e512bef";
+      name = "88143a79b33dd05b578189577f8ccf9992d4e695";
       path = fetchurl {
-        name = "a4b0079ff081d4bfd098aee67e2a4f180e512bef";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/a4b0079ff081d4bfd098aee67e2a4f180e512bef";
-        sha256 = "0dc95rvz1awn2fnwpjrlxbnn68lrx519ghxdzfmavrhlxg06v8nf";
+        name = "88143a79b33dd05b578189577f8ccf9992d4e695";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/88143a79b33dd05b578189577f8ccf9992d4e695";
+        sha256 = "0kk7yczakgc77wzq206c9wkg6qj2xfm344cz5mf2q0zif81fcxj6";
       };
     }
     {
@@ -8296,11 +8296,11 @@
       };
     }
     {
-      name = "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
+      name = "4499f432b21f9f4b9575dd96191dc5e5b30b4cd7";
       path = fetchurl {
-        name = "ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/ab585d36e5f0410227ffce3bf9ebaf60a41f43ec";
-        sha256 = "01pppaa1p2q3an8kb26z4za7b0rwwxzq0rc03iwd7syxaamgarrq";
+        name = "4499f432b21f9f4b9575dd96191dc5e5b30b4cd7";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/4499f432b21f9f4b9575dd96191dc5e5b30b4cd7";
+        sha256 = "1hz5zn0npgdrdysbql6qm41krq2y7clv3msp0s718kyqzm84ix22";
       };
     }
     {
@@ -9880,11 +9880,11 @@
       };
     }
     {
-      name = "posthog_js___posthog_js_1.131.3.tgz";
+      name = "posthog_js___posthog_js_1.131.4.tgz";
       path = fetchurl {
-        name = "posthog_js___posthog_js_1.131.3.tgz";
-        url = "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.131.3.tgz";
-        sha512 = "ds/TADDS+rT/WgUyeW4cJ+X+fX+O1KdkOyssNI/tP90PrFf0IJsck5B42YOLhfz87U2vgTyBaKHkdlMgWuOFog==";
+        name = "posthog_js___posthog_js_1.131.4.tgz";
+        url = "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.131.4.tgz";
+        sha512 = "pKa1p6Q9jRU6s+xSluqGifODMncWTXRaeQw7yVet5U+0U56P0srdMO8NpzllIgDjYL9WLgUjDInucOBw5Cl/tA==";
       };
     }
     {
@@ -10560,11 +10560,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_5.0.5.tgz";
+      name = "rimraf___rimraf_5.0.6.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_5.0.5.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz";
-        sha512 = "CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==";
+        name = "rimraf___rimraf_5.0.6.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz";
+        sha512 = "X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==";
       };
     }
     {
