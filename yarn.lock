@@ -2996,10 +2996,10 @@
   resolved "https://registry.yarnpkg.com/@types/katex/-/katex-0.16.7.tgz#03ab680ab4fa4fbc6cb46ecf987ecad5d8019868"
   integrity sha512-HMwFiRujE5PjrgwHQ25+bsLJgowjGjm5Z8FVSf0N6PwgJrwxH0QxzHYDcKsTfV3wva0vzrpqMTJS2jXPr5BMEQ==
 
-"@types/lodash@^4.14.197":
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.4.tgz#0303b64958ee070059e3a7184048a55159fe20b7"
-  integrity sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==
+"@types/lodash@^4.17.3":
+  version "4.17.3"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.3.tgz#b69884a018834d97e981f9f569ddc07668367e6f"
+  integrity sha512-zmNrEJaBvNskZXQWaUQq6bktF4IDGVfDS78M+YEk5aCn9M/b94/mB/6WCyfH2/MjwBdc6QuOor95CIlKWYRL3A==
 
 "@types/mapbox__point-geometry@*", "@types/mapbox__point-geometry@^0.1.4":
   version "0.1.4"
@@ -8004,10 +8004,10 @@ matrix-mock-request@^2.5.0:
     "@matrix-org/olm" "3.2.15"
     "@matrix-org/react-sdk-module-api" "^2.4.0"
     "@matrix-org/spec" "^1.7.0"
-    "@sentry/browser" "^8.0.0"
+    "@sentry/browser" "^7.0.0"
     "@testing-library/react-hooks" "^8.0.1"
     "@vector-im/compound-design-tokens" "^1.2.0"
-    "@vector-im/compound-web" "^4.3.1"
+    "@vector-im/compound-web" "^4.1.2"
     "@zxcvbn-ts/core" "^3.0.4"
     "@zxcvbn-ts/language-common" "^3.0.4"
     "@zxcvbn-ts/language-en" "^3.0.2"
@@ -8021,7 +8021,7 @@ matrix-mock-request@^2.5.0:
     emojibase-regex "15.3.0"
     escape-html "^1.0.3"
     file-saver "^2.0.5"
-    filesize "10.1.2"
+    filesize "10.1.1"
     gfm.css "^1.1.2"
     glob-to-regexp "^0.4.1"
     graphemer "^1.4.0"
@@ -8047,7 +8047,7 @@ matrix-mock-request@^2.5.0:
     opus-recorder "^8.0.3"
     pako "^2.0.3"
     png-chunks-extract "^1.0.0"
-    posthog-js "1.131.4"
+    posthog-js "1.131.3"
     proposal-temporal "^0.9.0"
     qrcode "1.5.3"
     re-resizable "^6.9.0"
