@@ -30,3 +30,4 @@ electron/pub
 /book
 /index.html
 /matrix-*-sdk
+.direnv/
