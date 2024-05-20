@@ -8257,18 +8257,11 @@
     }
     {
       name = "e7a6685dda1946bb6b3526a1bf88099bd075a267";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
-          rev = "e7a6685dda1946bb6b3526a1bf88099bd075a267";
-          sha256 = "15wvbhpcyp3civ3zhji6mzz6fw9b4i5g9bvpzg2l6v5gkx078lnk";
-        };
-      in
-        runCommand "e7a6685dda1946bb6b3526a1bf88099bd075a267" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "e7a6685dda1946bb6b3526a1bf88099bd075a267";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/e7a6685dda1946bb6b3526a1bf88099bd075a267";
+        sha256 = "19d6m5mrhsrry5162wkb625fwfmpx1aqcv8x0jgzdjm8mhlw33pi";
+      };
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8280,18 +8273,11 @@
     }
     {
       name = "a3813d4ad0b570eb2ea8be65aa79ac6b5397fdfa";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
-          rev = "a3813d4ad0b570eb2ea8be65aa79ac6b5397fdfa";
-          sha256 = "0ff0r72kkgvfg0lm99zn8m4fkalqfrczg2q51i19vwz1vsz4kfwq";
-        };
-      in
-        runCommand "a3813d4ad0b570eb2ea8be65aa79ac6b5397fdfa" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "a3813d4ad0b570eb2ea8be65aa79ac6b5397fdfa";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/a3813d4ad0b570eb2ea8be65aa79ac6b5397fdfa";
+        sha256 = "1wi2cijzmkqkmn7nx6ygbsl1v9hpn8in7059cp0f7z7ifir76kbb";
+      };
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
