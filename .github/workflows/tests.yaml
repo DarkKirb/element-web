@@ -49,7 +49,7 @@ jobs:
         needs: jest
         steps:
             - name: Skip SonarCloud
-              uses: Sibz/github-status-action@faaa4d96fecf273bd762985e0e7f9f933c774918 # v1
+              uses: Sibz/github-status-action@650dd1a882a76dbbbc4576fb5974b8d22f29847f # v1
               with:
                   authToken: ${{ secrets.GITHUB_TOKEN }}
                   state: success

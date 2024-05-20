@@ -2,8 +2,7 @@
 # For all closed (completed) issues, cascade the closure onto any referenced rageshakes
 # For all closed (not planned) issues, comment on rageshakes to move them into the canonical issue if one exists
 on:
-    issues:
-        types: [closed]
+    workflow_dispatch:
 jobs:
     tidy:
         name: Tidy closed issues
