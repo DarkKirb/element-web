@@ -2632,11 +2632,11 @@
       };
     }
     {
-      name = "_types_babel__traverse___babel__traverse_7.20.5.tgz";
+      name = "_types_babel__traverse___babel__traverse_7.20.6.tgz";
       path = fetchurl {
-        name = "_types_babel__traverse___babel__traverse_7.20.5.tgz";
-        url = "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.20.5.tgz";
-        sha512 = "WXCyOcRtH37HAUkpXhUduaxdm82b4GSlyTqajXviN4EfiuPgNYR109xMCKvpl6zPIpua0DGlMEDCq+g8EdoheQ==";
+        name = "_types_babel__traverse___babel__traverse_7.20.6.tgz";
+        url = "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.20.6.tgz";
+        sha512 = "r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==";
       };
     }
     {
@@ -2744,11 +2744,11 @@
       };
     }
     {
-      name = "_types_express_serve_static_core___express_serve_static_core_4.19.0.tgz";
+      name = "_types_express_serve_static_core___express_serve_static_core_4.19.1.tgz";
       path = fetchurl {
-        name = "_types_express_serve_static_core___express_serve_static_core_4.19.0.tgz";
-        url = "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.19.0.tgz";
-        sha512 = "bGyep3JqPCRry1wq+O5n7oiBgGWmeIJXPjXXCo8EK0u8duZGSYar7cGqd3ML2JUsLGeB7fmc06KYo9fLGWqPvQ==";
+        name = "_types_express_serve_static_core___express_serve_static_core_4.19.1.tgz";
+        url = "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.19.1.tgz";
+        sha512 = "ej0phymbFLoCB26dbbq5PGScsf2JAJ4IJHjG10LalgUV36XKTmA4GdA+PVllKvRk0sEKt64X8975qFnkSi0hqA==";
       };
     }
     {
@@ -4096,11 +4096,11 @@
       };
     }
     {
-      name = "braces___braces_3.0.2.tgz";
+      name = "braces___braces_3.0.3.tgz";
       path = fetchurl {
-        name = "braces___braces_3.0.2.tgz";
-        url = "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz";
-        sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
+        name = "braces___braces_3.0.3.tgz";
+        url = "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz";
+        sha512 = "yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==";
       };
     }
     {
@@ -5376,11 +5376,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.775.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.777.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.775.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.775.tgz";
-        sha512 = "JpOfl1aNAiZ88wFzjPczTLwYIoPIsij8S9/XQH9lqMpiJOf23kxea68B8wje4f68t4rOIq4Bh+vP4I65njiJBw==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.777.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.777.tgz";
+        sha512 = "n02NCwLJ3wexLfK/yQeqfywCblZqLcXphzmid5e8yVPdtEcida7li0A5WQKghHNG0FeOMCzeFOzEbtAh5riXFw==";
       };
     }
     {
@@ -6088,11 +6088,11 @@
       };
     }
     {
-      name = "fill_range___fill_range_7.0.1.tgz";
+      name = "fill_range___fill_range_7.1.1.tgz";
       path = fetchurl {
-        name = "fill_range___fill_range_7.0.1.tgz";
-        url = "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz";
-        sha512 = "qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==";
+        name = "fill_range___fill_range_7.1.1.tgz";
+        url = "https://registry.yarnpkg.com/fill-range/-/fill-range-7.1.1.tgz";
+        sha512 = "YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==";
       };
     }
     {
@@ -6416,11 +6416,11 @@
       };
     }
     {
-      name = "glob___glob_10.3.15.tgz";
+      name = "glob___glob_10.3.16.tgz";
       path = fetchurl {
-        name = "glob___glob_10.3.15.tgz";
-        url = "https://registry.yarnpkg.com/glob/-/glob-10.3.15.tgz";
-        sha512 = "0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==";
+        name = "glob___glob_10.3.16.tgz";
+        url = "https://registry.yarnpkg.com/glob/-/glob-10.3.16.tgz";
+        sha512 = "JDKXl1DiuuHJ6fVS2FXjownaavciiHNUU4mOvV/B793RLh05vZL1rcPnCSaOgv1hDT6RDlY7AB7ZUvFYAtPgAw==";
       };
     }
     {
@@ -7424,11 +7424,11 @@
       };
     }
     {
-      name = "jackspeak___jackspeak_2.3.6.tgz";
+      name = "jackspeak___jackspeak_3.1.2.tgz";
       path = fetchurl {
-        name = "jackspeak___jackspeak_2.3.6.tgz";
-        url = "https://registry.yarnpkg.com/jackspeak/-/jackspeak-2.3.6.tgz";
-        sha512 = "N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==";
+        name = "jackspeak___jackspeak_3.1.2.tgz";
+        url = "https://registry.yarnpkg.com/jackspeak/-/jackspeak-3.1.2.tgz";
+        sha512 = "kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==";
       };
     }
     {
@@ -8257,11 +8257,18 @@
     }
     {
       name = "e1d4cbde6e2297c251d902e1a1b20862d098c5d8";
-      path = fetchurl {
-        name = "e1d4cbde6e2297c251d902e1a1b20862d098c5d8";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/e1d4cbde6e2297c251d902e1a1b20862d098c5d8";
-        sha256 = "1avk89ihlm7wv6wgwq7dr627dwj6lxnki1mck54hz14rhkqfp3yq";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "e1d4cbde6e2297c251d902e1a1b20862d098c5d8";
+          sha256 = "0yca0x247k0fms0fxirn1kznpric0ialqzwfcxf3aaa35brmyfvq";
+        };
+      in
+        runCommand "e1d4cbde6e2297c251d902e1a1b20862d098c5d8" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8273,11 +8280,18 @@
     }
     {
       name = "c38e7fc59b70020ec6ab8eab5760797b1cb92842";
-      path = fetchurl {
-        name = "c38e7fc59b70020ec6ab8eab5760797b1cb92842";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/c38e7fc59b70020ec6ab8eab5760797b1cb92842";
-        sha256 = "0sz6f485f3dw27apqhh52mpii0jniwf51hpmvj0bw1xismc2gv0v";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "c38e7fc59b70020ec6ab8eab5760797b1cb92842";
+          sha256 = "0pcbab1jivvjdiqyw47isq4nz0nlz2lvcsgsi1afh4kfk6iccicl";
+        };
+      in
+        runCommand "c38e7fc59b70020ec6ab8eab5760797b1cb92842" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -8400,11 +8414,11 @@
       };
     }
     {
-      name = "micromatch___micromatch_4.0.5.tgz";
+      name = "micromatch___micromatch_4.0.6.tgz";
       path = fetchurl {
-        name = "micromatch___micromatch_4.0.5.tgz";
-        url = "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz";
-        sha512 = "DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==";
+        name = "micromatch___micromatch_4.0.6.tgz";
+        url = "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.6.tgz";
+        sha512 = "Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==";
       };
     }
     {
@@ -9181,6 +9195,14 @@
         name = "picomatch___picomatch_2.3.1.tgz";
         url = "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz";
         sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
+      };
+    }
+    {
+      name = "picomatch___picomatch_4.0.2.tgz";
+      path = fetchurl {
+        name = "picomatch___picomatch_4.0.2.tgz";
+        url = "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.2.tgz";
+        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
       };
     }
     {
