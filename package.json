@@ -153,7 +153,7 @@
         "eslint": "8.57.0",
         "eslint-config-google": "^0.14.0",
         "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-deprecate": "0.8.4",
+        "eslint-plugin-deprecate": "0.8.5",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-matrix-org": "^1.0.0",
         "eslint-plugin-react": "^7.28.0",
