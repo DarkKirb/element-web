@@ -7960,6 +7960,14 @@
       };
     }
     {
+      name = "known_css_properties___known_css_properties_0.31.0.tgz";
+      path = fetchurl {
+        name = "known_css_properties___known_css_properties_0.31.0.tgz";
+        url = "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.31.0.tgz";
+        sha512 = "sBPIUGTNF0czz0mwGGUoKKJC8Q7On1GPbCSFPfyEsfHb2DyBG0Y4QtV+EVWpINSaiGKZblDNuF5AezxSgOhesQ==";
+      };
+    }
+    {
       name = "launch_editor___launch_editor_2.6.1.tgz";
       path = fetchurl {
         name = "launch_editor___launch_editor_2.6.1.tgz";
@@ -11352,11 +11360,11 @@
       };
     }
     {
-      name = "stylelint___stylelint_16.5.0.tgz";
+      name = "stylelint___stylelint_16.6.0.tgz";
       path = fetchurl {
-        name = "stylelint___stylelint_16.5.0.tgz";
-        url = "https://registry.yarnpkg.com/stylelint/-/stylelint-16.5.0.tgz";
-        sha512 = "IlCBtVrG+qTy3v+tZTk50W8BIomjY/RUuzdrDqdnlCYwVuzXtPbiGfxYqtyYAyOMcb+195zRsuHn6tgfPmFfbw==";
+        name = "stylelint___stylelint_16.6.0.tgz";
+        url = "https://registry.yarnpkg.com/stylelint/-/stylelint-16.6.0.tgz";
+        sha512 = "vjWYlDEgOS3Z/IcXagQwi8PFJyPro1DxBYOnTML1PAqnrYUHs8owleGStv20sgt0OhW8r9zZm6MK7IT2+l2B6A==";
       };
     }
     {
