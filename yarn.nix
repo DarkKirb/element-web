@@ -3256,11 +3256,11 @@
       };
     }
     {
-      name = "_typescript_eslint_eslint_plugin___eslint_plugin_7.10.0.tgz";
+      name = "_typescript_eslint_eslint_plugin___eslint_plugin_7.11.0.tgz";
       path = fetchurl {
-        name = "_typescript_eslint_eslint_plugin___eslint_plugin_7.10.0.tgz";
-        url = "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-7.10.0.tgz";
-        sha512 = "PzCr+a/KAef5ZawX7nbyNwBDtM1HdLIT53aSA2DDlxmxMngZ43O8SIePOeX8H5S+FHXeI6t97mTt/dDdzY4Fyw==";
+        name = "_typescript_eslint_eslint_plugin___eslint_plugin_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-7.11.0.tgz";
+        sha512 = "P+qEahbgeHW4JQ/87FuItjBj8O3MYv5gELDzr8QaQ7fsll1gSMTYb6j87MYyxwf3DtD7uGFB9ShwgmCJB5KmaQ==";
       };
     }
     {
@@ -3280,11 +3280,19 @@
       };
     }
     {
-      name = "_typescript_eslint_type_utils___type_utils_7.10.0.tgz";
+      name = "_typescript_eslint_scope_manager___scope_manager_7.11.0.tgz";
       path = fetchurl {
-        name = "_typescript_eslint_type_utils___type_utils_7.10.0.tgz";
-        url = "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-7.10.0.tgz";
-        sha512 = "D7tS4WDkJWrVkuzgm90qYw9RdgBcrWmbbRkrLA4d7Pg3w0ttVGDsvYGV19SH8gPR5L7OtcN5J1hTtyenO9xE9g==";
+        name = "_typescript_eslint_scope_manager___scope_manager_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-7.11.0.tgz";
+        sha512 = "27tGdVEiutD4POirLZX4YzT180vevUURJl4wJGmm6TrQoiYwuxTIY98PBp6L2oN+JQxzE0URvYlzJaBHIekXAw==";
+      };
+    }
+    {
+      name = "_typescript_eslint_type_utils___type_utils_7.11.0.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_type_utils___type_utils_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-7.11.0.tgz";
+        sha512 = "WmppUEgYy+y1NTseNMJ6mCFxt03/7jTOy08bcg7bxJJdsM4nuhnchyBbE8vryveaJUf62noH7LodPSo5Z0WUCg==";
       };
     }
     {
@@ -3296,6 +3304,14 @@
       };
     }
     {
+      name = "_typescript_eslint_types___types_7.11.0.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_types___types_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-7.11.0.tgz";
+        sha512 = "MPEsDRZTyCiXkD4vd3zywDCifi7tatc4K37KqTprCvaXptP7Xlpdw0NR2hRJTetG5TxbWDB79Ys4kLmHliEo/w==";
+      };
+    }
+    {
       name = "_typescript_eslint_typescript_estree___typescript_estree_7.10.0.tgz";
       path = fetchurl {
         name = "_typescript_eslint_typescript_estree___typescript_estree_7.10.0.tgz";
@@ -3304,11 +3320,19 @@
       };
     }
     {
-      name = "_typescript_eslint_utils___utils_7.10.0.tgz";
+      name = "_typescript_eslint_typescript_estree___typescript_estree_7.11.0.tgz";
       path = fetchurl {
-        name = "_typescript_eslint_utils___utils_7.10.0.tgz";
-        url = "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-7.10.0.tgz";
-        sha512 = "olzif1Fuo8R8m/qKkzJqT7qwy16CzPRWBvERS0uvyc+DHd8AKbO4Jb7kpAvVzMmZm8TrHnI7hvjN4I05zow+tg==";
+        name = "_typescript_eslint_typescript_estree___typescript_estree_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-7.11.0.tgz";
+        sha512 = "cxkhZ2C/iyi3/6U9EPc5y+a6csqHItndvN/CzbNXTNrsC3/ASoYQZEt9uMaEp+xFNjasqQyszp5TumAVKKvJeQ==";
+      };
+    }
+    {
+      name = "_typescript_eslint_utils___utils_7.11.0.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_utils___utils_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-7.11.0.tgz";
+        sha512 = "xlAWwPleNRHwF37AhrZurOxA1wyXowW4PqVXZVUNCLjB48CqdPJoJWkrpH2nij9Q3Lb7rtWindtoXwxjxlKKCA==";
       };
     }
     {
@@ -3317,6 +3341,14 @@
         name = "_typescript_eslint_visitor_keys___visitor_keys_7.10.0.tgz";
         url = "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-7.10.0.tgz";
         sha512 = "9ntIVgsi6gg6FIq9xjEO4VQJvwOqA3jaBFQJ/6TK5AvEup2+cECI6Fh7QiBxmfMHXU0V0J4RyPeOU1VDNzl9cg==";
+      };
+    }
+    {
+      name = "_typescript_eslint_visitor_keys___visitor_keys_7.11.0.tgz";
+      path = fetchurl {
+        name = "_typescript_eslint_visitor_keys___visitor_keys_7.11.0.tgz";
+        url = "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-7.11.0.tgz";
+        sha512 = "7syYk4MzjxTEk0g/w3iqtgxnFQspDJfn6QKD36xMuuhTzjcxY7F8EmBLnALjVyaOF1/bVocu3bS/2/F7rXrveQ==";
       };
     }
     {
@@ -8321,18 +8353,11 @@
     }
     {
       name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
-          rev = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-          sha256 = "1pxnc7sr3amrcskjk5cfpcffclv5w3fj9y031bqw4hqq6mdjf2jz";
-        };
-      in
-        runCommand "855ef5540cb5ef26b86577375fa182b4c3dfdf8a" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        sha256 = "1blr1a0czvw1brxjnhaxjnm294j26wijyriissb78xwvxssib4c5";
+      };
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8344,18 +8369,11 @@
     }
     {
       name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
-          rev = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-          sha256 = "1caaqz1g50vy8my44kq4fwdnin4xi30v4cj2sc2i598l60bak7y2";
-        };
-      in
-        runCommand "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        sha256 = "1hljzfw3ql3xpdsnzmf1p1vwg1l1m07vrmc06jphbwkfqsxkyznf";
+      };
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
