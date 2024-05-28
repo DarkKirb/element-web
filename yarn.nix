@@ -6072,11 +6072,11 @@
       };
     }
     {
-      name = "file_entry_cache___file_entry_cache_8.0.0.tgz";
+      name = "file_entry_cache___file_entry_cache_9.0.0.tgz";
       path = fetchurl {
-        name = "file_entry_cache___file_entry_cache_8.0.0.tgz";
-        url = "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-8.0.0.tgz";
-        sha512 = "XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==";
+        name = "file_entry_cache___file_entry_cache_9.0.0.tgz";
+        url = "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-9.0.0.tgz";
+        sha512 = "6MgEugi8p2tiUhqO7GnPsmbCCzj0YRCwwaTbpGRyKZesjRSzkqkAE9fPp7V2yMs5hwfgbQLgdvSSkGNg1s5Uvw==";
       };
     }
     {
@@ -6184,11 +6184,11 @@
       };
     }
     {
-      name = "flat_cache___flat_cache_4.0.1.tgz";
+      name = "flat_cache___flat_cache_5.0.0.tgz";
       path = fetchurl {
-        name = "flat_cache___flat_cache_4.0.1.tgz";
-        url = "https://registry.yarnpkg.com/flat-cache/-/flat-cache-4.0.1.tgz";
-        sha512 = "f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==";
+        name = "flat_cache___flat_cache_5.0.0.tgz";
+        url = "https://registry.yarnpkg.com/flat-cache/-/flat-cache-5.0.0.tgz";
+        sha512 = "JrqFmyUl2PnPi1OvLyTVHnQvwQ0S+e6lGSwu8OkAZlSaNIZciTY2H/cOOROxsBA1m/LZNHDsqAgDZt6akWcjsQ==";
       };
     }
     {
@@ -8321,18 +8321,11 @@
     }
     {
       name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
-          rev = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-          sha256 = "1pxnc7sr3amrcskjk5cfpcffclv5w3fj9y031bqw4hqq6mdjf2jz";
-        };
-      in
-        runCommand "855ef5540cb5ef26b86577375fa182b4c3dfdf8a" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        sha256 = "1blr1a0czvw1brxjnhaxjnm294j26wijyriissb78xwvxssib4c5";
+      };
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8344,18 +8337,11 @@
     }
     {
       name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
-          rev = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-          sha256 = "1caaqz1g50vy8my44kq4fwdnin4xi30v4cj2sc2i598l60bak7y2";
-        };
-      in
-        runCommand "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        sha256 = "1hljzfw3ql3xpdsnzmf1p1vwg1l1m07vrmc06jphbwkfqsxkyznf";
+      };
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -11374,11 +11360,11 @@
       };
     }
     {
-      name = "stylelint___stylelint_16.6.0.tgz";
+      name = "stylelint___stylelint_16.6.1.tgz";
       path = fetchurl {
-        name = "stylelint___stylelint_16.6.0.tgz";
-        url = "https://registry.yarnpkg.com/stylelint/-/stylelint-16.6.0.tgz";
-        sha512 = "vjWYlDEgOS3Z/IcXagQwi8PFJyPro1DxBYOnTML1PAqnrYUHs8owleGStv20sgt0OhW8r9zZm6MK7IT2+l2B6A==";
+        name = "stylelint___stylelint_16.6.1.tgz";
+        url = "https://registry.yarnpkg.com/stylelint/-/stylelint-16.6.1.tgz";
+        sha512 = "yNgz2PqWLkhH2hw6X9AweV9YvoafbAD5ZsFdKN9BvSDVwGvPh+AUIrn7lYwy1S7IHmtFin75LLfX1m0D2tHu8Q==";
       };
     }
     {
