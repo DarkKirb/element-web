@@ -8321,18 +8321,11 @@
     }
     {
       name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
-          rev = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
-          sha256 = "1pxnc7sr3amrcskjk5cfpcffclv5w3fj9y031bqw4hqq6mdjf2jz";
-        };
-      in
-        runCommand "855ef5540cb5ef26b86577375fa182b4c3dfdf8a" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/855ef5540cb5ef26b86577375fa182b4c3dfdf8a";
+        sha256 = "1blr1a0czvw1brxjnhaxjnm294j26wijyriissb78xwvxssib4c5";
+      };
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8344,18 +8337,11 @@
     }
     {
       name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-      path = let
-        repo = fetchgit {
-          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
-          rev = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
-          sha256 = "1caaqz1g50vy8my44kq4fwdnin4xi30v4cj2sc2i598l60bak7y2";
-        };
-      in
-        runCommand "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce" {buildInputs = [gnutar];} ''
-          # Set u+w because tar-fs can't unpack archives with read-only dirs
-          # https://github.com/mafintosh/tar-fs/issues/79
-          tar cf $out --mode u+w -C ${repo} .
-        '';
+      path = fetchurl {
+        name = "3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/3e5e367a82f6f0a5a9e3a2a6717efe399be45fce";
+        sha256 = "1hljzfw3ql3xpdsnzmf1p1vwg1l1m07vrmc06jphbwkfqsxkyznf";
+      };
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -11870,11 +11856,11 @@
       };
     }
     {
-      name = "ua_parser_js___ua_parser_js_1.0.37.tgz";
+      name = "ua_parser_js___ua_parser_js_1.0.38.tgz";
       path = fetchurl {
-        name = "ua_parser_js___ua_parser_js_1.0.37.tgz";
-        url = "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.37.tgz";
-        sha512 = "bhTyI94tZofjo+Dn8SN6Zv8nBDvyXTymAdM3LDI/0IboIUwTu1rEhW7v2TfiVsoYWgkQ4kOVqnI8APUFbIQIFQ==";
+        name = "ua_parser_js___ua_parser_js_1.0.38.tgz";
+        url = "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.38.tgz";
+        sha512 = "Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==";
       };
     }
     {
