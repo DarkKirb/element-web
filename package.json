@@ -106,7 +106,7 @@
         "@babel/runtime": "^7.24.6",
         "@casualbot/jest-sonar-reporter": "2.3.1",
         "@principalstudio/html-webpack-inject-preload": "^1.2.7",
-        "@sentry/webpack-plugin": "^2.17.0",
+        "@sentry/webpack-plugin": "^2.18.0",
         "@svgr/webpack": "^8.0.0",
         "@testing-library/react": "^12.1.5",
         "@types/commonmark": "^0.27.9",
