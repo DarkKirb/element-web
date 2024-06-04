@@ -2256,11 +2256,11 @@
       };
     }
     {
-      name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.17.0.tgz";
+      name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.18.0.tgz";
       path = fetchurl {
-        name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.17.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/babel-plugin-component-annotate/-/babel-plugin-component-annotate-2.17.0.tgz";
-        sha512 = "njBWwVVFEb5SuGqk1KYiIcuKU3dEPuiaDN42hY72mfuQgeMR/RUZtibAQ5yu2Ii7yok6kewLe4OvztP2oP/IVQ==";
+        name = "_sentry_babel_plugin_component_annotate___babel_plugin_component_annotate_2.18.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/babel-plugin-component-annotate/-/babel-plugin-component-annotate-2.18.0.tgz";
+        sha512 = "9L4RbhS3WNtc/SokIhc0dwgcvs78YSQPakZejsrIgnzLzCi8mS6PeT+BY0+QCtsXxjd1egM8hqcJeB0lukBkXA==";
       };
     }
     {
@@ -2272,11 +2272,11 @@
       };
     }
     {
-      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.17.0.tgz";
+      name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.18.0.tgz";
       path = fetchurl {
-        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.17.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.17.0.tgz";
-        sha512 = "aIjCexNsB6DXtl/IngJcUxN7OalsyP5tS/4rqxj6pvqZbeg/7JMlMgy2nOOWsNhy+chX8swThS39dY8pCcEYLQ==";
+        name = "_sentry_bundler_plugin_core___bundler_plugin_core_2.18.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/bundler-plugin-core/-/bundler-plugin-core-2.18.0.tgz";
+        sha512 = "JvxVgsMFmDsU0Dgcx1CeFUC1scxOVSAOzOcE06qKAVm9BZzxHpI53iNfeMOXwVTUolD8LZVIfgOjkiXfwN/UPQ==";
       };
     }
     {
@@ -2368,11 +2368,11 @@
       };
     }
     {
-      name = "_sentry_webpack_plugin___webpack_plugin_2.17.0.tgz";
+      name = "_sentry_webpack_plugin___webpack_plugin_2.18.0.tgz";
       path = fetchurl {
-        name = "_sentry_webpack_plugin___webpack_plugin_2.17.0.tgz";
-        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.17.0.tgz";
-        sha512 = "MzSRNQRu/bJ2qtvy9ovd45IGRF0ESvZzTN3HYQWzjSB9UDngoXSyZ81puDyPs5TT4W8Cr+pyu4XrFt2Fq+9C7A==";
+        name = "_sentry_webpack_plugin___webpack_plugin_2.18.0.tgz";
+        url = "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-2.18.0.tgz";
+        sha512 = "iQ5OCvuoaIanbq4GRqj4Azay86mVpa64pP9Oi3EJpaURGZNLqwE7bWq9tkr1Dr7zBPBZN7QBmLD3OOeOSzbHuA==";
       };
     }
     {
