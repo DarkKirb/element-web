@@ -1,11 +1,6 @@
 name: Dockerhub
 on:
     workflow_dispatch: {}
-    push:
-        tags: [v*]
-    schedule:
-        # This job can take a while, and we have usage limits, so just publish develop only twice a day
-        - cron: "0 7/12 * * *"
 concurrency: ${{ github.workflow }}-${{ github.ref_name }}
 
 permissions:
@@ -45,7 +40,7 @@ jobs:
                   install: true
 
             - name: Login to Docker Hub
-              uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20 # v3
+              uses: docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446 # v3
               with:
                   username: ${{ secrets.DOCKERHUB_USERNAME }}
                   password: ${{ secrets.DOCKERHUB_TOKEN }}
