@@ -1,8 +1,7 @@
 name: Move issued assigned to specific team members to their boards
 
 on:
-    issues:
-        types: [assigned]
+    workflow_dispatch:
 
 jobs:
     web-app-team:
