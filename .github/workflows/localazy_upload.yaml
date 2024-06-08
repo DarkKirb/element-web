@@ -1,9 +1,6 @@
 name: Localazy Upload
 on:
-    push:
-        branches: [develop]
-        paths:
-            - "src/i18n/strings/en_EN.json"
+    workflow_dispatch:
 jobs:
     upload:
         uses: matrix-org/matrix-web-i18n/.github/workflows/localazy_upload.yaml@main

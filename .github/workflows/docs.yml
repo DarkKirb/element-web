@@ -1,9 +1,7 @@
 name: Deploy documentation
 
 on:
-    push:
-        branches: [develop]
-    workflow_dispatch: {}
+    workflow_dispatch:
 
 permissions:
     contents: read
