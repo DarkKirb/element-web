@@ -5496,11 +5496,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.794.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.795.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.794.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.794.tgz";
-        sha512 = "6FApLtsYhDCY0Vglq3AptsdxQ+PJLc6AxlAM0HjEihUAiOPPbkASEsq9gtxUeZY9o0sJIEa3WnF0vVH4VT4iug==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.795.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.795.tgz";
+        sha512 = "hHo4lK/8wb4NUa+NJYSFyJ0xedNHiR6ylilDtb8NUW9d4dmBFmGiecYEKCEbti1wTNzbKXLfl4hPWEkAFbHYlw==";
       };
     }
     {
@@ -10080,11 +10080,11 @@
       };
     }
     {
-      name = "prettier___prettier_3.3.0.tgz";
+      name = "prettier___prettier_3.3.1.tgz";
       path = fetchurl {
-        name = "prettier___prettier_3.3.0.tgz";
-        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.3.0.tgz";
-        sha512 = "J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==";
+        name = "prettier___prettier_3.3.1.tgz";
+        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.3.1.tgz";
+        sha512 = "7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==";
       };
     }
     {
