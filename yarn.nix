@@ -3008,11 +3008,11 @@
       };
     }
     {
-      name = "_types_lodash___lodash_4.17.4.tgz";
+      name = "_types_lodash___lodash_4.17.5.tgz";
       path = fetchurl {
-        name = "_types_lodash___lodash_4.17.4.tgz";
-        url = "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.4.tgz";
-        sha512 = "wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==";
+        name = "_types_lodash___lodash_4.17.5.tgz";
+        url = "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.5.tgz";
+        sha512 = "MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==";
       };
     }
     {
