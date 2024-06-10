@@ -12704,11 +12704,11 @@
       };
     }
     {
-      name = "yaml___yaml_2.4.3.tgz";
+      name = "yaml___yaml_2.4.5.tgz";
       path = fetchurl {
-        name = "yaml___yaml_2.4.3.tgz";
-        url = "https://registry.yarnpkg.com/yaml/-/yaml-2.4.3.tgz";
-        sha512 = "sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==";
+        name = "yaml___yaml_2.4.5.tgz";
+        url = "https://registry.yarnpkg.com/yaml/-/yaml-2.4.5.tgz";
+        sha512 = "aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==";
       };
     }
     {
