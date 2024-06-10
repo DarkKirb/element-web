@@ -206,7 +206,7 @@
         "webpack-bundle-analyzer": "^4.8.0",
         "webpack-cli": "^5.0.0",
         "webpack-dev-server": "^5.0.4",
-        "yaml": "^2.4.3"
+        "yaml": "^2.4.5"
     },
     "@casualbot/jest-sonar-reporter": {
         "outputDirectory": "coverage",
