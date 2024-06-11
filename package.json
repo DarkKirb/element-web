@@ -120,7 +120,7 @@
         "@types/jitsi-meet": "^2.0.2",
         "@types/jsrsasign": "^10.5.14",
         "@types/katex": "^0.16.7",
-        "@types/lodash": "^4.17.4",
+        "@types/lodash": "^4.17.5",
         "@types/minimist": "^1.2.5",
         "@types/modernizr": "^3.5.6",
         "@types/node": "^20",
@@ -138,7 +138,7 @@
         "@types/ua-parser-js": "^0.7.36",
         "@types/uuid": "^9.0.7",
         "@typescript-eslint/eslint-plugin": "^7.12.0",
-        "@typescript-eslint/parser": "^7.0.0",
+        "@typescript-eslint/parser": "^7.13.0",
         "babel-jest": "^29.0.0",
         "babel-loader": "^9.0.0",
         "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
@@ -206,7 +206,7 @@
         "webpack-bundle-analyzer": "^4.8.0",
         "webpack-cli": "^5.0.0",
         "webpack-dev-server": "^5.0.4",
-        "yaml": "^2.4.3"
+        "yaml": "^2.4.5"
     },
     "@casualbot/jest-sonar-reporter": {
         "outputDirectory": "coverage",
