@@ -5824,11 +5824,11 @@
       };
     }
     {
-      name = "eslint_plugin_react___eslint_plugin_react_7.34.2.tgz";
+      name = "eslint_plugin_react___eslint_plugin_react_7.34.3.tgz";
       path = fetchurl {
-        name = "eslint_plugin_react___eslint_plugin_react_7.34.2.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.34.2.tgz";
-        sha512 = "2HCmrU+/JNigDN6tg55cRDKCQWicYAPB38JGSFDQt95jDm8rrvSUo7YPkOIm5l6ts1j1zCvysNcasvfTMQzUOw==";
+        name = "eslint_plugin_react___eslint_plugin_react_7.34.3.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.34.3.tgz";
+        sha512 = "aoW4MV891jkUulwDApQbPYTVZmeuSyFrudpbTAQuj5Fv8VL+o6df2xIGpw8B0hPjAaih1/Fb0om9grCdyFYemA==";
       };
     }
     {
