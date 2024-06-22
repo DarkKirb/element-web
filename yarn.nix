@@ -2992,11 +2992,11 @@
       };
     }
     {
-      name = "_types_node___node_20.14.7.tgz";
+      name = "_types_node___node_20.14.8.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.14.7.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.14.7.tgz";
-        sha512 = "uTr2m2IbJJucF3KUxgnGOZvYbN0QgkGyWxG6973HCpMYFy2KfcgYuIwkJQMQkt1VbBMlvWRbpshFTLxnxCZjKQ==";
+        name = "_types_node___node_20.14.8.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz";
+        sha512 = "DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==";
       };
     }
     {
@@ -5408,11 +5408,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.809.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.810.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.809.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.809.tgz";
-        sha512 = "Xg2vEbpMfkVivK8l9QwbjkLoHSUQouZLC0InWHqKJhNvB1VGoOfdlzbdnl4f1jVGTnxmWV1dP/IwoJRqJP78ug==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.810.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.810.tgz";
+        sha512 = "Kaxhu4T7SJGpRQx99tq216gCq2nMxJo+uuT6uzz9l8TVN2stL7M06MIIXAtr9jsrLs2Glflgf2vMQRepxawOdQ==";
       };
     }
     {
@@ -8329,11 +8329,18 @@
     }
     {
       name = "c2bcc1f8a1f42550c2d740a3cfbaf52224ba0e3c";
-      path = fetchurl {
-        name = "c2bcc1f8a1f42550c2d740a3cfbaf52224ba0e3c";
-        url = "https://codeload.github.com/DarkKirb/matrix-js-sdk/tar.gz/c2bcc1f8a1f42550c2d740a3cfbaf52224ba0e3c";
-        sha256 = "00qwygnlpkq4v5f8gk2idllfmg6nj5v5jpz08ps7dl6bp8jzrnxz";
-      };
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-js-sdk.git";
+          rev = "c2bcc1f8a1f42550c2d740a3cfbaf52224ba0e3c";
+          sha256 = "1fwhs0spbg5n9vd56cb20690r5rdsmclr2wr6wqz73bi9649smbh";
+        };
+      in
+        runCommand "c2bcc1f8a1f42550c2d740a3cfbaf52224ba0e3c" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_mock_request___matrix_mock_request_2.6.0.tgz";
@@ -8344,12 +8351,19 @@
       };
     }
     {
-      name = "8dcf5bd039c5fc1c4fba1714daa90c1865aa7c5d";
-      path = fetchurl {
-        name = "8dcf5bd039c5fc1c4fba1714daa90c1865aa7c5d";
-        url = "https://codeload.github.com/DarkKirb/matrix-react-sdk/tar.gz/8dcf5bd039c5fc1c4fba1714daa90c1865aa7c5d";
-        sha256 = "0j7696miamfjk4s4jj1ssx17am8jg6bc035g68qb67scrr30kc4f";
-      };
+      name = "4592cc37e6fd50c095f84fb374164b2b73b51134";
+      path = let
+        repo = fetchgit {
+          url = "https://github.com/DarkKirb/matrix-react-sdk.git";
+          rev = "4592cc37e6fd50c095f84fb374164b2b73b51134";
+          sha256 = "0vv0imlvyh6697pxq20wwy75n8hiqfrvryjz0pcqc5wiczrmrv4m";
+        };
+      in
+        runCommand "4592cc37e6fd50c095f84fb374164b2b73b51134" {buildInputs = [gnutar];} ''
+          # Set u+w because tar-fs can't unpack archives with read-only dirs
+          # https://github.com/mafintosh/tar-fs/issues/79
+          tar cf $out --mode u+w -C ${repo} .
+        '';
     }
     {
       name = "matrix_web_i18n___matrix_web_i18n_3.2.1.tgz";
@@ -12096,11 +12110,11 @@
       };
     }
     {
-      name = "v8_to_istanbul___v8_to_istanbul_9.2.0.tgz";
+      name = "v8_to_istanbul___v8_to_istanbul_9.3.0.tgz";
       path = fetchurl {
-        name = "v8_to_istanbul___v8_to_istanbul_9.2.0.tgz";
-        url = "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-9.2.0.tgz";
-        sha512 = "/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==";
+        name = "v8_to_istanbul___v8_to_istanbul_9.3.0.tgz";
+        url = "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-9.3.0.tgz";
+        sha512 = "kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==";
       };
     }
     {
