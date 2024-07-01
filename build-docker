@@ -1,6 +1,8 @@
 #!/bin/bash
 cd $(dirname $0)
 
+rm -rf node_modules/@types/eslint-scope/ matrix-*-sdk/node_modules/@types/eslint-scope
+
 cd matrix-js-sdk
 git checkout . && git pull
 jsver=$(git rev-parse origin/develop)
@@ -21,7 +23,6 @@ docker run --rm -w /data -it \
 	-v /etc/passwd:/etc/passwd:ro \
 	--env VERSION="$ver-react-$reactver-js-$jsver" \
 	--env RIOT_LANGUAGES_FILE="../../webapp/i18n/languages.json" \
-	--env NODE_OPTIONS="--openssl-legacy-provider" \
 	node:lts-alpine \
 	/bin/sh -c 'apk add --no-cache git su-exec && su-exec 1000:1000 /data/build-sh'
 
