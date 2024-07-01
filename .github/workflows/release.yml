@@ -1,15 +1,6 @@
 name: Release Process
 on:
     workflow_dispatch:
-        inputs:
-            mode:
-                description: What type of release
-                required: true
-                default: rc
-                type: choice
-                options:
-                    - rc
-                    - final
 concurrency: ${{ github.workflow }}
 jobs:
     release:
