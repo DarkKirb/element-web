@@ -7928,11 +7928,11 @@
       };
     }
     {
-      name = "katex___katex_0.16.10.tgz";
+      name = "katex___katex_0.16.11.tgz";
       path = fetchurl {
-        name = "katex___katex_0.16.10.tgz";
-        url = "https://registry.yarnpkg.com/katex/-/katex-0.16.10.tgz";
-        sha512 = "ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==";
+        name = "katex___katex_0.16.11.tgz";
+        url = "https://registry.yarnpkg.com/katex/-/katex-0.16.11.tgz";
+        sha512 = "RQrI8rlHY92OLf3rho/Ts8i/XvjgguEjOkO1BEXcU3N8BqPpSzBNwV/G0Ukr+P/l3ivvJUE/Fa/CwbS6HesGNQ==";
       };
     }
     {
