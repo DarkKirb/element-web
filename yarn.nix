@@ -2720,22 +2720,6 @@
       };
     }
     {
-      name = "_types_eslint_scope___eslint_scope_3.7.7.tgz";
-      path = fetchurl {
-        name = "_types_eslint_scope___eslint_scope_3.7.7.tgz";
-        url = "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.7.tgz";
-        sha512 = "MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==";
-      };
-    }
-    {
-      name = "_types_eslint___eslint_8.56.10.tgz";
-      path = fetchurl {
-        name = "_types_eslint___eslint_8.56.10.tgz";
-        url = "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.56.10.tgz";
-        sha512 = "Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==";
-      };
-    }
-    {
       name = "_types_estree___estree_1.0.5.tgz";
       path = fetchurl {
         name = "_types_estree___estree_1.0.5.tgz";
@@ -5488,11 +5472,11 @@
       };
     }
     {
-      name = "enhanced_resolve___enhanced_resolve_5.17.0.tgz";
+      name = "enhanced_resolve___enhanced_resolve_5.17.1.tgz";
       path = fetchurl {
-        name = "enhanced_resolve___enhanced_resolve_5.17.0.tgz";
-        url = "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.17.0.tgz";
-        sha512 = "dwDPwZL0dmye8Txp2gzFmA6sxALaSvdRDjPH0viLcKrtlOL3tw62nWWweVD1SdILDTJrbrL6tdWVN58Wo6U3eA==";
+        name = "enhanced_resolve___enhanced_resolve_5.17.1.tgz";
+        url = "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.17.1.tgz";
+        sha512 = "LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==";
       };
     }
     {
@@ -12272,11 +12256,11 @@
       };
     }
     {
-      name = "webpack___webpack_5.92.1.tgz";
+      name = "webpack___webpack_5.94.0.tgz";
       path = fetchurl {
-        name = "webpack___webpack_5.92.1.tgz";
-        url = "https://registry.yarnpkg.com/webpack/-/webpack-5.92.1.tgz";
-        sha512 = "JECQ7IwJb+7fgUFBlrJzbyu3GEuNBcdqr1LD7IbSzwkSmIevTm8PF+wej3Oxuz/JFBUZ6O1o43zsPkwm1C4TmA==";
+        name = "webpack___webpack_5.94.0.tgz";
+        url = "https://registry.yarnpkg.com/webpack/-/webpack-5.94.0.tgz";
+        sha512 = "KcsGn50VT+06JH/iunZJedYGUJS5FGjow8wb9c0v5n1Om8O1g4L6LjtfxwlXIATopoQu+vOXXa7gYisWxCoPyg==";
       };
     }
     {
